@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika User melakukan Input dengan nama yang mengandung spesial karakter semua</description>
+   <name>TC-WAO-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c13aea38-ab1d-4573-984b-defbc56d1402</testCaseGuid>
+</TestCaseEntity>

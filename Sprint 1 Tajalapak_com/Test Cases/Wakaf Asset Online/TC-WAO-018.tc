@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Input nilai perkiraan asset wakaf lebih dari 1 trilliun</description>
+   <name>TC-WAO-018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3dd603a-1c86-4fdc-8b04-4dfff2d54809</testCaseGuid>
+</TestCaseEntity>

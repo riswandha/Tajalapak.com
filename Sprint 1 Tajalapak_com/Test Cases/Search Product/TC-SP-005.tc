@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin menampilkan harga termurah dari product yang telah dicari</description>
+   <name>TC-SP-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>052db4fe-bb3b-4a20-8b8a-0624ab5f331d</testCaseGuid>
+</TestCaseEntity>

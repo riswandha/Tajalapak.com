@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Memasukkan karakter spesial pada kolom pencarian</description>
+   <name>TC-SPN-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e82e9649-f293-46ce-8cce-d9bda0feab25</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbd7812b-76d3-4ff5-affb-7a79a040a929</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'~!@#$%^&amp;*()'</defaultValue>
+      <description></description>
+      <id>dbd7812b-76d3-4ff5-affb-7a79a040a929</id>
+      <masked>false</masked>
+      <name>merk</name>
+   </variable>
+</TestCaseEntity>

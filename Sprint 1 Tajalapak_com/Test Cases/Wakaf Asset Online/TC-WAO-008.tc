@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika User memilih type wakaf lainnya tidak menyertakan deskripsi akan error</description>
+   <name>TC-WAO-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4631774-9a53-4351-846a-bc9dde2fc8bb</testCaseGuid>
+</TestCaseEntity>

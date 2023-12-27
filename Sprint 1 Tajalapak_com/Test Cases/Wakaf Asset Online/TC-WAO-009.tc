@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika User meng-Upload file lebih dari 10 mb</description>
+   <name>TC-WAO-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db7b8eb4-b7c6-48ee-ae57-876bab7b7388</testCaseGuid>
+</TestCaseEntity>

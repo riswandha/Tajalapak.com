@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih Katagori</name>
+   <tag></tag>
+   <elementGuidId>da659bdb-6e89-41d6-a9d7-b13f47880894</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;a&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='a']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>032cf31b-f19a-4838-9209-512af9b70de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d24d0ea6-2ecb-40b2-9099-0084d26b37ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>c26fc66c-3632-43d4-9033-877592bf81b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>showSub()</value>
+      <webElementGuid>30747fe6-0ee0-4843-8c2e-46a83abf0f0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        - Pilih Kategori Produk -Taman dan Alat DapurOlahraga dan Luar RumahPerhiasan dan Jam TanganTas, Koper &amp; PerjalananAlat Musik &amp; Pro AudioFashion &amp; Busana PriaFashion &amp; Busana WanitaPerhiasan dan Aksesoris</value>
+      <webElementGuid>61da800f-1cdb-4b58-9a96-22c47201ebb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-6 col-xs-12&quot;]/table[@class=&quot;table table-condensed&quot;]/tbody[1]/tr[2]/td[1]/select[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>dd70811b-d633-4776-9c06-53a44ecf211e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='a']</value>
+      <webElementGuid>b1204d2a-ed6a-40f6-846e-2dd019d7aa54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::select[1]</value>
+      <webElementGuid>7353de78-21d6-4fff-aad3-0cb5b0a9e6a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemilik'])[1]/following::select[2]</value>
+      <webElementGuid>1a3ee788-1afb-4d31-9014-a27d5fd8e8c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Kategori'])[1]/preceding::select[1]</value>
+      <webElementGuid>7f3f87be-3109-4ad5-a2fb-66f52f5191e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Produk'])[1]/preceding::select[2]</value>
+      <webElementGuid>6156cee6-5be7-4da6-93fe-cc0a720fa806</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/select</value>
+      <webElementGuid>f3bc5c78-a3fb-4990-a7aa-f99a71498d6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'a' and (text() = '
+                                        - Pilih Kategori Produk -Taman dan Alat DapurOlahraga dan Luar RumahPerhiasan dan Jam TanganTas, Koper &amp; PerjalananAlat Musik &amp; Pro AudioFashion &amp; Busana PriaFashion &amp; Busana WanitaPerhiasan dan Aksesoris' or . = '
+                                        - Pilih Kategori Produk -Taman dan Alat DapurOlahraga dan Luar RumahPerhiasan dan Jam TanganTas, Koper &amp; PerjalananAlat Musik &amp; Pro AudioFashion &amp; Busana PriaFashion &amp; Busana WanitaPerhiasan dan Aksesoris')]</value>
+      <webElementGuid>f4aaad1a-b7f8-4e4a-a7cd-cd175a9d0a69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

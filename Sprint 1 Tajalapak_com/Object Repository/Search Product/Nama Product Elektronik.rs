@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nama Product Elektronik</name>
+   <tag></tag>
+   <elementGuidId>c38cbcca-a5f1-4e93-adc7-f2215909556c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-product__content.hover > a.ps-product__title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[9]/div/div/div[2]/div/div[2]/div[1]/div/div/div/div/div[2]/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>653aabfc-7654-432d-bbae-4d0b26406242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-product__title</value>
+      <webElementGuid>c42f6dbc-b960-413f-86b3-03847bd3043a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/detail/lenovo-x1-carbon-gen-6-20kga04gid-121807</value>
+      <webElementGuid>41ade567-c420-46cd-b73d-c67f072d2f55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LENOVO X1 Carbon Gen 6 [20KGA04GID]</value>
+      <webElementGuid>46d50ff9-af27-4e5e-a1c7-88f2720b44f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;ps-product&quot;]/div[@class=&quot;ps-product__container&quot;]/div[@class=&quot;ps-product__content hover&quot;]/a[@class=&quot;ps-product__title&quot;]</value>
+      <webElementGuid>3e8a2412-b4af-43cc-a705-c4a1ff4a69a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>a6434aff-01ce-4df6-99e5-8731a50d5444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'LENOVO X1 Carbon Gen 6 [20KGA04GID]')])[2]</value>
+      <webElementGuid>24d45a19-bdb5-41b5-b8ad-4a52c8b42f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LENOVO X1 Carbon Gen 6 [20KGA04GID]'])[1]/following::a[1]</value>
+      <webElementGuid>7e350d4c-b432-4a89-9e4e-5baa0c26f9e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[1]/following::a[2]</value>
+      <webElementGuid>64cdcc4a-a7f5-4ae8-b6a1-1b82eaeca48b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[2]/preceding::a[5]</value>
+      <webElementGuid>56de2290-213e-4bd8-bbf6-ecd18cc364d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DELL Business Latitude 7290 (Core i7-8,..'])[1]/preceding::a[6]</value>
+      <webElementGuid>bac52709-5852-4452-96e5-2320f98a13f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/detail/lenovo-x1-carbon-gen-6-20kga04gid-121807')])[3]</value>
+      <webElementGuid>1beee820-0dd1-434b-a0a1-7005de7f629d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>4dec88b3-7df0-47f9-9fbe-03e08852e3b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/detail/lenovo-x1-carbon-gen-6-20kga04gid-121807' and (text() = 'LENOVO X1 Carbon Gen 6 [20KGA04GID]' or . = 'LENOVO X1 Carbon Gen 6 [20KGA04GID]')]</value>
+      <webElementGuid>1be459b4-8fdd-4491-ac10-20d268ac54ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

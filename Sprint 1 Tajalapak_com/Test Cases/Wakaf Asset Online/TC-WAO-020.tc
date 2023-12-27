@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Input Data tanpa Upload File</description>
+   <name>TC-WAO-020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9f842a2-b6dd-43ff-b6a0-c6d9928936ec</testCaseGuid>
+</TestCaseEntity>

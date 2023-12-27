@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user input nama voucher dengan karakter spesial</description>
+   <name>TC-PEN-013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4b1114b-ab60-4a71-ae48-f6b10065719f</testCaseGuid>
+</TestCaseEntity>

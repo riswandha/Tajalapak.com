@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Link Image</name>
+   <tag></tag>
+   <elementGuidId>02b5bce2-21cf-4565-b4b2-80f16a2f1203</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[10]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.note-image-url.form-control.note-form-control.note-input.col-md-12</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8cbd1b67-beee-41d6-be00-2a08f51742cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>note-image-url form-control note-form-control note-input  col-md-12</value>
+      <webElementGuid>eea36291-ce6b-4721-9d1b-9562dc2b879f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c7aedeaa-51aa-40c0-832f-c7bf45afc04a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini      pace-done modal-open&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;note-editor note-frame panel panel-default&quot;]/div[@class=&quot;modal in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-group note-group-image-url&quot;]/input[@class=&quot;note-image-url form-control note-form-control note-input  col-md-12&quot;]</value>
+      <webElementGuid>fa20c106-dddb-4482-9b35-94188786ac31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[10]</value>
+      <webElementGuid>58a6f68d-3620-4c1b-b4a3-20edb2dc24f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div[2]/input</value>
+      <webElementGuid>01191746-f36b-4d95-b4d3-4bc92ccba364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>8d3464bb-5ceb-4c03-9c74-928ad208fc06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,582 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product Admin,Edge Chromium 117,,,2023-10-04 18:16:34,2023-10-04 18:39:40,23m - 5.753s,ERROR
+,,,,,,,
+Test Cases/Product Admin/TC-PA-001,Edge Chromium 117,user melihat produk yang ada,,2023-10-04 18:16:35,2023-10-04 18:17:01,26.114s,PASSED
+"callTestCase(findTestCase(""Login Admin/TC-Login Admin-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:16:36,2023-10-04 18:16:59,23.046s,PASSED
+"click(findTestObject(""Product Admin/Master Market""))",Edge Chromium 117,,,2023-10-04 18:16:59,2023-10-04 18:16:59,0.494s,PASSED
+"click(findTestObject(""Product Admin/Produk Admin""))",Edge Chromium 117,,,2023-10-04 18:16:59,2023-10-04 18:17:00,1.268s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:17:00,2023-10-04 18:17:01,0.492s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-002,Edge Chromium 117,User ingin menampilkan product sebanyak 10/25/50/100,,2023-10-04 18:17:01,2023-10-04 18:17:23,21.735s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:17:01,2023-10-04 18:17:21,20.085s,PASSED
+"selectOptionByValue(findTestObject(""Product Admin/Show Product""), show, false)",Edge Chromium 117,,,2023-10-04 18:17:21,2023-10-04 18:17:22,0.812s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data No Product""), 10)",Edge Chromium 117,,,2023-10-04 18:17:22,2023-10-04 18:17:23,0.449s,PASSED
+assert Integer.parseInt(show) == dataList.size(),Edge Chromium 117,,,2023-10-04 18:17:23,2023-10-04 18:17:23,0.003s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-003,Edge Chromium 117,User ingin mengurutkan No product dari yang terbesar ke yang terkecil,,2023-10-04 18:17:23,2023-10-04 18:17:44,21.180s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:17:23,2023-10-04 18:17:43,19.685s,PASSED
+"click(findTestObject(""Product Admin/Button Sort No""))",Edge Chromium 117,,,2023-10-04 18:17:43,2023-10-04 18:17:43,0.431s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data No Product""), 10)",Edge Chromium 117,,,2023-10-04 18:17:43,2023-10-04 18:17:44,0.467s,PASSED
+arrProdukNoOri = [],Edge Chromium 117,,,2023-10-04 18:17:44,2023-10-04 18:17:44,0.000s,PASSED
+arrProdukNoSort = [],Edge Chromium 117,,,2023-10-04 18:17:44,2023-10-04 18:17:44,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:17:44,2023-10-04 18:17:44,0.155s,PASSED
+"Arrays.sort(arrProdukNoSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:17:44,2023-10-04 18:17:44,0.017s,PASSED
+assert arrProdukNoOri == arrProdukNoSort,Edge Chromium 117,,,2023-10-04 18:17:44,2023-10-04 18:17:44,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-004,Edge Chromium 117,User ingin mengurutkan No product dari yang terkecil ke yang terbesar,,2023-10-04 18:17:44,2023-10-04 18:18:07,23.455s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-003""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:17:44,2023-10-04 18:18:06,21.817s,PASSED
+"click(findTestObject(""Product Admin/Button Sort No""))",Edge Chromium 117,,,2023-10-04 18:18:06,2023-10-04 18:18:07,0.451s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data No Product""), 10)",Edge Chromium 117,,,2023-10-04 18:18:07,2023-10-04 18:18:07,0.468s,PASSED
+arrProdukNoOri = [],Edge Chromium 117,,,2023-10-04 18:18:07,2023-10-04 18:18:07,0.001s,PASSED
+arrProdukNoSort = [],Edge Chromium 117,,,2023-10-04 18:18:07,2023-10-04 18:18:07,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:18:07,2023-10-04 18:18:07,0.171s,PASSED
+Arrays.sort(arrProdukNoSort),Edge Chromium 117,,,2023-10-04 18:18:07,2023-10-04 18:18:07,0.001s,PASSED
+assert arrProdukNoOri == arrProdukNoSort,Edge Chromium 117,,,2023-10-04 18:18:07,2023-10-04 18:18:07,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-005,Edge Chromium 117,User ingin mengurutkan Nama product dari yang A sampai Z,,2023-10-04 18:18:07,2023-10-04 18:18:30,23.061s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:18:08,2023-10-04 18:18:29,21.478s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Nama Produk""))",Edge Chromium 117,,,2023-10-04 18:18:29,2023-10-04 18:18:30,0.444s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Nama Produk""), 10)",Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.466s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.153s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.001s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.005s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.001s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:18:30,2023-10-04 18:18:30,0.026s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-006,Edge Chromium 117,User ingin mengurutkan Nama product dari yang Z sampai A,,2023-10-04 18:18:30,2023-10-04 18:18:53,22.980s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-005""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:18:31,2023-10-04 18:18:53,22.440s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-007,Edge Chromium 117,User ingin mengurutkan Modal product dari yang Terkecil sampai Terbesar,,2023-10-04 18:18:53,2023-10-04 18:19:17,23.909s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:18:54,2023-10-04 18:19:16,22.082s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Modal""))",Edge Chromium 117,,,2023-10-04 18:19:16,2023-10-04 18:19:17,0.500s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Harga Modal""), 10)",Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.489s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.192s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.001s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.001s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.002s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:19:17,2023-10-04 18:19:17,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-008,Edge Chromium 117,User ingin mengurutkan Modal product dari yang Terbesar sampai Terkecil,,2023-10-04 18:19:17,2023-10-04 18:19:42,24.834s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-007""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:19:18,2023-10-04 18:19:41,22.995s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Modal""))",Edge Chromium 117,,,2023-10-04 18:19:41,2023-10-04 18:19:41,0.516s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Harga Modal""), 10)",Edge Chromium 117,,,2023-10-04 18:19:41,2023-10-04 18:19:42,0.518s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.187s,PASSED
+"Arrays.sort(arrProdukNameSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:19:42,2023-10-04 18:19:42,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-009,Edge Chromium 117,User ingin mengurutkan harga Reseller product dari yang Terkecil sampai Terbesar,,2023-10-04 18:19:42,2023-10-04 18:20:05,22.871s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:19:43,2023-10-04 18:20:04,21.183s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Reseller""))",Edge Chromium 117,,,2023-10-04 18:20:04,2023-10-04 18:20:04,0.443s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Harga Reseller""), 10)",Edge Chromium 117,,,2023-10-04 18:20:04,2023-10-04 18:20:05,0.473s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.001s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.144s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-010,Edge Chromium 117,User ingin mengurutkan harga Reseller product dari yang Terbesar sampai Terkecil,,2023-10-04 18:20:05,2023-10-04 18:20:29,24.295s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-009""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:20:05,2023-10-04 18:20:28,22.754s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Reseller""))",Edge Chromium 117,,,2023-10-04 18:20:28,2023-10-04 18:20:29,0.484s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Harga Reseller""), 10)",Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.493s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.001s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.150s,PASSED
+"Arrays.sort(arrProdukNameSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.001s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:20:29,2023-10-04 18:20:29,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-011,Edge Chromium 117,User ingin mengurutkan harga Konsumen product dari yang Terkecil sampai Terbesar,,2023-10-04 18:20:29,2023-10-04 18:20:52,22.387s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:20:30,2023-10-04 18:20:51,20.900s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Konsumen""))",Edge Chromium 117,,,2023-10-04 18:20:51,2023-10-04 18:20:51,0.447s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data harga Konsumen""), 10)",Edge Chromium 117,,,2023-10-04 18:20:51,2023-10-04 18:20:52,0.451s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.150s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.001s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.001s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:20:52,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-012,Edge Chromium 117,User ingin mengurutkan harga Konsumen product dari yang Terbesar sampai Terkecil,,2023-10-04 18:20:52,2023-10-04 18:21:15,23.727s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-011""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:20:52,2023-10-04 18:21:14,22.229s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Konsumen""))",Edge Chromium 117,,,2023-10-04 18:21:14,2023-10-04 18:21:15,0.427s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data harga Konsumen""), 10)",Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.479s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.152s,PASSED
+"Arrays.sort(arrProdukNameSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.001s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.001s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:21:15,2023-10-04 18:21:15,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-013,Edge Chromium 117,User ingin mengurutkan Stok product dari yang Terkecil sampai Terbesar,,2023-10-04 18:21:15,2023-10-04 18:21:38,22.252s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:21:16,2023-10-04 18:21:37,20.768s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Stok""))",Edge Chromium 117,,,2023-10-04 18:21:37,2023-10-04 18:21:37,0.405s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Jumlah Stok""), 10)",Edge Chromium 117,,,2023-10-04 18:21:37,2023-10-04 18:21:38,0.457s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.134s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.001s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:38,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-014,Edge Chromium 117,User ingin mengurutkan Stok product dari yang Terbesar sampai Terkecil,,2023-10-04 18:21:38,2023-10-04 18:22:00,22.342s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-013""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:21:38,2023-10-04 18:21:59,21.074s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Stok""))",Edge Chromium 117,,,2023-10-04 18:21:59,2023-10-04 18:21:59,0.396s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Jumlah Stok""), 10)",Edge Chromium 117,,,2023-10-04 18:21:59,2023-10-04 18:22:00,0.439s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.001s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.109s,PASSED
+"Arrays.sort(arrProdukNameSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:00,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-015,Edge Chromium 117,User ingin mengurutkan Satuan product dari Nama awalan Z sampai A,,2023-10-04 18:22:00,2023-10-04 18:22:22,21.889s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:22:00,2023-10-04 18:22:21,20.562s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Satuan""))",Edge Chromium 117,,,2023-10-04 18:22:21,2023-10-04 18:22:21,0.435s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Jenis Satuan""), 10)",Edge Chromium 117,,,2023-10-04 18:22:21,2023-10-04 18:22:22,0.436s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.104s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:22,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-016,Edge Chromium 117,User ingin mengurutkan Satuan product dari Nama awalan A sampai Z,,2023-10-04 18:22:22,2023-10-04 18:22:43,21.440s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-015""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:22:22,2023-10-04 18:22:42,20.287s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Satuan""))",Edge Chromium 117,,,2023-10-04 18:22:42,2023-10-04 18:22:43,0.344s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Jenis Satuan""), 10)",Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.434s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.111s,PASSED
+"Arrays.sort(arrProdukNameSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.001s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:22:43,2023-10-04 18:22:43,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-017,Edge Chromium 117,User ingin mengurutkan Berat product dari yang terbesar ke yang terkecil,,2023-10-04 18:22:43,2023-10-04 18:23:04,20.281s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:22:44,2023-10-04 18:23:03,19.110s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Berat""))",Edge Chromium 117,,,2023-10-04 18:23:03,2023-10-04 18:23:03,0.377s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Berat""), 10)",Edge Chromium 117,,,2023-10-04 18:23:03,2023-10-04 18:23:04,0.445s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.109s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:04,0.001s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-018,Edge Chromium 117,User ingin mengurutkan Berat product dari yang Terkecil ke yang Terbesar,,2023-10-04 18:23:04,2023-10-04 18:23:24,20.833s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-017""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:23:04,2023-10-04 18:23:24,20.530s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-019,Edge Chromium 117,User ingin mengurutkan product yang aktif dari yang aktif ke yang tidak aktif,,2023-10-04 18:23:24,2023-10-04 18:23:46,21.436s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:23:25,2023-10-04 18:23:45,20.251s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Product NoOrYes""))",Edge Chromium 117,,,2023-10-04 18:23:45,2023-10-04 18:23:45,0.372s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Product Aktif Or Tidak""), 10)",Edge Chromium 117,,,2023-10-04 18:23:45,2023-10-04 18:23:46,0.430s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.001s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.107s,PASSED
+Arrays.sort(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.001s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.000s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:23:46,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-020,Edge Chromium 117,User ingin mengurutkan product yang aktif dari yang Tidak Aktif ke yang aktif,,2023-10-04 18:23:46,2023-10-04 18:24:09,22.677s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-019""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:23:46,2023-10-04 18:24:08,21.425s,PASSED
+"click(findTestObject(""Product Admin/Button Sort Product NoOrYes""))",Edge Chromium 117,,,2023-10-04 18:24:08,2023-10-04 18:24:08,0.387s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Product Aktif Or Tidak""), 10)",Edge Chromium 117,,,2023-10-04 18:24:08,2023-10-04 18:24:08,0.458s,PASSED
+arrProdukNameOri = [],Edge Chromium 117,,,2023-10-04 18:24:08,2023-10-04 18:24:08,0.000s,PASSED
+arrProdukNameSort = [],Edge Chromium 117,,,2023-10-04 18:24:08,2023-10-04 18:24:08,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-04 18:24:08,2023-10-04 18:24:09,0.116s,PASSED
+"Arrays.sort(arrProdukNameSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-04 18:24:09,2023-10-04 18:24:09,0.000s,PASSED
+println(arrProdukNameOri),Edge Chromium 117,,,2023-10-04 18:24:09,2023-10-04 18:24:09,0.001s,PASSED
+println(arrProdukNameSort),Edge Chromium 117,,,2023-10-04 18:24:09,2023-10-04 18:24:09,0.000s,PASSED
+assert arrProdukNameOri == arrProdukNameSort,Edge Chromium 117,,,2023-10-04 18:24:09,2023-10-04 18:24:09,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-021,Edge Chromium 117,User ingin Mencari data merdasarkan no/nama Produk/harga modal/harga reseller/harga konsumen/stok/satuan/berat dengan data valid,,2023-10-04 18:24:09,2023-10-04 18:24:31,21.922s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:24:09,2023-10-04 18:24:29,20.152s,PASSED
+"setText(findTestObject(""Product Admin/Input Search Product""), cariKata)",Edge Chromium 117,,,2023-10-04 18:24:29,2023-10-04 18:24:30,0.774s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Semua Product""), 10)",Edge Chromium 117,,,2023-10-04 18:24:30,2023-10-04 18:24:30,0.470s,PASSED
+"for ([i = 0, i < dataList.size(), i += 7])",Edge Chromium 117,,,2023-10-04 18:24:30,2023-10-04 18:24:31,0.118s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-022,Edge Chromium 117,User ingin Menambahkan Produk dengan valid,,2023-10-04 18:24:31,2023-10-04 18:25:13,42.245s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:24:31,2023-10-04 18:24:52,20.742s,PASSED
+"jmlAwal = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:24:52,2023-10-04 18:24:52,0.390s,PASSED
+"click(findTestObject(""Product Admin/Button Tambahkan Data""))",Edge Chromium 117,,,2023-10-04 18:24:52,2023-10-04 18:24:53,0.828s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:24:53,2023-10-04 18:24:54,0.464s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Pemilik""), pemilik)",Edge Chromium 117,,,2023-10-04 18:24:54,2023-10-04 18:24:54,0.788s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Pemilik Toko Koko""))",Edge Chromium 117,,,2023-10-04 18:24:54,2023-10-04 18:24:55,0.501s,PASSED
+"selectOptionByValue(findTestObject(""Product Admin/TambahProduk/Pilih Katagori""), katagori, false)",Edge Chromium 117,,,2023-10-04 18:24:55,2023-10-04 18:24:56,0.722s,PASSED
+"selectOptionByValue(findTestObject(""Product Admin/TambahProduk/Pilih Sub Katagori""), subKatagori, false)",Edge Chromium 117,,,2023-10-04 18:24:56,2023-10-04 18:24:56,0.815s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Nama Produk""), namaProduk)",Edge Chromium 117,,,2023-10-04 18:24:56,2023-10-04 18:24:57,0.743s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Satuan Produk""), satuan)",Edge Chromium 117,,,2023-10-04 18:24:57,2023-10-04 18:24:58,0.728s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Berat gram""), berat)",Edge Chromium 117,,,2023-10-04 18:24:58,2023-10-04 18:24:59,0.771s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Modal""), hargaModal)",Edge Chromium 117,,,2023-10-04 18:24:59,2023-10-04 18:24:59,0.811s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Reseller""), hargaReseller)",Edge Chromium 117,,,2023-10-04 18:24:59,2023-10-04 18:25:00,0.759s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Konsumen""), hargaKonsumen)",Edge Chromium 117,,,2023-10-04 18:25:00,2023-10-04 18:25:01,0.771s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Diskon""), Diskon)",Edge Chromium 117,,,2023-10-04 18:25:01,2023-10-04 18:25:02,0.755s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Stok Awal""), stokAwal)",Edge Chromium 117,,,2023-10-04 18:25:02,2023-10-04 18:25:02,0.719s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Input Pria Tag""))",Edge Chromium 117,,,2023-10-04 18:25:02,2023-10-04 18:25:03,0.440s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Cuplikan Textarea""), cuplikan)",Edge Chromium 117,,,2023-10-04 18:25:03,2023-10-04 18:25:04,1.019s,PASSED
+"check(findTestObject(""Product Admin/TambahProduk/Input Aktif product""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:25:04,2023-10-04 18:25:04,0.358s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Keterangan""), keterangan)",Edge Chromium 117,,,2023-10-04 18:25:04,2023-10-04 18:25:08,3.259s,PASSED
+"uploadFile(findTestObject(""Product Admin/TambahProduk/Input File""), ""E:\Pelatihan\Xsis Academy\Baju koko kids.jpg"")",Edge Chromium 117,,,2023-10-04 18:25:08,2023-10-04 18:25:08,0.548s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Tambahkan""))",Edge Chromium 117,,,2023-10-04 18:25:08,2023-10-04 18:25:12,3.899s,PASSED
+"dataBaru = getText(findTestObject(""Object Repository/Product Admin/TambahProduk/Data Verifikasi Hapus Data""))",Edge Chromium 117,,,2023-10-04 18:25:12,2023-10-04 18:25:12,0.485s,PASSED
+"jmlAkhir = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:25:12,2023-10-04 18:25:13,0.330s,PASSED
+println(dataBaru),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.001s,PASSED
+println(jmlAwal),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+println(jmlAkhir),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"resultAwal = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.001s,PASSED
+"resultAkhir = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+println(resultAwal),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+println(resultAkhir),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+data1 = Integer.parseInt(resultAwal),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+data2 = Integer.parseInt(resultAkhir),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+assert dataBaru.contains(namaProduk) == true,Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+assert data1 + 1 == data2,Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+data = new java.util.HashMap(),Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.001s,PASSED
+"data.put(""dataPemilik"", pemilik)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataKatagori"", katagori)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataSubKatagori"", subKatagori)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataNamaProduct"", namaProduk)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataSatuan"", satuan)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataBerat"", berat)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataHargaModal"", hargaModal)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataHargaReseller"", hargaReseller)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataHargaKonsumen"", hargaKonsumen)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.001s,PASSED
+"data.put(""dataDiskon"", hargaReseller)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+"data.put(""dataStokEdit"", hargaKonsumen)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+return data,Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:13,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-023,Edge Chromium 117,User ingin menjadikan Produk Reseller Perusahaan,,2023-10-04 18:25:13,2023-10-04 18:25:36,23.514s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:25:13,2023-10-04 18:25:35,21.523s,PASSED
+"click(findTestObject(""Product Admin/Button Jadikan product Reseller""))",Edge Chromium 117,,,2023-10-04 18:25:35,2023-10-04 18:25:35,0.446s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-04 18:25:35,2023-10-04 18:25:35,0.044s,PASSED
+"namaProduct = getText(findTestObject(""Object Repository/Product Admin/Verifikasi Product Reseller""))",Edge Chromium 117,,,2023-10-04 18:25:35,2023-10-04 18:25:36,1.209s,PASSED
+println(namaProduct),Edge Chromium 117,,,2023-10-04 18:25:36,2023-10-04 18:25:36,0.001s,PASSED
+"assert toLowerCase().contains(""perusahaan"") == true",Edge Chromium 117,,,2023-10-04 18:25:36,2023-10-04 18:25:36,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-024,Edge Chromium 117,User ingin Update data Produk,,2023-10-04 18:25:36,2023-10-04 18:26:14,38.159s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:25:37,2023-10-04 18:25:57,20.270s,PASSED
+"jmlLama = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:25:57,2023-10-04 18:25:58,0.350s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:25:58,2023-10-04 18:25:58,0.846s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:25:58,2023-10-04 18:25:59,0.461s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Pemilik""), pemilik)",Edge Chromium 117,,,2023-10-04 18:25:59,2023-10-04 18:26:00,0.918s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Pemilik Toko Koko""))",Edge Chromium 117,,,2023-10-04 18:26:00,2023-10-04 18:26:00,0.538s,PASSED
+"selectOptionByValue(findTestObject(""Product Admin/TambahProduk/Pilih Katagori""), katagori, false)",Edge Chromium 117,,,2023-10-04 18:26:00,2023-10-04 18:26:01,0.699s,PASSED
+"selectOptionByValue(findTestObject(""Product Admin/TambahProduk/Pilih Sub Katagori""), subKatagori, false)",Edge Chromium 117,,,2023-10-04 18:26:01,2023-10-04 18:26:02,0.648s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Nama Produk""), namaProduk)",Edge Chromium 117,,,2023-10-04 18:26:02,2023-10-04 18:26:02,0.760s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Satuan Produk""), satuan)",Edge Chromium 117,,,2023-10-04 18:26:02,2023-10-04 18:26:03,0.789s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Berat gram""), berat)",Edge Chromium 117,,,2023-10-04 18:26:03,2023-10-04 18:26:04,0.727s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Modal""), hargaModal)",Edge Chromium 117,,,2023-10-04 18:26:04,2023-10-04 18:26:05,0.761s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Reseller""), hargaReseller)",Edge Chromium 117,,,2023-10-04 18:26:05,2023-10-04 18:26:05,0.732s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Konsumen""), hargaKonsumen)",Edge Chromium 117,,,2023-10-04 18:26:05,2023-10-04 18:26:06,0.730s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Diskon""), diskon)",Edge Chromium 117,,,2023-10-04 18:26:06,2023-10-04 18:26:07,0.740s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Stok Awal""), stokAwal)",Edge Chromium 117,,,2023-10-04 18:26:07,2023-10-04 18:26:08,0.749s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Input Pria Tag""))",Edge Chromium 117,,,2023-10-04 18:26:08,2023-10-04 18:26:08,0.395s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Cuplikan Textarea""), cuplikan)",Edge Chromium 117,,,2023-10-04 18:26:08,2023-10-04 18:26:09,0.934s,PASSED
+"check(findTestObject(""Product Admin/TambahProduk/Input Aktif product""), STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:26:09,2023-10-04 18:26:09,0.361s,PASSED
+"setText(findTestObject(""Product Admin/Update Edit Keterangan""), keterangan)",Edge Chromium 117,,,2023-10-04 18:26:09,2023-10-04 18:26:12,3.002s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:26:12,2023-10-04 18:26:13,0.927s,PASSED
+"jmlBaru = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:26:13,2023-10-04 18:26:14,0.831s,PASSED
+"dataBaru = getText(findTestObject(""Object Repository/Product Admin/TambahProduk/Data Verifikasi Hapus Data""))",Edge Chromium 117,,,2023-10-04 18:26:14,2023-10-04 18:26:14,0.340s,PASSED
+println(dataBaru),Edge Chromium 117,,,2023-10-04 18:26:14,2023-10-04 18:26:14,0.000s,PASSED
+assert dataBaru.contains(namaProduk) == true,Edge Chromium 117,,,2023-10-04 18:26:14,2023-10-04 18:26:14,0.001s,PASSED
+assert jmlLama == jmlBaru,Edge Chromium 117,,,2023-10-04 18:26:14,2023-10-04 18:26:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-025,Edge Chromium 117,User ingin menghapus data produk,,2023-10-04 18:26:14,2023-10-04 18:26:37,22.683s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:26:15,2023-10-04 18:26:35,19.915s,PASSED
+"jmlAwal = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:26:35,2023-10-04 18:26:35,0.338s,PASSED
+"dataLama = getText(findTestObject(""Object Repository/Product Admin/TambahProduk/Data Verifikasi Hapus Data""))",Edge Chromium 117,,,2023-10-04 18:26:35,2023-10-04 18:26:35,0.341s,PASSED
+"click(findTestObject(""Product Admin/Button Hapus Data""))",Edge Chromium 117,,,2023-10-04 18:26:35,2023-10-04 18:26:36,0.377s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-04 18:26:36,2023-10-04 18:26:36,0.022s,PASSED
+"dataBaru = getText(findTestObject(""Object Repository/Product Admin/TambahProduk/Data Verifikasi Hapus Data""))",Edge Chromium 117,,,2023-10-04 18:26:36,2023-10-04 18:26:37,1.089s,PASSED
+"jmlAkhir = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.334s,PASSED
+"resultAwal = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.000s,PASSED
+"resultAkhir = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.000s,PASSED
+data1 = Integer.parseInt(resultAwal),Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.000s,PASSED
+data2 = Integer.parseInt(resultAkhir),Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.000s,PASSED
+assert dataLama != dataBaru,Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.001s,PASSED
+assert data1 - 1 == data2,Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-026,Edge Chromium 117,User ingin menambahkan produk namun membatalkannya,,2023-10-04 18:26:37,2023-10-04 18:27:00,22.857s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:26:37,2023-10-04 18:26:57,19.350s,PASSED
+"jmlAwal = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:26:57,2023-10-04 18:26:57,0.435s,PASSED
+"click(findTestObject(""Product Admin/Button Tambahkan Data""))",Edge Chromium 117,,,2023-10-04 18:26:57,2023-10-04 18:26:58,0.703s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:26:58,2023-10-04 18:26:58,0.450s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Cancel""))",Edge Chromium 117,,,2023-10-04 18:26:58,2023-10-04 18:26:59,0.487s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:26:59,2023-10-04 18:27:00,0.847s,PASSED
+"jmlAkhir = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:00,0.348s,PASSED
+"resultAwal = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:00,0.000s,PASSED
+"resultAkhir = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:00,0.000s,PASSED
+data1 = Integer.parseInt(resultAwal),Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:00,0.000s,PASSED
+data2 = Integer.parseInt(resultAkhir),Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:00,0.000s,PASSED
+assert data1 == data2,Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:00,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-027,Edge Chromium 117,User ingin Update data Produk namun membatalkannya,,2023-10-04 18:27:00,2023-10-04 18:27:23,22.789s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:27:00,2023-10-04 18:27:20,19.394s,PASSED
+"jmlAwal = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:27:20,2023-10-04 18:27:20,0.329s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:27:20,2023-10-04 18:27:21,0.664s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:27:21,2023-10-04 18:27:21,0.453s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Cancel""))",Edge Chromium 117,,,2023-10-04 18:27:21,2023-10-04 18:27:21,0.386s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:27:21,2023-10-04 18:27:22,0.962s,PASSED
+"jmlAkhir = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:27:22,2023-10-04 18:27:23,0.347s,PASSED
+"resultAwal = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:27:23,2023-10-04 18:27:23,0.000s,PASSED
+"resultAkhir = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:27:23,2023-10-04 18:27:23,0.000s,PASSED
+data1 = Integer.parseInt(resultAwal),Edge Chromium 117,,,2023-10-04 18:27:23,2023-10-04 18:27:23,0.001s,PASSED
+data2 = Integer.parseInt(resultAkhir),Edge Chromium 117,,,2023-10-04 18:27:23,2023-10-04 18:27:23,0.000s,PASSED
+assert data1 == data2,Edge Chromium 117,,,2023-10-04 18:27:23,2023-10-04 18:27:23,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-028,Edge Chromium 117,User ingin Update data dengan menghapus foto product,,2023-10-04 18:27:23,2023-10-04 18:27:56,32.850s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:27:23,2023-10-04 18:27:43,19.758s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:27:43,2023-10-04 18:27:44,0.818s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:27:44,2023-10-04 18:27:44,0.502s,PASSED
+"uploadFile(findTestObject(""Product Admin/TambahProduk/Input File""), ""E:\Pelatihan\Xsis Academy\Baju koko kids.jpg"")",Edge Chromium 117,,,2023-10-04 18:27:44,2023-10-04 18:27:45,0.411s,PASSED
+delay(10),Edge Chromium 117,,,2023-10-04 18:27:45,2023-10-04 18:27:55,10.002s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Delete Gambar""))",Edge Chromium 117,,,2023-10-04 18:27:55,2023-10-04 18:27:55,0.370s,PASSED
+"verifyTextNotPresent(""Delete"", false)",Edge Chromium 117,,,2023-10-04 18:27:55,2023-10-04 18:27:56,0.549s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-029,Edge Chromium 117,Saat user di halaman product yang hanya menampilkan 10 data product ingin ke halaman product selanjutnya,,2023-10-04 18:27:56,2023-10-04 18:28:17,21.631s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:27:56,2023-10-04 18:28:16,20.394s,PASSED
+"click(findTestObject(""Product Admin/Button Halaman Selanjutnya""))",Edge Chromium 117,,,2023-10-04 18:28:16,2023-10-04 18:28:17,0.476s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Verifikasi halaman Ke 2""), 0)",Edge Chromium 117,,,2023-10-04 18:28:17,2023-10-04 18:28:17,0.498s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-030,Edge Chromium 117,User ingin melihat Hasil Input data pada menu halaman edit,,2023-10-04 18:28:17,2023-10-04 18:29:04,47.048s,FAILED
+"data = callTestCase(findTestCase(""Product Admin/TC-PA-022""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:28:18,2023-10-04 18:28:58,40.232s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:28:58,2023-10-04 18:28:59,0.843s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:28:59,2023-10-04 18:28:59,0.494s,PASSED
+select = new org.openqa.selenium.support.ui.Select(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver().findElement(org.openqa.selenium.By.xpath(//select[@name='a']))),Edge Chromium 117,,,2023-10-04 18:28:59,2023-10-04 18:29:00,0.363s,PASSED
+katogoriEdit = getFirstSelectedOption().getText(),Edge Chromium 117,,,2023-10-04 18:29:00,2023-10-04 18:29:00,0.405s,PASSED
+select1 = new org.openqa.selenium.support.ui.Select(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver().findElement(org.openqa.selenium.By.xpath(//select[@id='sub_kategori_produk']))),Edge Chromium 117,,,2023-10-04 18:29:00,2023-10-04 18:29:00,0.342s,PASSED
+subKatagoriEdit = getFirstSelectedOption().getText(),Edge Chromium 117,,,2023-10-04 18:29:00,2023-10-04 18:29:01,0.460s,PASSED
+"pemilikEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Pemilik""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:01,2023-10-04 18:29:01,0.395s,PASSED
+"namaProductEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Nama Produk""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:01,2023-10-04 18:29:02,0.346s,PASSED
+"satuanEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Satuan Produk""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:02,2023-10-04 18:29:02,0.370s,PASSED
+"beratEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Berat gram""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:02,2023-10-04 18:29:02,0.405s,PASSED
+"hargaModalEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Harga Modal""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:02,2023-10-04 18:29:03,0.387s,PASSED
+"hargaResellerEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Harga Reseller""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:03,2023-10-04 18:29:03,0.390s,PASSED
+"hargaKonsumenEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Harga Konsumen""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:03,2023-10-04 18:29:04,0.376s,PASSED
+"diskonEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Diskon""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.368s,PASSED
+"StokEdit = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Input Diskon""), ""value"")",Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.359s,PASSED
+println(pemilikEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.001s,PASSED
+println(katogoriEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.000s,PASSED
+println(subKatagoriEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.001s,PASSED
+println(namaProductEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.000s,PASSED
+println(satuanEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.001s,PASSED
+println(hargaModalEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.000s,PASSED
+println(hargaResellerEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.000s,PASSED
+println(hargaKonsumenEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.000s,PASSED
+println(diskonEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.000s,PASSED
+println(StokEdit),Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.001s,PASSED
+"assert pemilikEdit == data.get(""dataPemilik"")",Edge Chromium 117,,,2023-10-04 18:29:04,2023-10-04 18:29:04,0.004s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-031,Edge Chromium 117,Saat di halaman product yang hanya menampilkan 10 data product ingin ke halaman product selanjutnya sampai maksimal data yang bisa ditampilkan,,2023-10-04 18:29:04,2023-10-04 18:29:31,26.187s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:29:05,2023-10-04 18:29:25,20.384s,PASSED
+"jmlAwal = getText(findTestObject(""Object Repository/Product Admin/Showing 1 to 10 of 55 entries""))",Edge Chromium 117,,,2023-10-04 18:29:25,2023-10-04 18:29:25,0.346s,PASSED
+"resultAwal = trim().substring(19, 21)",Edge Chromium 117,,,2023-10-04 18:29:25,2023-10-04 18:29:25,0.000s,PASSED
+data1 = Integer.parseInt(resultAwal),Edge Chromium 117,,,2023-10-04 18:29:25,2023-10-04 18:29:25,0.000s,PASSED
+jmlProduk = 0,Edge Chromium 117,,,2023-10-04 18:29:25,2023-10-04 18:29:25,0.000s,PASSED
+while (jmlProduk < data1),Edge Chromium 117,,,2023-10-04 18:29:25,2023-10-04 18:29:31,5.061s,PASSED
+assert data1 == jmlProduk,Edge Chromium 117,,,2023-10-04 18:29:31,2023-10-04 18:29:31,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-032,Edge Chromium 117,User mencari product dengan kata kunci tanpa spasi,,2023-10-04 18:29:31,2023-10-04 18:29:52,21.740s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:29:31,2023-10-04 18:29:51,20.018s,PASSED
+"setText(findTestObject(""Product Admin/Input Search Product""), ""GamisGreen"")",Edge Chromium 117,,,2023-10-04 18:29:51,2023-10-04 18:29:52,0.812s,PASSED
+"verifyTextPresent(""No matching records found"", false)",Edge Chromium 117,,,2023-10-04 18:29:52,2023-10-04 18:29:52,0.599s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-033,Edge Chromium 117,User mencari product dengan kata kunci yang memiliki huruf yang besar kecilnya acak,,2023-10-04 18:29:52,2023-10-04 18:30:15,22.882s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:29:53,2023-10-04 18:30:14,20.973s,PASSED
+"setText(findTestObject(""Product Admin/Input Search Product""), cariKata)",Edge Chromium 117,,,2023-10-04 18:30:14,2023-10-04 18:30:15,0.889s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Semua Product""), 10)",Edge Chromium 117,,,2023-10-04 18:30:15,2023-10-04 18:30:15,0.461s,PASSED
+"for ([i = 0, i < dataList.size(), i += 7])",Edge Chromium 117,,,2023-10-04 18:30:15,2023-10-04 18:30:15,0.132s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-034,Edge Chromium 117,User mencari product dengan kata kunci Laptop bermerek Dell,,2023-10-04 18:30:15,2023-10-04 18:30:38,23.233s,ERROR
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:30:16,2023-10-04 18:30:37,21.163s,PASSED
+"setText(findTestObject(""Product Admin/Input Search Product""), cariKata)",Edge Chromium 117,,,2023-10-04 18:30:37,2023-10-04 18:30:38,0.913s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Admin/Data Semua Product""), 10)",Edge Chromium 117,,,2023-10-04 18:30:38,2023-10-04 18:30:38,0.452s,PASSED
+"for ([i = 0, i < dataList.size(), i += 7])",Edge Chromium 117,,,2023-10-04 18:30:38,2023-10-04 18:30:38,0.026s,ERROR
+,,,,,,,
+Test Cases/Product Admin/TC-PA-035,Edge Chromium 117,User melakukan update dengan upload gambar pada kolom keteragan,,2023-10-04 18:30:38,2023-10-04 18:31:38,1m - 0.052s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:30:39,2023-10-04 18:30:59,20.248s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:30:59,2023-10-04 18:31:00,0.953s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:31:00,2023-10-04 18:31:00,0.504s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Upload Gambar Keterangan""))",Edge Chromium 117,,,2023-10-04 18:31:00,2023-10-04 18:31:01,0.504s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/Verify Halaman Insert Image Keterangan""), 0)",Edge Chromium 117,,,2023-10-04 18:31:01,2023-10-04 18:31:02,0.637s,PASSED
+"uploadFile(findTestObject(""Product Admin/TambahProduk/Keterangan/Input File Gambar Keterangan""), ""E:\Pelatihan\Xsis Academy\panci.jpg"")",Edge Chromium 117,,,2023-10-04 18:31:02,2023-10-04 18:31:02,0.448s,PASSED
+delay(5),Edge Chromium 117,,,2023-10-04 18:31:02,2023-10-04 18:31:07,5.008s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/img via Link""), 0)",Edge Chromium 117,,,2023-10-04 18:31:07,2023-10-04 18:31:38,31.424s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-036,Edge Chromium 117,User melakukan update dengan upload gambar pada kolom keteragan dengan Link gambar,,2023-10-04 18:31:38,2023-10-04 18:32:05,26.109s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:31:39,2023-10-04 18:32:00,21.300s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:32:00,2023-10-04 18:32:01,1.155s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:32:01,2023-10-04 18:32:02,0.392s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Upload Gambar Keterangan""))",Edge Chromium 117,,,2023-10-04 18:32:02,2023-10-04 18:32:02,0.432s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/Verify Halaman Insert Image Keterangan""), 0)",Edge Chromium 117,,,2023-10-04 18:32:02,2023-10-04 18:32:03,0.596s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Keterangan/Input Link Image""), ""https://png.pngtree.com/png-clipart/20211228/ourlarge/pngtree-panci-ompreng-png-image_4137919.png"")",Edge Chromium 117,,,2023-10-04 18:32:03,2023-10-04 18:32:04,0.919s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Insert Image""))",Edge Chromium 117,,,2023-10-04 18:32:04,2023-10-04 18:32:04,0.481s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/img via Link""), 0)",Edge Chromium 117,,,2023-10-04 18:32:04,2023-10-04 18:32:05,0.484s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-037,Edge Chromium 117,User melakukan input lalu menghapus yang telah diinputkan pada kolom harga modal dan reseller,,2023-10-04 18:32:05,2023-10-04 18:32:34,29.152s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:32:05,2023-10-04 18:32:27,21.754s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:32:27,2023-10-04 18:32:28,1.073s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:32:28,2023-10-04 18:32:28,0.375s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Modal""), ""5000"")",Edge Chromium 117,,,2023-10-04 18:32:28,2023-10-04 18:32:29,0.759s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Reseller""), ""6000"")",Edge Chromium 117,,,2023-10-04 18:32:29,2023-10-04 18:32:30,0.725s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Konsumen""), ""7000"")",Edge Chromium 117,,,2023-10-04 18:32:30,2023-10-04 18:32:30,0.715s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Modal""), """")",Edge Chromium 117,,,2023-10-04 18:32:30,2023-10-04 18:32:31,0.743s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Reseller""), """")",Edge Chromium 117,,,2023-10-04 18:32:31,2023-10-04 18:32:32,0.735s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Konsumen""), """")",Edge Chromium 117,,,2023-10-04 18:32:32,2023-10-04 18:32:33,0.719s,PASSED
+"hargaM = getAttribute(findTestObject(""Product Admin/TambahProduk/Input Harga Modal""), ""value"")",Edge Chromium 117,,,2023-10-04 18:32:33,2023-10-04 18:32:33,0.366s,PASSED
+"hargaR = getAttribute(findTestObject(""Product Admin/TambahProduk/Input Harga Reseller""), ""value"")",Edge Chromium 117,,,2023-10-04 18:32:33,2023-10-04 18:32:33,0.367s,PASSED
+"hargaK = getAttribute(findTestObject(""Product Admin/TambahProduk/Input Harga Konsumen""), ""value"")",Edge Chromium 117,,,2023-10-04 18:32:33,2023-10-04 18:32:34,0.340s,PASSED
+"verifikasi = """"",Edge Chromium 117,,,2023-10-04 18:32:34,2023-10-04 18:32:34,0.001s,PASSED
+assert hargaM == verifikasi,Edge Chromium 117,,,2023-10-04 18:32:34,2023-10-04 18:32:34,0.000s,PASSED
+assert hargaR == verifikasi,Edge Chromium 117,,,2023-10-04 18:32:34,2023-10-04 18:32:34,0.000s,PASSED
+assert hargaK == verifikasi,Edge Chromium 117,,,2023-10-04 18:32:34,2023-10-04 18:32:34,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-038,Edge Chromium 117,User melakukan fullscreen pada kolom keterangan,,2023-10-04 18:32:34,2023-10-04 18:32:57,23.605s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:32:34,2023-10-04 18:32:55,20.950s,PASSED
+"click(findTestObject(""Product Admin/Button Tambahkan Data""))",Edge Chromium 117,,,2023-10-04 18:32:55,2023-10-04 18:32:56,0.765s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:32:56,2023-10-04 18:32:56,0.481s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Full Screen Kolom Keterangan""))",Edge Chromium 117,,,2023-10-04 18:32:56,2023-10-04 18:32:57,0.406s,PASSED
+"verifikasi = getAttribute(findTestObject(""Object Repository/Product Admin/TambahProduk/Keterangan/Verifikasi Full Screen Keterangan""), ""class"")",Edge Chromium 117,,,2023-10-04 18:32:57,2023-10-04 18:32:57,0.709s,PASSED
+"assert verifikasi == ""note-editor note-frame panel panel-default fullscreen""",Edge Chromium 117,,,2023-10-04 18:32:57,2023-10-04 18:32:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PA-039,Edge Chromium 117,User menekan tombol help pada kolom keterangan,,2023-10-04 18:32:57,2023-10-04 18:33:21,23.848s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:32:58,2023-10-04 18:33:19,21.057s,PASSED
+"click(findTestObject(""Product Admin/Button Tambahkan Data""))",Edge Chromium 117,,,2023-10-04 18:33:19,2023-10-04 18:33:20,1.020s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:33:20,2023-10-04 18:33:20,0.383s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Help Kolom Keterangan""))",Edge Chromium 117,,,2023-10-04 18:33:20,2023-10-04 18:33:21,0.491s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/Verifikasi halaman Help Kolom Keterangan""), 0)",Edge Chromium 117,,,2023-10-04 18:33:21,2023-10-04 18:33:21,0.617s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-001,Edge Chromium 117,User ingin edit data berat Product menjadi -1 pada kolom product,,2023-10-04 18:33:21,2023-10-04 18:33:47,25.489s,ERROR
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:33:22,2023-10-04 18:33:43,20.978s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:33:43,2023-10-04 18:33:44,1.031s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:33:44,2023-10-04 18:33:44,0.380s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Berat gram""), ""-1"")",Edge Chromium 117,,,2023-10-04 18:33:44,2023-10-04 18:33:45,0.761s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:33:45,2023-10-04 18:33:46,1.324s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-04 18:33:46,2023-10-04 18:33:46,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""berat""]""))",Edge Chromium 117,,,2023-10-04 18:33:46,2023-10-04 18:33:47,0.538s,ERROR
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-002,Edge Chromium 117,User menambahkan produk namun mengkosongkan input data product,,2023-10-04 18:33:47,2023-10-04 18:34:12,25.006s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:33:47,2023-10-04 18:34:07,20.116s,PASSED
+"click(findTestObject(""Product Admin/Button Tambahkan Data""))",Edge Chromium 117,,,2023-10-04 18:34:07,2023-10-04 18:34:08,1.139s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:34:08,2023-10-04 18:34:09,0.375s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Pemilik""), ""Toko Koko"")",Edge Chromium 117,,,2023-10-04 18:34:09,2023-10-04 18:34:10,0.798s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Pemilik Toko Koko""))",Edge Chromium 117,,,2023-10-04 18:34:10,2023-10-04 18:34:10,0.512s,PASSED
+"selectOptionByValue(findTestObject(""Product Admin/TambahProduk/Pilih Katagori""), ""6"", false)",Edge Chromium 117,,,2023-10-04 18:34:10,2023-10-04 18:34:11,0.731s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Tambahkan""))",Edge Chromium 117,,,2023-10-04 18:34:11,2023-10-04 18:34:11,0.615s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-04 18:34:11,2023-10-04 18:34:11,0.001s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""b""]""))",Edge Chromium 117,,,2023-10-04 18:34:11,2023-10-04 18:34:12,0.290s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-04 18:34:12,2023-10-04 18:34:12,0.020s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-04 18:34:12,2023-10-04 18:34:12,0.000s,PASSED
+"assert accept_button_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-04 18:34:12,2023-10-04 18:34:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-003,Edge Chromium 117,User tidak memilih katagori produk saat menambahkan produk,,2023-10-04 18:34:12,2023-10-04 18:34:37,24.829s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:34:12,2023-10-04 18:34:33,20.908s,PASSED
+"click(findTestObject(""Product Admin/Button Tambahkan Data""))",Edge Chromium 117,,,2023-10-04 18:34:33,2023-10-04 18:34:34,0.967s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:34:34,2023-10-04 18:34:34,0.375s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Pemilik""), ""Toko Koko"")",Edge Chromium 117,,,2023-10-04 18:34:34,2023-10-04 18:34:35,0.814s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Pemilik Toko Koko""))",Edge Chromium 117,,,2023-10-04 18:34:35,2023-10-04 18:34:36,0.522s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Tambahkan""))",Edge Chromium 117,,,2023-10-04 18:34:36,2023-10-04 18:34:36,0.458s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-04 18:34:36,2023-10-04 18:34:36,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//select[@name=""a""]""))",Edge Chromium 117,,,2023-10-04 18:34:36,2023-10-04 18:34:37,0.307s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-04 18:34:37,2023-10-04 18:34:37,0.020s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-04 18:34:37,2023-10-04 18:34:37,0.000s,PASSED
+"assert accept_button_message == ""Please select an item in the list.""",Edge Chromium 117,,,2023-10-04 18:34:37,2023-10-04 18:34:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-004,Edge Chromium 117,User Update data gambar product selain format JPG,,2023-10-04 18:34:37,2023-10-04 18:35:02,25.126s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:34:37,2023-10-04 18:34:58,20.473s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:34:58,2023-10-04 18:34:59,1.184s,PASSED
+"uploadFile(findTestObject(""Product Admin/TambahProduk/Input File""), ""E:\Pelatihan\Xsis Academy\baju Koko kids oranye.jpg"")",Edge Chromium 117,,,2023-10-04 18:34:59,2023-10-04 18:35:01,2.005s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/File Error Image Json Format""), 0)",Edge Chromium 117,,,2023-10-04 18:35:01,2023-10-04 18:35:02,0.819s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-005,Edge Chromium 117,User Mengupload data lebih dari 10 MB,,2023-10-04 18:35:02,2023-10-04 18:35:25,23.590s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:35:02,2023-10-04 18:35:23,20.747s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:35:23,2023-10-04 18:35:24,0.979s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:35:24,2023-10-04 18:35:24,0.391s,PASSED
+"uploadFile(findTestObject(""Product Admin/TambahProduk/Input File""), ""E:\Pelatihan\Xsis Academy\DJI_0621.DNG"")",Edge Chromium 117,,,2023-10-04 18:35:24,2023-10-04 18:35:24,0.394s,PASSED
+"verifyElementText(findTestObject(""Product Admin/TambahProduk/Verifikasi File Lebih besar dari 10MB""), ""Error File Lebih besar dari 10 MB"")",Edge Chromium 117,,,2023-10-04 18:35:24,2023-10-04 18:35:25,0.755s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-006,Edge Chromium 117,User edit data nama satuan menjadi angka,,2023-10-04 18:35:25,2023-10-04 18:35:49,23.908s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:35:26,2023-10-04 18:35:46,20.078s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:35:46,2023-10-04 18:35:46,0.878s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:35:46,2023-10-04 18:35:47,0.441s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Satuan Produk""), ""1"")",Edge Chromium 117,,,2023-10-04 18:35:47,2023-10-04 18:35:48,0.708s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:35:48,2023-10-04 18:35:49,1.115s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:35:49,2023-10-04 18:35:49,0.420s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-007,Edge Chromium 117,User melakukan input data berat menjadi 0,,2023-10-04 18:35:49,2023-10-04 18:36:43,54.209s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:35:49,2023-10-04 18:36:09,19.786s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:36:09,2023-10-04 18:36:10,1.022s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:36:10,2023-10-04 18:36:11,0.364s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Berat gram""), ""0"")",Edge Chromium 117,,,2023-10-04 18:36:11,2023-10-04 18:36:11,0.675s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:36:11,2023-10-04 18:36:12,0.844s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:36:12,2023-10-04 18:36:43,31.280s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-008,Edge Chromium 117,User melakukan input harga diskon lebih dari harga produk,,2023-10-04 18:36:43,2023-10-04 18:37:38,55.080s,FAILED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:36:44,2023-10-04 18:37:05,20.271s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:37:05,2023-10-04 18:37:06,1.050s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:37:06,2023-10-04 18:37:06,0.336s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Diskon""), ""1000000"")",Edge Chromium 117,,,2023-10-04 18:37:06,2023-10-04 18:37:07,0.723s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:37:07,2023-10-04 18:37:08,1.090s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:37:08,2023-10-04 18:37:38,30.714s,FAILED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-009,Edge Chromium 117,User melakukan update dengan upload gambar pada kolom keteragan dengan Link gambar yang tidak sesuai dengan format,,2023-10-04 18:37:38,2023-10-04 18:38:02,23.755s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:37:39,2023-10-04 18:37:58,19.359s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:37:58,2023-10-04 18:37:59,1.052s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:37:59,2023-10-04 18:37:59,0.328s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Upload Gambar Keterangan""))",Edge Chromium 117,,,2023-10-04 18:37:59,2023-10-04 18:38:00,0.377s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/Verify Halaman Insert Image Keterangan""), 0)",Edge Chromium 117,,,2023-10-04 18:38:00,2023-10-04 18:38:01,0.656s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Keterangan/Input Link Image""), ""gambar"")",Edge Chromium 117,,,2023-10-04 18:38:01,2023-10-04 18:38:01,0.653s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Keterangan/Button Insert Image""))",Edge Chromium 117,,,2023-10-04 18:38:01,2023-10-04 18:38:02,0.491s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Admin/TambahProduk/Keterangan/img via Link""), 0)",Edge Chromium 117,,,2023-10-04 18:38:02,2023-10-04 18:38:02,0.553s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-010,Edge Chromium 117,User melakukan update dengan ganti nama product menjadi karakter spesial,,2023-10-04 18:38:02,2023-10-04 18:38:27,24.668s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:38:02,2023-10-04 18:38:23,20.827s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:38:23,2023-10-04 18:38:24,0.927s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:38:24,2023-10-04 18:38:25,0.392s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Nama Produk""), ""~!@#$%^&*()"")",Edge Chromium 117,,,2023-10-04 18:38:25,2023-10-04 18:38:25,0.732s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:38:25,2023-10-04 18:38:26,1.062s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:38:26,2023-10-04 18:38:27,0.459s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-011,Edge Chromium 117,User melakukan update dengan ganti nama product menjadi spasi,,2023-10-04 18:38:27,2023-10-04 18:38:50,22.848s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:38:27,2023-10-04 18:38:46,18.745s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:38:46,2023-10-04 18:38:47,1.018s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:38:47,2023-10-04 18:38:47,0.414s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Nama Produk""), "" "")",Edge Chromium 117,,,2023-10-04 18:38:47,2023-10-04 18:38:48,0.716s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:38:48,2023-10-04 18:38:49,1.268s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:38:49,2023-10-04 18:38:50,0.456s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-012,Edge Chromium 117,User melakukan update nama dengan lebih dari 70 huruf,,2023-10-04 18:38:50,2023-10-04 18:39:15,24.878s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:38:50,2023-10-04 18:39:10,20.191s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:39:10,2023-10-04 18:39:11,1.235s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:39:11,2023-10-04 18:39:12,0.421s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Nama Produk""), ""Drone DJI Air 3 Dengan Spesifikasi Dual Kamera 48 Mega Pixel dan Mampu merekam dengan Resolusi 4K/60 FPS dan serta mampu menahan angin sampai 42 KM/Jam"")",Edge Chromium 117,,,2023-10-04 18:39:12,2023-10-04 18:39:13,1.065s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:39:13,2023-10-04 18:39:14,1.227s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:39:14,2023-10-04 18:39:15,0.452s,PASSED
+,,,,,,,
+Test Cases/Product Admin/TC-PAN-013,Edge Chromium 117,"User melakukan update harga Modal,reseller,konsumen lebih dari 1 Milliar",,2023-10-04 18:39:15,2023-10-04 18:39:40,25.332s,PASSED
+"callTestCase(findTestCase(""Product Admin/TC-PA-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-04 18:39:15,2023-10-04 18:39:35,19.855s,PASSED
+"click(findTestObject(""Product Admin/Button Edit Product Fleksibel""))",Edge Chromium 117,,,2023-10-04 18:39:35,2023-10-04 18:39:36,1.114s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/TambahProduk/Verifikasi Halaman Product Baru""), 0)",Edge Chromium 117,,,2023-10-04 18:39:36,2023-10-04 18:39:36,0.325s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Modal""), ""1000000000"")",Edge Chromium 117,,,2023-10-04 18:39:36,2023-10-04 18:39:37,0.739s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Reseller""), ""1100000000"")",Edge Chromium 117,,,2023-10-04 18:39:37,2023-10-04 18:39:38,0.725s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Harga Konsumen""), ""1200000000"")",Edge Chromium 117,,,2023-10-04 18:39:38,2023-10-04 18:39:38,0.743s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-04 18:39:38,2023-10-04 18:39:40,1.153s,PASSED
+"verifyElementPresent(findTestObject(""Product Admin/Veridikasi Halaman Semua Produk""), 0)",Edge Chromium 117,,,2023-10-04 18:39:40,2023-10-04 18:39:40,0.445s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Saat user di halaman product yang hanya menampilkan 10 data product ingin ke halaman product selanjutnya</description>
+   <name>TC-PA-029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>074a5d56-3eba-418e-919a-5688701f6e8e</testCaseGuid>
+</TestCaseEntity>

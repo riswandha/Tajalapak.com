@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin memperbarui min order sama dengan -1</description>
+   <name>TC-PEN-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22c80e70-ae95-41a0-a4fb-7bcd7d289d30</testCaseGuid>
+</TestCaseEntity>

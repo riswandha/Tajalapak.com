@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User mencari product dengan kata kunci yang memiliki huruf yang besar kecilnya acak</description>
+   <name>TC-PA-033</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b719f995-f5e8-4c3a-b0a3-12d701972789</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce6b362b-7edf-4c5d-b7b5-eeb53c1f696d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'GaMiS GrEeN'</defaultValue>
+      <description></description>
+      <id>ce6b362b-7edf-4c5d-b7b5-eeb53c1f696d</id>
+      <masked>false</masked>
+      <name>cariKata</name>
+   </variable>
+</TestCaseEntity>

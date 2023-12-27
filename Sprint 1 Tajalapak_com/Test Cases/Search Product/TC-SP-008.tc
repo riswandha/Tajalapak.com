@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika user Masukkan kata kunci produk yang tidak ditemukan dalam kotak pencarian.</description>
+   <name>TC-SP-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db0447b0-ad73-41ac-8932-ee2a2d9428dd</testCaseGuid>
+</TestCaseEntity>

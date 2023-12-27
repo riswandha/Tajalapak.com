@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Wakaf Asset Online" time="452.731" tests="9" failures="4" errors="0">
+   <testsuite name="TS-Wakaf Asset Online" tests="9" failures="4" errors="0" time="452.731" skipped="0" timestamp="2023-09-22 14:18:41" hostname="Admin - Riswandha" id="Test Suites/TS-Wakaf Asset Online">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832"/>
+         <property name="logFiles" value="G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\execution0.log"/>
+         <property name="attachments" value="G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367262137.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367262352.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367289388.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367289532.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367329870.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367329969.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367574294.png, G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367574391.png"/>
+         <property name="hostName" value="Admin - Riswandha"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 117"/>
+         <property name="hostAddress" value="10.9.2.29"/>
+         <property name="sessionId" value="e6906872b3690c4791974b172b994acd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 001" time="27.812" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 001" status="PASSED">
+         <system-out><![CDATA[2023-09-22 14:18:42 - [TEST_CASE][PASSED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 001: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 001
+
+2023-09-22 14:18:42 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:18:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:18:42 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:18:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:18:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:18:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:18:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:18:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search Product/Verify Page Tajalapak"), 0): Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:18:57 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:18:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:18:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:18:59 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:18:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:19:00 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:19:00 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:19:01 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "Jalan Taruma Jawa Timur"): Text 'Jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:19:02 - [MESSAGE][PASSED] - Text 'Jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), "Masjid"): Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:19:03 - [MESSAGE][PASSED] - Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:19:03 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:19:05 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:19:05 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:19:05 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:19:06 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:19:06 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "89"): Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:19:06 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:19:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/Verify Wakaf Asset Diproses"), 0): Object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' is present
+
+2023-09-22 14:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:19:09 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 002" time="26.388" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 002" status="PASSED">
+         <system-out><![CDATA[2023-09-22 14:19:09 - [TEST_CASE][PASSED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 002: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 002
+
+2023-09-22 14:19:10 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:19:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:19:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:19:10 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:19:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:19:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:19:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:19:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:19:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search Product/Verify Page Tajalapak"), 0): Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:19:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:19:24 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:19:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:19:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:19:27 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:19:28 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:19:28 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "Jalan Taruma Jawa Timur"): Text 'Jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:19:29 - [MESSAGE][PASSED] - Text 'Jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:19:29 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), ""): Text '' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:19:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:19:30 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:19:32 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:19:32 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:19:32 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:19:33 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:19:33 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "89"): Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:19:33 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:19:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/Verify Wakaf Asset Diproses"), 0): Object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' is present
+
+2023-09-22 14:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 003" time="23.47" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 003" status="PASSED">
+         <system-out><![CDATA[2023-09-22 14:19:36 - [TEST_CASE][PASSED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 003: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 003
+
+2023-09-22 14:19:36 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:19:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:19:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:19:37 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:19:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:19:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:19:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:19:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:19:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search Product/Verify Page Tajalapak"), 0): Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:19:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:19:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:19:52 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "1000000"): Text '1000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:19:53 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), ""): Text '' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:19:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), "Masjid"): Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:19:54 - [MESSAGE][PASSED] - Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:19:55 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:19:57 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:19:57 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:19:57 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:19:57 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:19:58 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "89"): Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:19:58 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:19:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-09-22 14:19:59 - [TEST_STEP][PASSED] - field_username_element = driver.findElement(By.xpath("//input[@name="alamat"]")): null
+
+2023-09-22 14:19:59 - [TEST_STEP][PASSED] - accept_button_message = driver.executeScript("return arguments[0].validationMessage", field_username_element): null
+
+2023-09-22 14:19:59 - [TEST_STEP][PASSED] - println(accept_button_message): null
+
+2023-09-22 14:19:59 - [TEST_STEP][PASSED] - assert accept_button_message == "Please fill out this field.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 004" time="31.324" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 004" status="PASSED">
+         <system-out><![CDATA[2023-09-22 14:19:59 - [TEST_CASE][PASSED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 004: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 004
+
+2023-09-22 14:20:00 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:20:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:20:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:20:01 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:20:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:20:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:20:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:20:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:20:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search Product/Verify Page Tajalapak"), 0): Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:20:20 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:20:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:20:23 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:20:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:20:23 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:20:24 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "jalan Taruma Jawa Timur"): Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:20:25 - [MESSAGE][PASSED] - Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:20:25 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), "Masjid"): Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:20:26 - [MESSAGE][PASSED] - Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:20:26 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:20:27 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:20:27 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:20:28 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:20:28 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "jokogmail.com"): Text 'jokogmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:20:29 - [MESSAGE][PASSED] - Text 'jokogmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:20:29 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:20:29 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:20:29 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "89"): Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:20:30 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:20:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-09-22 14:20:30 - [TEST_STEP][PASSED] - field_username_element = driver.findElement(By.xpath("//input[@name="alamat_email"]")): null
+
+2023-09-22 14:20:31 - [TEST_STEP][PASSED] - accept_button_message = driver.executeScript("return arguments[0].validationMessage", field_username_element): null
+
+2023-09-22 14:20:31 - [TEST_STEP][PASSED] - println(accept_button_message): null
+
+2023-09-22 14:20:31 - [TEST_STEP][PASSED] - assert accept_button_message == "Please include an '@' in the email address. 'jokogmail.com' is missing an '@'.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005" time="31.415" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-22 14:20:31 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-22 14:20:31 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:20:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:20:32 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:20:32 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:20:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:20:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:20:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:20:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:20:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search Product/Verify Page Tajalapak"), 0): Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Verify Page Tajalapak' is present
+
+2023-09-22 14:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:20:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:20:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:20:53 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:20:54 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:20:54 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "Jalan taruma Jawa Timur"): Text 'Jalan taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:20:54 - [MESSAGE][PASSED] - Text 'Jalan taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:20:54 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), "Masjid"): Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:20:55 - [MESSAGE][PASSED] - Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:20:56 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456"): Text '085123456' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:20:57 - [MESSAGE][PASSED] - Text '085123456' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:20:58 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:20:58 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:20:58 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:20:58 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "56"): Text '56' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:20:59 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:21:01 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Wakaf Asset Online/Verify Wakaf Asset Diproses"), "Error kurang dari 11 angka"): Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-22 14:21:02 - [MESSAGE][FAILED] - Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367262137.png]]
+
+2023-09-22 14:21:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367262352.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-22 14:20:31 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006" time="27.167" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 006.run(TC-Wakaf-Asset-Online 006:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-22 14:21:02 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 006.run(TC-Wakaf-Asset-Online 006:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-22 14:21:02 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:21:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:21:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:21:03 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:21:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:21:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:21:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:21:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:21:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Button Login"), 0): Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:21:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:21:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:21:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:21:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:21:18 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:21:18 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:21:19 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "Jalan Taruma Jawa Timur"): Text 'Jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:21:20 - [MESSAGE][PASSED] - Text 'Jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:21:20 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), "Masjid"): Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:21:21 - [MESSAGE][PASSED] - Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:21:21 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:21:22 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:21:22 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789011"): Text '085123456789011' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:21:23 - [MESSAGE][PASSED] - Text '085123456789011' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:21:23 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:21:24 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:21:24 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:21:24 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:21:24 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "11"): Text '11' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:21:25 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:21:28 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Wakaf Asset Online/Verify Wakaf Asset Diproses"), "Nomor Telepon lebih dari 13 angka"): Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 006.run(TC-Wakaf-Asset-Online 006:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-22 14:21:29 - [MESSAGE][FAILED] - Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 006.run(TC-Wakaf-Asset-Online 006:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367289388.png]]
+
+2023-09-22 14:21:29 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 006.run(TC-Wakaf-Asset-Online 006:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367289532.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-22 14:21:02 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 006.run(TC-Wakaf-Asset-Online 006:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Nomor Telepon lebih dari 13 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 007" time="19.435" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 007" status="PASSED">
+         <system-out><![CDATA[2023-09-22 14:21:29 - [TEST_CASE][PASSED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 007: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 007
+
+2023-09-22 14:21:29 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:21:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:21:30 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:21:30 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:21:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:21:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:21:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:21:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:21:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Button Login"), 0): Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:21:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:21:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:21:38 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:21:38 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:21:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:21:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:21:40 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:21:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Bangunan", false): All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:21:41 - [MESSAGE][PASSED] - All options with value 'Bangunan' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:21:41 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:21:42 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "jalan Taruma Jawa Timur"): Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:21:42 - [MESSAGE][PASSED] - Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), "Masjid"): Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:21:43 - [MESSAGE][PASSED] - Text 'Masjid' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:21:44 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:21:44 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:21:45 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:21:45 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:21:46 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:21:46 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:21:46 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:21:46 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "88"): Text '88' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:21:47 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:21:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/Verify_GAGAL Diproses, 2 Digit Terakhir No Handphone"), 0): Object 'Object Repository/Wakaf Asset Online/Verify_GAGAL Diproses, 2 Digit Terakhir No Handphone' is present
+
+2023-09-22 14:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/Verify_GAGAL Diproses, 2 Digit Terakhir No Handphone' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008" time="20.965" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 008.run(TC-Wakaf-Asset-Online 008:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-22 14:21:49 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 008.run(TC-Wakaf-Asset-Online 008:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-22 14:21:49 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:21:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:21:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:21:50 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:21:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:21:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:21:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:21:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:21:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Button Login"), 0): Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:21:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:21:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:21:58 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:22:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:22:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:22:01 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:22:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Lainnya", false): All options with value 'Lainnya' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:22:01 - [MESSAGE][PASSED] - All options with value 'Lainnya' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:22:02 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "jalan Taruma Jawa Timur"): Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:22:03 - [MESSAGE][PASSED] - Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), ""): Text '' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:22:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:22:05 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:22:06 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:22:07 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:22:07 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\minions.png"): File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:22:07 - [MESSAGE][PASSED] - File 'E:\minions.png' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "89"): Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:22:08 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:22:08 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:22:09 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Wakaf Asset Online/Verify Wakaf Asset Diproses"), "deskripsi wajip diisi"): Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 008.run(TC-Wakaf-Asset-Online 008:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-22 14:22:09 - [MESSAGE][FAILED] - Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 008.run(TC-Wakaf-Asset-Online 008:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367329870.png]]
+
+2023-09-22 14:22:10 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 008.run(TC-Wakaf-Asset-Online 008:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367329969.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-22 14:21:49 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 008.run(TC-Wakaf-Asset-Online 008:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'deskripsi wajip diisi' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009" time="244.443" classname="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 009.run(TC-Wakaf-Asset-Online 009:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-22 14:22:10 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 009.run(TC-Wakaf-Asset-Online 009:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-22 14:22:10 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:22:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-22 14:22:11 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-22 14:22:11 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-22 14:22:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-22 14:22:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-22 14:22:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-22 14:22:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-22 14:22:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Button Login"), 0): Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:22:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Login' is present
+
+2023-09-22 14:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Donasi")): Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Donasi' is clicked on
+
+2023-09-22 14:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/Wakaf Asset Donasi")): Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/Wakaf Asset Donasi' is clicked on
+
+2023-09-22 14:22:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wakaf Asset Online/verify Wakaf Asset Online"), 0): Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-22 14:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/Wakaf Asset Online/verify Wakaf Asset Online' is present
+
+2023-09-22 14:22:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Wakaf Asset Online/Pilih Type Wakaf"), "Lainnya", false): All options with value 'Lainnya' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:22:26 - [MESSAGE][PASSED] - All options with value 'Lainnya' are selected in object 'Object Repository/Wakaf Asset Online/Pilih Type Wakaf' 
+
+2023-09-22 14:22:26 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Perkiraan Nilai Asset"), "100000000"): Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:22:27 - [MESSAGE][PASSED] - Text '100000000' is set on object 'Object Repository/Wakaf Asset Online/Input Perkiraan Nilai Asset'
+
+2023-09-22 14:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Alamat Asset"), "jalan Taruma Jawa Timur"): Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:22:28 - [MESSAGE][PASSED] - Text 'jalan Taruma Jawa Timur' is set on object 'Object Repository/Wakaf Asset Online/Input Alamat Asset'
+
+2023-09-22 14:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Keterangan Asset"), ""): Text '' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:22:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Wakaf Asset Online/Keterangan Asset'
+
+2023-09-22 14:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Nama Lengkap"), "joko susanto"): Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:22:29 - [MESSAGE][PASSED] - Text 'joko susanto' is set on object 'Object Repository/Wakaf Asset Online/Input Nama Lengkap'
+
+2023-09-22 14:22:29 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input No Handphone"), "085123456789"): Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:22:30 - [MESSAGE][PASSED] - Text '085123456789' is set on object 'Object Repository/Wakaf Asset Online/Input No Handphone'
+
+2023-09-22 14:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input Email"), "joko@gmail.com"): Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:22:31 - [MESSAGE][PASSED] - Text 'joko@gmail.com' is set on object 'Object Repository/Wakaf Asset Online/Input Email'
+
+2023-09-22 14:22:31 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Wakaf Asset Online/Input File Upload"), "E:\Pelatihan\Xsis Academy\Lebih dari 50 mb.mp4"): File 'E:\Pelatihan\Xsis Academy\Lebih dari 50 mb.mp4' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:22:31 - [MESSAGE][PASSED] - File 'E:\Pelatihan\Xsis Academy\Lebih dari 50 mb.mp4' sent to object: 'Object Repository/Wakaf Asset Online/Input File Upload'
+
+2023-09-22 14:22:31 - [TEST_STEP][PASSED] - setText(findTestObject("Wakaf Asset Online/Input 2 Digit Terakhir"), "89"): Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:22:32 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Wakaf Asset Online/Input 2 Digit Terakhir'
+
+2023-09-22 14:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Wakaf Asset Online/button Wakaf Sekarang")): Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Wakaf Asset Online/button Wakaf Sekarang' is clicked on
+
+2023-09-22 14:26:13 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Wakaf Asset Online/Verify Wakaf Asset Diproses"), "File Tidak Boleh lebih dari 50 MB"): Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 009.run(TC-Wakaf-Asset-Online 009:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-22 14:26:14 - [MESSAGE][FAILED] - Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 009.run(TC-Wakaf-Asset-Online 009:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367574294.png]]
+
+2023-09-22 14:26:14 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 009.run(TC-Wakaf-Asset-Online 009:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|G:\\Project Xsis\\batch-324-qa\\Riswan\\Tajalapak_com\\Reports\\20230922_141832\\TS-Wakaf Asset Online\\20230922_141832\\1695367574391.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-22 14:22:10 - [TEST_CASE][FAILED] - Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 009.run(TC-Wakaf-Asset-Online 009:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'File Tidak Boleh lebih dari 50 MB' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-22 14:18:41 - [TEST_SUITE][FAILED] - TS-Wakaf Asset Online: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-09-22 14:18:41 - [TEST_SUITE][FAILED] - TS-Wakaf Asset Online: Test Cases/Wakaf Asset Online/TC-Wakaf-Asset-Online 005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at TC-Wakaf-Asset-Online 005.run(TC-Wakaf-Asset-Online 005:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695367112714.run(TempTestSuite1695367112714.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Wakaf Asset, kami akan segera menghubungi anda! Terima kasih' and expected text 'Error kurang dari 11 angka' of test object 'Object Repository/Wakaf Asset Online/Verify Wakaf Asset Diproses' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

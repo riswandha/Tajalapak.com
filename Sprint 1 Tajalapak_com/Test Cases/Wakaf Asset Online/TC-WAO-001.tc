@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user memasukkan Data di Wakaf Asset Online dengan input valid.</description>
+   <name>TC-WAO-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c86be7f-6669-461f-955a-188efe41844a</testCaseGuid>
+</TestCaseEntity>

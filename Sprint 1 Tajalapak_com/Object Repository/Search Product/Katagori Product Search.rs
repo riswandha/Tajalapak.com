@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Katagori Product Search</name>
+   <tag></tag>
+   <elementGuidId>f4eff0bf-8541-4229-b689-1b48b8b8d1ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;f&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='f']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3658d49c-5514-42d9-b6a8-01c1bbf63fc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>f569349b-efb1-4ab2-8835-f250ef0e8ef2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>f</value>
+      <webElementGuid>fce0c5ac-f303-4d9d-a097-ad7e6ea2d5cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                    Semua
+                                    Alat Musik &amp; Pro Audio - Gitar - Piano - TalempongFashion &amp; Busana Pria - Accessories - Kid's Fashion - ShoesFashion &amp; Busana Wanita - Kiyora Dalam - Kiyora SedangOlahraga dan Luar Rumah - Freezer Burn - Frigde Cooler - Wine CabinetsPerhiasan dan Aksesoris - Cincin - Jam tangan - Kalung - sdasdPerhiasan dan Jam Tangan - Cincin Kawin - Emas PutihTaman dan Alat Dapur - Cookware - Decoration - Furniture - Garden ToolsTas, Koper &amp; Perjalanan - Car Electronics - Office Electronics                                </value>
+      <webElementGuid>6a8b9a9e-3d81-40c0-9923-63971296977b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/div[@class=&quot;header__top&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;header__center&quot;]/form[@class=&quot;ps-form--quick-search&quot;]/div[@class=&quot;form-group--icon&quot;]/select[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>e7373ffa-8516-436e-9c5f-2ff3731b97e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='f']</value>
+      <webElementGuid>aa8a5475-35df-4ecf-b10e-68d58ab16e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Office Electronics'])[1]/following::select[1]</value>
+      <webElementGuid>748538e8-a9c7-4322-bea5-854bb049c028</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car Electronics'])[1]/following::select[1]</value>
+      <webElementGuid>bf24e95f-822a-4cd8-bf8f-e6da61ad3f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari'])[1]/preceding::select[1]</value>
+      <webElementGuid>0152ffcb-fb4a-46e1-b89c-a2d749ebfb14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>ad6a0ab2-b3b8-4b6f-a77e-1ff8b1b7c282</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'f' and (text() = concat(&quot;
+                                    Semua
+                                    Alat Musik &amp; Pro Audio - Gitar - Piano - TalempongFashion &amp; Busana Pria - Accessories - Kid&quot; , &quot;'&quot; , &quot;s Fashion - ShoesFashion &amp; Busana Wanita - Kiyora Dalam - Kiyora SedangOlahraga dan Luar Rumah - Freezer Burn - Frigde Cooler - Wine CabinetsPerhiasan dan Aksesoris - Cincin - Jam tangan - Kalung - sdasdPerhiasan dan Jam Tangan - Cincin Kawin - Emas PutihTaman dan Alat Dapur - Cookware - Decoration - Furniture - Garden ToolsTas, Koper &amp; Perjalanan - Car Electronics - Office Electronics                                &quot;) or . = concat(&quot;
+                                    Semua
+                                    Alat Musik &amp; Pro Audio - Gitar - Piano - TalempongFashion &amp; Busana Pria - Accessories - Kid&quot; , &quot;'&quot; , &quot;s Fashion - ShoesFashion &amp; Busana Wanita - Kiyora Dalam - Kiyora SedangOlahraga dan Luar Rumah - Freezer Burn - Frigde Cooler - Wine CabinetsPerhiasan dan Aksesoris - Cincin - Jam tangan - Kalung - sdasdPerhiasan dan Jam Tangan - Cincin Kawin - Emas PutihTaman dan Alat Dapur - Cookware - Decoration - Furniture - Garden ToolsTas, Koper &amp; Perjalanan - Car Electronics - Office Electronics                                &quot;))]</value>
+      <webElementGuid>76748015-f372-4909-8ed7-239d97070e3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

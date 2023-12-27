@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan update dengan upload gambar pada kolom keteragan dengan Link gambar</description>
+   <name>TC-PA-036</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f70acde9-31d8-45be-8c66-9a212ff22597</testCaseGuid>
+</TestCaseEntity>

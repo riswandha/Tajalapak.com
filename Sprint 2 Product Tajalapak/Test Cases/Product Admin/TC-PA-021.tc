@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin Mencari data merdasarkan no/nama Produk/harga modal/harga reseller/harga konsumen/stok/satuan/berat dengan data valid</description>
+   <name>TC-PA-021</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad6a9318-40ff-4bc8-84a0-b0962c6d8478</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9689a5da-7c4d-46a6-9a1c-cdf5291ce981</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'DELL'</defaultValue>
+      <description></description>
+      <id>9689a5da-7c4d-46a6-9a1c-cdf5291ce981</id>
+      <masked>false</masked>
+      <name>cariKata</name>
+   </variable>
+</TestCaseEntity>

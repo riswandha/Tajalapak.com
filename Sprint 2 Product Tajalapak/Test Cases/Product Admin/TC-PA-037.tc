@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan input lalu menghapus yang telah diinputkan pada kolom harga modal dan reseller</description>
+   <name>TC-PA-037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>978e607d-5e1a-4115-84ea-7a599adeebe9</testCaseGuid>
+</TestCaseEntity>

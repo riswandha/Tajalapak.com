@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin menampilkan harga termahal dari product yang telah dicari</description>
+   <name>TC-SP-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1618d38-dd33-427c-8be4-62674ee9608c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin Login ke website tajalapak</description>
+   <name>TC-Login Ecomerce-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>712594d7-5cf2-45c5-be7d-3d8fbd911f0a</testCaseGuid>
+</TestCaseEntity>

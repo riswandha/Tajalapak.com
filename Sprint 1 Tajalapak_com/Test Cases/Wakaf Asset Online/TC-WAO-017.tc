@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Input nama dengan lebih dari 150 karakter</description>
+   <name>TC-WAO-017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>077eb68c-3173-4b7a-81db-30a622f07bd3</testCaseGuid>
+</TestCaseEntity>

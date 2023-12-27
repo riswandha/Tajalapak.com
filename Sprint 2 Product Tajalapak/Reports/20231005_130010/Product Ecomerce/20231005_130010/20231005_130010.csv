@@ -1,0 +1,355 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product Ecomerce,Edge Chromium 117,,,2023-10-05 13:00:40,2023-10-05 13:12:26,11m - 46.028s,ERROR
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-001,Edge Chromium 117,user ingin melihat product pada toko,,2023-10-05 13:00:40,2023-10-05 13:00:56,15.723s,PASSED
+"callTestCase(findTestCase(""Login Ecommerce/TC-Login Ecomerce-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:00:41,2023-10-05 13:00:54,13.330s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Button Menu toko""))",Edge Chromium 117,,,2023-10-05 13:00:54,2023-10-05 13:00:54,0.558s,PASSED
+"click(findTestObject(""Product Ecommerce/Button Daftar Produk""))",Edge Chromium 117,,,2023-10-05 13:00:54,2023-10-05 13:00:55,0.856s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:00:55,2023-10-05 13:00:56,0.651s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-002,Edge Chromium 117,user Menambahkan Produk dengan data valid,,2023-10-05 13:00:56,2023-10-05 13:02:00,1m - 4.450s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:00:56,2023-10-05 13:01:10,13.613s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Produk""))",Edge Chromium 117,,,2023-10-05 13:01:10,2023-10-05 13:01:11,1.024s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Verifikasi Halaman Tambahkan Product""), 0)",Edge Chromium 117,,,2023-10-05 13:01:11,2023-10-05 13:01:11,0.588s,PASSED
+"selectOptionByValue(findTestObject(""Product Ecommerce/Tambahkan Product/Pilih Katagori Produk""), ""6"", false)",Edge Chromium 117,,,2023-10-05 13:01:11,2023-10-05 13:01:12,0.673s,PASSED
+"selectOptionByValue(findTestObject(""Product Ecommerce/Tambahkan Product/Pilih Sub Katagori Produk""), ""15"", false)",Edge Chromium 117,,,2023-10-05 13:01:12,2023-10-05 13:01:13,0.922s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Nama Produk""), ""Baju Koko Kids 0 - 9 tahun"")",Edge Chromium 117,,,2023-10-05 13:01:13,2023-10-05 13:01:14,0.709s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Satuan""), ""Pcs"")",Edge Chromium 117,,,2023-10-05 13:01:14,2023-10-05 13:01:14,0.699s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Berat""), ""100"")",Edge Chromium 117,,,2023-10-05 13:01:14,2023-10-05 13:01:15,0.704s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Harga Modal""), ""10000"")",Edge Chromium 117,,,2023-10-05 13:01:15,2023-10-05 13:01:16,1.027s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Harga Jual""), ""12000"")",Edge Chromium 117,,,2023-10-05 13:01:16,2023-10-05 13:01:17,0.687s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Diskon""), ""1000"")",Edge Chromium 117,,,2023-10-05 13:01:17,2023-10-05 13:01:18,0.708s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Stok Awal""), ""20"")",Edge Chromium 117,,,2023-10-05 13:01:18,2023-10-05 13:01:18,0.704s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Minimum Order""), ""1"")",Edge Chromium 117,,,2023-10-05 13:01:18,2023-10-05 13:01:19,0.735s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Cuplikan""), ""Stylish dan Nyaman! Baju Koko Kids kami cocok untuk usia 0 - 9 tahun. Terbuat dari bahan berkualitas tinggi yang lembut di kulit anak-anak, baju ini sempurna untuk berbagai acara, termasuk lebaran."")",Edge Chromium 117,,,2023-10-05 13:01:19,2023-10-05 13:01:20,0.851s,PASSED
+"check(findTestObject(""Product Ecommerce/Tambahkan Product/Input Merek Pria""))",Edge Chromium 117,,,2023-10-05 13:01:20,2023-10-05 13:01:20,0.428s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Keterangan""), ""Desain Modern: Tampil modis dengan desain terkini yang cocok untuk anak-anak. Kenyamanan Sepanjang Hari: Bahan lembut dan nyaman sehingga anak-anak tetap bahagia sepanjang hari. Beragam Warna: Pilihan warna yang cerah dan menarik. Ukuran Sesuai: Tersedia dalam berbagai ukuran, mulai dari 0 hingga 9 tahun. Dapatkan tampilan yang trendi untuk si kecil dengan Baju Koko Kids kami. Pesan sekarang dan buat momen lebaran mereka lebih istimewa!"")",Edge Chromium 117,,,2023-10-05 13:01:20,2023-10-05 13:01:23,2.354s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Variasi 1 Nama Variasi""), ""Warna"")",Edge Chromium 117,,,2023-10-05 13:01:23,2023-10-05 13:01:23,0.819s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Variasi 1 Kolom 1""), ""Merah"")",Edge Chromium 117,,,2023-10-05 13:01:23,2023-10-05 13:01:24,0.700s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Variasi 1 Kolom 2""), ""Biru"")",Edge Chromium 117,,,2023-10-05 13:01:24,2023-10-05 13:01:25,0.684s,PASSED
+"uploadFile(findTestObject(""Product Ecommerce/Tambahkan Product/Input File""), ""E:\Pelatihan\Xsis Academy\Baju koko kids.jpg"")",Edge Chromium 117,,,2023-10-05 13:01:25,2023-10-05 13:01:25,0.356s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Tambahkan""))",Edge Chromium 117,,,2023-10-05 13:01:25,2023-10-05 13:01:29,3.672s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:01:29,2023-10-05 13:02:00,31.550s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-003,Edge Chromium 117,user ingin melakukan update produk,,2023-10-05 13:02:00,2023-10-05 13:02:48,47.798s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:02:01,2023-10-05 13:02:13,12.607s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:02:13,2023-10-05 13:02:14,0.489s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Produk""), 0)",Edge Chromium 117,,,2023-10-05 13:02:14,2023-10-05 13:02:14,0.314s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:02:14,2023-10-05 13:02:15,1.060s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Harga Jual""), hargaBaru)",Edge Chromium 117,,,2023-10-05 13:02:15,2023-10-05 13:02:16,1.050s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:02:16,2023-10-05 13:02:17,0.358s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:02:17,2023-10-05 13:02:17,0.431s,PASSED
+"hargaProduct = getText(findTestObject(""Object Repository/Product Ecommerce/Verifikasi product/Harga Product Ke 1""))",Edge Chromium 117,,,2023-10-05 13:02:17,2023-10-05 13:02:48,31.221s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-004,Edge Chromium 117,user ingin melihat detail Produk,,2023-10-05 13:02:48,2023-10-05 13:03:04,15.467s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:02:48,2023-10-05 13:03:02,13.375s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:03:02,2023-10-05 13:03:02,0.486s,PASSED
+"click(findTestObject(""Product Ecommerce/Melihat Product""))",Edge Chromium 117,,,2023-10-05 13:03:02,2023-10-05 13:03:03,0.360s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi product/Verifikasi halaman Detail Product""), 0)",Edge Chromium 117,,,2023-10-05 13:03:03,2023-10-05 13:03:04,0.997s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-005,Edge Chromium 117,user ingin menghapus Produk,,2023-10-05 13:03:04,2023-10-05 13:03:20,16.001s,ERROR
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:03:04,2023-10-05 13:03:17,13.234s,PASSED
+"dataListOld = findWebElements(findTestObject(""Object Repository/Product Ecommerce/Verifikasi product/Jumlah Product""), 10)",Edge Chromium 117,,,2023-10-05 13:03:17,2023-10-05 13:03:17,0.311s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:03:17,2023-10-05 13:03:18,0.486s,PASSED
+"click(findTestObject(""Product Ecommerce/Hapus data Product""))",Edge Chromium 117,,,2023-10-05 13:03:18,2023-10-05 13:03:18,0.376s,PASSED
+acceptAlert(),Edge Chromium 117,,,2023-10-05 13:03:18,2023-10-05 13:03:18,0.019s,PASSED
+"dataListNew = findWebElements(findTestObject(""Object Repository/Product Ecommerce/Verifikasi product/Jumlah Product""), 10)",Edge Chromium 117,,,2023-10-05 13:03:18,2023-10-05 13:03:20,1.339s,PASSED
+assert dataListOld > dataListNew,Edge Chromium 117,,,2023-10-05 13:03:20,2023-10-05 13:03:20,0.003s,ERROR
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-006,Edge Chromium 117,user input data Valid namun cancel,,2023-10-05 13:03:20,2023-10-05 13:03:52,32.611s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:03:20,2023-10-05 13:03:34,13.736s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Produk""))",Edge Chromium 117,,,2023-10-05 13:03:34,2023-10-05 13:03:35,1.162s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Verifikasi Halaman Tambahkan Product""), 0)",Edge Chromium 117,,,2023-10-05 13:03:35,2023-10-05 13:03:35,0.569s,PASSED
+"selectOptionByValue(findTestObject(""Product Ecommerce/Tambahkan Product/Pilih Katagori Produk""), ""6"", false)",Edge Chromium 117,,,2023-10-05 13:03:35,2023-10-05 13:03:36,0.671s,PASSED
+"selectOptionByValue(findTestObject(""Product Ecommerce/Tambahkan Product/Pilih Sub Katagori Produk""), ""15"", false)",Edge Chromium 117,,,2023-10-05 13:03:36,2023-10-05 13:03:37,0.922s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Nama Produk""), ""Baju Koko Kids 0 - 9 tahun"")",Edge Chromium 117,,,2023-10-05 13:03:37,2023-10-05 13:03:38,0.717s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Satuan""), ""Pcs"")",Edge Chromium 117,,,2023-10-05 13:03:38,2023-10-05 13:03:38,0.676s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Berat""), ""100"")",Edge Chromium 117,,,2023-10-05 13:03:38,2023-10-05 13:03:39,0.695s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Harga Modal""), ""10000"")",Edge Chromium 117,,,2023-10-05 13:03:39,2023-10-05 13:03:40,1.042s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Harga Jual""), ""12000"")",Edge Chromium 117,,,2023-10-05 13:03:40,2023-10-05 13:03:41,0.727s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Diskon""), ""1000"")",Edge Chromium 117,,,2023-10-05 13:03:41,2023-10-05 13:03:42,0.719s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Stok Awal""), ""20"")",Edge Chromium 117,,,2023-10-05 13:03:42,2023-10-05 13:03:42,0.749s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Minimum Order""), ""1"")",Edge Chromium 117,,,2023-10-05 13:03:42,2023-10-05 13:03:43,0.724s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Cuplikan""), ""Stylish dan Nyaman! Baju Koko Kids kami cocok untuk usia 0 - 9 tahun. Terbuat dari bahan berkualitas tinggi yang lembut di kulit anak-anak, baju ini sempurna untuk berbagai acara, termasuk lebaran."")",Edge Chromium 117,,,2023-10-05 13:03:43,2023-10-05 13:03:44,0.835s,PASSED
+"check(findTestObject(""Product Ecommerce/Tambahkan Product/Input Merek Pria""))",Edge Chromium 117,,,2023-10-05 13:03:44,2023-10-05 13:03:44,0.403s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Keterangan""), ""Desain Modern: Tampil modis dengan desain terkini yang cocok untuk anak-anak. Kenyamanan Sepanjang Hari: Bahan lembut dan nyaman sehingga anak-anak tetap bahagia sepanjang hari. Beragam Warna: Pilihan warna yang cerah dan menarik. Ukuran Sesuai: Tersedia dalam berbagai ukuran, mulai dari 0 hingga 9 tahun. Dapatkan tampilan yang trendi untuk si kecil dengan Baju Koko Kids kami. Pesan sekarang dan buat momen lebaran mereka lebih istimewa!"")",Edge Chromium 117,,,2023-10-05 13:03:44,2023-10-05 13:03:47,2.530s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Variasi 1 Nama Variasi""), ""Warna"")",Edge Chromium 117,,,2023-10-05 13:03:47,2023-10-05 13:03:48,0.798s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Variasi 1 Kolom 1""), ""Merah"")",Edge Chromium 117,,,2023-10-05 13:03:48,2023-10-05 13:03:48,0.698s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Variasi 1 Kolom 2""), ""Biru"")",Edge Chromium 117,,,2023-10-05 13:03:48,2023-10-05 13:03:49,0.673s,PASSED
+"uploadFile(findTestObject(""Product Ecommerce/Tambahkan Product/Input File""), ""E:\Pelatihan\Xsis Academy\Baju koko kids.jpg"")",Edge Chromium 117,,,2023-10-05 13:03:49,2023-10-05 13:03:49,0.355s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Cancel""))",Edge Chromium 117,,,2023-10-05 13:03:49,2023-10-05 13:03:52,2.327s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:03:52,2023-10-05 13:03:52,0.657s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-007,Edge Chromium 117,user ingin menambahkan variasi Produk,,2023-10-05 13:03:52,2023-10-05 13:04:09,17.193s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:03:53,2023-10-05 13:04:07,14.650s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Produk""))",Edge Chromium 117,,,2023-10-05 13:04:07,2023-10-05 13:04:08,1.165s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Input Tambah Kolom Variasi 1""))",Edge Chromium 117,,,2023-10-05 13:04:08,2023-10-05 13:04:09,0.644s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi product/Verifikasi variasi Bertambah""), 0)",Edge Chromium 117,,,2023-10-05 13:04:09,2023-10-05 13:04:09,0.467s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-008,Edge Chromium 117,user ingin mengurangi variasi Produk,,2023-10-05 13:04:09,2023-10-05 13:04:26,16.486s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:04:10,2023-10-05 13:04:22,12.334s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Produk""))",Edge Chromium 117,,,2023-10-05 13:04:22,2023-10-05 13:04:25,2.610s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Input Hapus Kolom Variasi 1""))",Edge Chromium 117,,,2023-10-05 13:04:25,2023-10-05 13:04:25,0.595s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Ecommerce/Verifikasi product/Verifikasi variasi Berkurang""), 0)",Edge Chromium 117,,,2023-10-05 13:04:25,2023-10-05 13:04:26,0.536s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-009,Edge Chromium 117,user ingin membuat Kupon produk dengan data valid,,2023-10-05 13:04:26,2023-10-05 13:04:48,22.300s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:04:26,2023-10-05 13:04:40,14.143s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:04:40,2023-10-05 13:04:41,0.484s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:04:41,2023-10-05 13:04:42,0.995s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:04:42,2023-10-05 13:04:43,0.707s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:04:43,2023-10-05 13:04:43,0.667s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Kode Kupon""), kodeKupon)",Edge Chromium 117,,,2023-10-05 13:04:43,2023-10-05 13:04:44,0.695s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Jumlah Kode kupon""), jumlah)",Edge Chromium 117,,,2023-10-05 13:04:44,2023-10-05 13:04:45,0.696s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Masa Berlaku""), expired)",Edge Chromium 117,,,2023-10-05 13:04:45,2023-10-05 13:04:45,0.675s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Min Order""), minOrder)",Edge Chromium 117,,,2023-10-05 13:04:45,2023-10-05 13:04:46,0.690s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Nilai Kupon""), nilai)",Edge Chromium 117,,,2023-10-05 13:04:46,2023-10-05 13:04:47,0.701s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:04:47,2023-10-05 13:04:47,0.500s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Ecommerce/Kupon/Data Semua Voucher""), 10)",Edge Chromium 117,,,2023-10-05 13:04:47,2023-10-05 13:04:48,1.011s,PASSED
+"dataKupon = """"",Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.028s,PASSED
+println(dataKupon),Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.002s,PASSED
+assert dataKupon.contains(kodeKupon),Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.001s,PASSED
+assert dataKupon.contains(jumlah),Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.000s,PASSED
+assert dataKupon.contains(expired),Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.000s,PASSED
+assert dataKupon.contains(minOrder),Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.001s,PASSED
+assert dataKupon.contains(nilai),Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:04:48,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-010,Edge Chromium 117,user ingin mengupdate Kupon produk dengan data valid,,2023-10-05 13:04:48,2023-10-05 13:05:06,18.066s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:04:48,2023-10-05 13:05:01,12.442s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:05:01,2023-10-05 13:05:01,0.492s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:05:01,2023-10-05 13:05:03,1.087s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:05:03,2023-10-05 13:05:03,0.625s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:05:03,2023-10-05 13:05:04,0.652s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:05:04,2023-10-05 13:05:04,0.349s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Kode Kupon""), kodeKupon)",Edge Chromium 117,,,2023-10-05 13:05:04,2023-10-05 13:05:05,0.817s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:05:05,2023-10-05 13:05:05,0.351s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Product Ecommerce/Kupon/Data Semua Voucher""), 10)",Edge Chromium 117,,,2023-10-05 13:05:05,2023-10-05 13:05:06,0.986s,PASSED
+"dataKupon = """"",Edge Chromium 117,,,2023-10-05 13:05:06,2023-10-05 13:05:06,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-05 13:05:06,2023-10-05 13:05:06,0.021s,PASSED
+println(dataKupon),Edge Chromium 117,,,2023-10-05 13:05:06,2023-10-05 13:05:06,0.000s,PASSED
+assert dataKupon.contains(kodeKupon),Edge Chromium 117,,,2023-10-05 13:05:06,2023-10-05 13:05:06,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-011,Edge Chromium 117,user ingin menghapus Kupon produk,,2023-10-05 13:05:06,2023-10-05 13:05:23,16.856s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:05:07,2023-10-05 13:05:19,12.509s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:05:19,2023-10-05 13:05:20,0.519s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:05:20,2023-10-05 13:05:21,0.955s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:05:21,2023-10-05 13:05:21,0.603s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:05:21,2023-10-05 13:05:22,0.662s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Hapus Data""))",Edge Chromium 117,,,2023-10-05 13:05:22,2023-10-05 13:05:22,0.369s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""), 0)",Edge Chromium 117,,,2023-10-05 13:05:22,2023-10-05 13:05:23,0.997s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PE-012,Edge Chromium 117,user menambah kolom variasi produk sebanyak 20,,2023-10-05 13:05:23,2023-10-05 13:05:50,27.256s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:05:23,2023-10-05 13:05:37,13.911s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:05:37,2023-10-05 13:05:38,0.479s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:05:38,2023-10-05 13:05:39,0.968s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:05:39,2023-10-05 13:05:39,0.552s,PASSED
+"variasiAwal = findWebElements(findTestObject(""Object Repository/Product Ecommerce/Tambahkan Product/Jumlah Variasi Warna""), 10)",Edge Chromium 117,,,2023-10-05 13:05:39,2023-10-05 13:05:40,0.312s,PASSED
+"for ([i = 0, i < 20, (i++)])",Edge Chromium 117,,,2023-10-05 13:05:40,2023-10-05 13:05:50,10.261s,PASSED
+"variasiAkhir = findWebElements(findTestObject(""Object Repository/Product Ecommerce/Tambahkan Product/Jumlah Variasi Warna""), 10)",Edge Chromium 117,,,2023-10-05 13:05:50,2023-10-05 13:05:50,0.533s,PASSED
+assert variasiAwal.size() + 20 == variasiAkhir.size(),Edge Chromium 117,,,2023-10-05 13:05:50,2023-10-05 13:05:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-001,Edge Chromium 117,user ingin memperbarui gambar product dengan format gambar selain jpg,,2023-10-05 13:05:50,2023-10-05 13:06:08,17.218s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:05:51,2023-10-05 13:06:03,12.356s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:06:03,2023-10-05 13:06:04,0.494s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:06:04,2023-10-05 13:06:05,1.079s,PASSED
+"uploadFile(findTestObject(""Product Ecommerce/Tambahkan Product/Input File""), ""E:\Pelatihan\Xsis Academy\baju Koko kids oranye.jpg"")",Edge Chromium 117,,,2023-10-05 13:06:05,2023-10-05 13:06:07,2.297s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi product/verifikasi Error Format Foto Tidak Sesuai""), 0)",Edge Chromium 117,,,2023-10-05 13:06:07,2023-10-05 13:06:08,0.761s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-002,Edge Chromium 117,user ingin menambahkan produk namun salah satu kolom kosong,,2023-10-05 13:06:08,2023-10-05 13:06:25,17.080s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:06:08,2023-10-05 13:06:21,13.346s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Produk""))",Edge Chromium 117,,,2023-10-05 13:06:21,2023-10-05 13:06:22,1.055s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Verifikasi Halaman Tambahkan Product""), 0)",Edge Chromium 117,,,2023-10-05 13:06:22,2023-10-05 13:06:23,0.565s,PASSED
+"selectOptionByValue(findTestObject(""Product Ecommerce/Tambahkan Product/Pilih Katagori Produk""), ""6"", false)",Edge Chromium 117,,,2023-10-05 13:06:23,2023-10-05 13:06:24,0.696s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Tambahkan""))",Edge Chromium 117,,,2023-10-05 13:06:24,2023-10-05 13:06:24,0.608s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:06:24,2023-10-05 13:06:24,0.001s,PASSED
+"field_username_element = driver.findElement(By.xpath(""(//input[@name=""b""])[3]""))",Edge Chromium 117,,,2023-10-05 13:06:24,2023-10-05 13:06:25,0.503s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:06:25,2023-10-05 13:06:25,0.023s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:06:25,2023-10-05 13:06:25,0.000s,PASSED
+"assert accept_button_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 13:06:25,2023-10-05 13:06:25,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-003,Edge Chromium 117,user ingin menambahkan produk namun langsung Klik tambahkan,,2023-10-05 13:06:25,2023-10-05 13:06:40,15.289s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:06:25,2023-10-05 13:06:38,12.577s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Produk""))",Edge Chromium 117,,,2023-10-05 13:06:38,2023-10-05 13:06:39,0.925s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Verifikasi Halaman Tambahkan Product""), 0)",Edge Chromium 117,,,2023-10-05 13:06:39,2023-10-05 13:06:39,0.545s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Tambahkan""))",Edge Chromium 117,,,2023-10-05 13:06:39,2023-10-05 13:06:39,0.384s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:06:39,2023-10-05 13:06:39,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//select[@name=""a""]""))",Edge Chromium 117,,,2023-10-05 13:06:39,2023-10-05 13:06:40,0.508s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:06:40,2023-10-05 13:06:40,0.026s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:06:40,2023-10-05 13:06:40,0.001s,PASSED
+"assert accept_button_message == ""Please select an item in the list.""",Edge Chromium 117,,,2023-10-05 13:06:40,2023-10-05 13:06:40,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-004,Edge Chromium 117,user ingin memperbarui min order sama dengan 0,,2023-10-05 13:06:40,2023-10-05 13:06:58,18.282s,ERROR
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:06:40,2023-10-05 13:06:54,13.702s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:06:54,2023-10-05 13:06:55,0.486s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:06:55,2023-10-05 13:06:55,0.937s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Stok Awal""), ""0"")",Edge Chromium 117,,,2023-10-05 13:06:55,2023-10-05 13:06:57,1.034s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:06:57,2023-10-05 13:06:58,1.069s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:06:58,2023-10-05 13:06:58,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""minimum""]""))",Edge Chromium 117,,,2023-10-05 13:06:58,2023-10-05 13:06:58,0.725s,ERROR
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-005,Edge Chromium 117,user ingin memperbarui min order sama dengan -1,,2023-10-05 13:06:58,2023-10-05 13:07:17,19.110s,ERROR
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:06:59,2023-10-05 13:07:13,14.680s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:07:13,2023-10-05 13:07:14,0.483s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:07:14,2023-10-05 13:07:15,0.987s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Minimum Order""), ""-1"")",Edge Chromium 117,,,2023-10-05 13:07:15,2023-10-05 13:07:16,0.887s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:07:16,2023-10-05 13:07:17,1.063s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:07:17,2023-10-05 13:07:17,0.001s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""minimum""]""))",Edge Chromium 117,,,2023-10-05 13:07:17,2023-10-05 13:07:17,0.719s,ERROR
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-006,Edge Chromium 117,user ingin memperbarui nama kupon yang memiliki spasi,,2023-10-05 13:07:17,2023-10-05 13:07:40,22.928s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-009""), [""kodeKupon"":""product30"", ""jumlah"":""4"", ""expired"":""2023-11-11"", ""minOrder"":""2"", ""nilai"":""300""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:07:18,2023-10-05 13:07:39,21.352s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:07:39,2023-10-05 13:07:39,0.363s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Kode Kupon""), ""Product 31"")",Edge Chromium 117,,,2023-10-05 13:07:39,2023-10-05 13:07:40,0.702s,PASSED
+notif = getAlertText(),Edge Chromium 117,,,2023-10-05 13:07:40,2023-10-05 13:07:40,0.298s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-007,Edge Chromium 117,user ingin memperbarui jumlah diskon sama dengan -1,,2023-10-05 13:07:40,2023-10-05 13:07:59,18.223s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:07:41,2023-10-05 13:07:53,12.620s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:07:53,2023-10-05 13:07:54,0.473s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:07:54,2023-10-05 13:07:55,0.945s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:07:55,2023-10-05 13:07:55,0.577s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:07:55,2023-10-05 13:07:56,0.646s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:07:56,2023-10-05 13:07:56,0.354s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Jumlah Kode kupon""), ""-1"")",Edge Chromium 117,,,2023-10-05 13:07:56,2023-10-05 13:07:57,0.880s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:07:57,2023-10-05 13:07:58,0.379s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:07:58,2023-10-05 13:07:58,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""jumlah_kupon""]""))",Edge Chromium 117,,,2023-10-05 13:07:58,2023-10-05 13:07:59,1.044s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:07:59,2023-10-05 13:07:59,0.009s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:07:59,2023-10-05 13:07:59,0.000s,PASSED
+"assert accept_button_message == ""Please input Valid.""",Edge Chromium 117,,,2023-10-05 13:07:59,2023-10-05 13:07:59,0.003s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-008,Edge Chromium 117,user ingin memperbarui masa berlaku voucher dengan penulisan tidak sesuai,,2023-10-05 13:07:59,2023-10-05 13:08:18,19.419s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:07:59,2023-10-05 13:08:13,13.659s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:08:13,2023-10-05 13:08:13,0.496s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:08:13,2023-10-05 13:08:14,1.000s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:08:14,2023-10-05 13:08:15,0.601s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:08:15,2023-10-05 13:08:15,0.647s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:08:15,2023-10-05 13:08:16,0.352s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Masa Berlaku""), ""11-11-1111"")",Edge Chromium 117,,,2023-10-05 13:08:16,2023-10-05 13:08:17,0.936s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:08:17,2023-10-05 13:08:17,0.352s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:08:17,2023-10-05 13:08:17,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""expire_date""]""))",Edge Chromium 117,,,2023-10-05 13:08:17,2023-10-05 13:08:18,1.054s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:08:18,2023-10-05 13:08:18,0.011s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:08:18,2023-10-05 13:08:18,0.000s,PASSED
+"assert accept_button_message == ""Please input Valid.""",Edge Chromium 117,,,2023-10-05 13:08:18,2023-10-05 13:08:18,0.001s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-009,Edge Chromium 117,user ingin memperbarui masa berlaku voucher dengan waktu masa lalu,,2023-10-05 13:08:18,2023-10-05 13:08:38,20.192s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:08:18,2023-10-05 13:08:32,14.140s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:08:32,2023-10-05 13:08:33,0.510s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:08:33,2023-10-05 13:08:34,1.198s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:08:34,2023-10-05 13:08:35,0.635s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:08:35,2023-10-05 13:08:35,0.679s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:08:35,2023-10-05 13:08:36,0.362s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Masa Berlaku""), ""1945-11-11"")",Edge Chromium 117,,,2023-10-05 13:08:36,2023-10-05 13:08:37,0.871s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:08:37,2023-10-05 13:08:37,0.391s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:08:37,2023-10-05 13:08:37,0.001s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""expire_date""]""))",Edge Chromium 117,,,2023-10-05 13:08:37,2023-10-05 13:08:38,1.057s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:08:38,2023-10-05 13:08:38,0.024s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:08:38,2023-10-05 13:08:38,0.000s,PASSED
+"assert accept_button_message == ""Please input Valid.""",Edge Chromium 117,,,2023-10-05 13:08:38,2023-10-05 13:08:38,0.001s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-010,Edge Chromium 117,user mengupload data lebih dari 10 mb,,2023-10-05 13:08:38,2023-10-05 13:08:57,18.806s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:08:38,2023-10-05 13:08:52,13.909s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:08:52,2023-10-05 13:08:53,0.501s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:08:53,2023-10-05 13:08:54,1.114s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:08:54,2023-10-05 13:08:55,0.676s,PASSED
+"uploadFile(findTestObject(""Product Ecommerce/Tambahkan Product/Input File""), ""E:\Pelatihan\Xsis Academy\DJI_0621.DNG"")",Edge Chromium 117,,,2023-10-05 13:08:55,2023-10-05 13:08:55,0.344s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:08:55,2023-10-05 13:08:56,1.341s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:08:56,2023-10-05 13:08:57,0.644s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-011,Edge Chromium 117,user input data satuan menggunakan Angka,,2023-10-05 13:08:57,2023-10-05 13:09:45,48.432s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:08:57,2023-10-05 13:09:10,13.044s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:09:10,2023-10-05 13:09:11,0.551s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:09:11,2023-10-05 13:09:12,1.154s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:09:12,2023-10-05 13:09:13,0.559s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Satuan""), ""12345"")",Edge Chromium 117,,,2023-10-05 13:09:13,2023-10-05 13:09:13,0.704s,PASSED
+"click(findTestObject(""Product Admin/TambahProduk/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:09:13,2023-10-05 13:09:14,1.236s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:09:14,2023-10-05 13:09:45,30.953s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-012,Edge Chromium 117,user langsung simpan voucher tanpa input data apapun,,2023-10-05 13:09:45,2023-10-05 13:10:02,16.897s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:09:46,2023-10-05 13:09:58,12.625s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:09:58,2023-10-05 13:09:59,0.495s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:09:59,2023-10-05 13:10:00,0.982s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:10:00,2023-10-05 13:10:00,0.556s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:10:00,2023-10-05 13:10:01,0.374s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:10:01,2023-10-05 13:10:01,0.641s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:10:01,2023-10-05 13:10:02,0.379s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:10:02,2023-10-05 13:10:02,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""kode_kupon""]""))",Edge Chromium 117,,,2023-10-05 13:10:02,2023-10-05 13:10:02,0.523s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:10:02,2023-10-05 13:10:02,0.025s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:10:02,2023-10-05 13:10:02,0.000s,PASSED
+"assert accept_button_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-05 13:10:02,2023-10-05 13:10:02,0.001s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-013,Edge Chromium 117,user input nama voucher dengan karakter spesial,,2023-10-05 13:10:02,2023-10-05 13:10:23,20.351s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:10:03,2023-10-05 13:10:16,13.509s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:10:16,2023-10-05 13:10:17,0.506s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:10:17,2023-10-05 13:10:18,1.117s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:10:18,2023-10-05 13:10:19,0.560s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:10:19,2023-10-05 13:10:19,0.413s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:10:19,2023-10-05 13:10:20,0.606s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:10:20,2023-10-05 13:10:20,0.469s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Kode Kupon""), ""~!@#$%^&*()"")",Edge Chromium 117,,,2023-10-05 13:10:20,2023-10-05 13:10:21,0.994s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:10:21,2023-10-05 13:10:22,0.537s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:10:22,2023-10-05 13:10:22,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""kode_kupon""]""))",Edge Chromium 117,,,2023-10-05 13:10:22,2023-10-05 13:10:23,1.073s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:10:23,2023-10-05 13:10:23,0.024s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:10:23,2023-10-05 13:10:23,0.001s,PASSED
+"assert accept_button_message == ""Code Name Is not valid""",Edge Chromium 117,,,2023-10-05 13:10:23,2023-10-05 13:10:23,0.002s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-014,Edge Chromium 117,user input nama voucher dengan  spasi,,2023-10-05 13:10:23,2023-10-05 13:10:46,23.132s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:10:23,2023-10-05 13:10:36,12.976s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:10:36,2023-10-05 13:10:37,0.491s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:10:37,2023-10-05 13:10:38,1.024s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:10:38,2023-10-05 13:10:38,0.536s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:10:38,2023-10-05 13:10:39,0.357s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:10:39,2023-10-05 13:10:39,0.648s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:10:39,2023-10-05 13:10:40,0.357s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Kode Kupon""), "" "")",Edge Chromium 117,,,2023-10-05 13:10:40,2023-10-05 13:10:40,0.819s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:10:40,2023-10-05 13:10:41,0.151s,PASSED
+delay(5),Edge Chromium 117,,,2023-10-05 13:10:41,2023-10-05 13:10:46,5.016s,PASSED
+notif = getAlertText(),Edge Chromium 117,,,2023-10-05 13:10:46,2023-10-05 13:10:46,0.238s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-015,Edge Chromium 117,user input berat dengan 1 milliar gram,,2023-10-05 13:10:46,2023-10-05 13:11:03,17.033s,ERROR
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:10:46,2023-10-05 13:10:59,12.597s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:10:59,2023-10-05 13:10:59,0.473s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:10:59,2023-10-05 13:11:00,0.951s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Berat""), ""1000000000"")",Edge Chromium 117,,,2023-10-05 13:11:00,2023-10-05 13:11:01,0.896s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:11:01,2023-10-05 13:11:02,1.164s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:11:02,2023-10-05 13:11:02,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""berat""]""))",Edge Chromium 117,,,2023-10-05 13:11:02,2023-10-05 13:11:03,0.617s,ERROR
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-016,Edge Chromium 117,user input min order lebih besar dari stok,,2023-10-05 13:11:03,2023-10-05 13:11:50,47.429s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:11:03,2023-10-05 13:11:16,12.524s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:11:16,2023-10-05 13:11:16,0.501s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:11:16,2023-10-05 13:11:17,0.986s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:11:17,2023-10-05 13:11:18,0.554s,PASSED
+"setText(findTestObject(""Product Admin/TambahProduk/Input Stok Awal""), ""5"")",Edge Chromium 117,,,2023-10-05 13:11:18,2023-10-05 13:11:18,0.696s,PASSED
+"setText(findTestObject(""Product Ecommerce/Tambahkan Product/Input Minimum Order""), ""10"")",Edge Chromium 117,,,2023-10-05 13:11:18,2023-10-05 13:11:19,0.674s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""))",Edge Chromium 117,,,2023-10-05 13:11:19,2023-10-05 13:11:19,0.404s,PASSED
+"verifyElementNotPresent(findTestObject(""Product Ecommerce/Verifikasi Halaman Product Anda""), 0)",Edge Chromium 117,,,2023-10-05 13:11:19,2023-10-05 13:11:50,30.858s,FAILED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-017,Edge Chromium 117,user menghapus kolom variasi sampai sampai mincul notifikasi kolom sudah habis,,2023-10-05 13:11:50,2023-10-05 13:12:08,17.215s,PASSED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:11:51,2023-10-05 13:12:04,13.333s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:12:04,2023-10-05 13:12:04,0.473s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:12:04,2023-10-05 13:12:05,1.020s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:12:05,2023-10-05 13:12:06,0.741s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Input Hapus Kolom Variasi 1""))",Edge Chromium 117,,,2023-10-05 13:12:06,2023-10-05 13:12:06,0.374s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Input Hapus Kolom Variasi 1""))",Edge Chromium 117,,,2023-10-05 13:12:06,2023-10-05 13:12:07,0.487s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Input Hapus Kolom Variasi 1""))",Edge Chromium 117,,,2023-10-05 13:12:07,2023-10-05 13:12:08,0.561s,PASSED
+notif = getAlertText(),Edge Chromium 117,,,2023-10-05 13:12:08,2023-10-05 13:12:08,0.005s,PASSED
+"assert ""Tidak ditemukan textbox untuk dihapus."" == notif",Edge Chromium 117,,,2023-10-05 13:12:08,2023-10-05 13:12:08,0.000s,PASSED
+,,,,,,,
+Test Cases/Product Ecommerce/TC-PEN-018,Edge Chromium 117,User input nama kode Voucher dengan lebih 30 karakter,,2023-10-05 13:12:08,2023-10-05 13:12:26,18.433s,FAILED
+"callTestCase(findTestCase(""Product Ecommerce/TC-PE-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-05 13:12:08,2023-10-05 13:12:20,12.438s,PASSED
+"mouseOver(findTestObject(""Product Ecommerce/Image Gambar produk 1""))",Edge Chromium 117,,,2023-10-05 13:12:20,2023-10-05 13:12:21,0.504s,PASSED
+"click(findTestObject(""Product Ecommerce/Tambahkan Product/Edit Data""))",Edge Chromium 117,,,2023-10-05 13:12:21,2023-10-05 13:12:22,0.962s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Tambahkan Product/Button Update Data""), 0)",Edge Chromium 117,,,2023-10-05 13:12:22,2023-10-05 13:12:22,0.524s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Buat Product""))",Edge Chromium 117,,,2023-10-05 13:12:22,2023-10-05 13:12:23,0.357s,PASSED
+"verifyElementPresent(findTestObject(""Product Ecommerce/Kupon/Verifikasi Halaman Voucher Product""), 0)",Edge Chromium 117,,,2023-10-05 13:12:23,2023-10-05 13:12:23,0.648s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Edit Voucher""))",Edge Chromium 117,,,2023-10-05 13:12:23,2023-10-05 13:12:24,0.353s,PASSED
+"setText(findTestObject(""Product Ecommerce/Kupon/Input Kode Kupon""), ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"")",Edge Chromium 117,,,2023-10-05 13:12:24,2023-10-05 13:12:25,0.915s,PASSED
+"click(findTestObject(""Product Ecommerce/Kupon/Button Simpan""))",Edge Chromium 117,,,2023-10-05 13:12:25,2023-10-05 13:12:25,0.357s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-05 13:12:25,2023-10-05 13:12:25,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@id=""kode_kupon""]""))",Edge Chromium 117,,,2023-10-05 13:12:25,2023-10-05 13:12:26,1.065s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-05 13:12:26,2023-10-05 13:12:26,0.010s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-05 13:12:26,2023-10-05 13:12:26,0.000s,PASSED
+"assert accept_button_message == ""Code Name Is not valid""",Edge Chromium 117,,,2023-10-05 13:12:26,2023-10-05 13:12:26,0.001s,FAILED

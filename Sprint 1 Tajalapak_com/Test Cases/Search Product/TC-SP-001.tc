@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User memasukkan nama product di Kolom pencarian produk dengan input valid.</description>
+   <name>TC-SP-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c1b5617-7bc7-424b-baf5-1ebbbc40b04d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca28422f-ff70-4491-8c53-fac2ad18c08c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dell'</defaultValue>
+      <description></description>
+      <id>ca28422f-ff70-4491-8c53-fac2ad18c08c</id>
+      <masked>false</masked>
+      <name>merk</name>
+   </variable>
+</TestCaseEntity>

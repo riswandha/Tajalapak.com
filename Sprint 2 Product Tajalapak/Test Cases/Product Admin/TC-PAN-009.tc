@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan update dengan upload gambar pada kolom keteragan dengan Link gambar yang tidak sesuai dengan format</description>
+   <name>TC-PAN-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb81cfe5-4f35-45ff-8b3e-1df1893bb1cd</testCaseGuid>
+</TestCaseEntity>

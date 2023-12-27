@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User tidak memilih katagori produk saat menambahkan produk</description>
+   <name>TC-PAN-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3675319b-a410-4907-b1a1-54b35617aa1d</testCaseGuid>
+</TestCaseEntity>

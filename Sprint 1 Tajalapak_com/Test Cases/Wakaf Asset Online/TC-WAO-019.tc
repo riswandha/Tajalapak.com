@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Input perkiraan Nilai Asset -1</description>
+   <name>TC-WAO-019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df272d82-146b-4d56-b79c-edb8fb0c5bb5</testCaseGuid>
+</TestCaseEntity>

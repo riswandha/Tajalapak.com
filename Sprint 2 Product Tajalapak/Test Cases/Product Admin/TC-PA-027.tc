@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin Update data Produk namun membatalkannya</description>
+   <name>TC-PA-027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abfa2983-11d4-4a90-8371-5743ca2865b1</testCaseGuid>
+</TestCaseEntity>

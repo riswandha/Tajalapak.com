@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika user tidak memasukkan nama product di search product</description>
+   <name>TC-SPN-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c261d06-7fb0-489c-8681-c8a7c8781151</testCaseGuid>
+</TestCaseEntity>

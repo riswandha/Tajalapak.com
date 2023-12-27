@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Mengupload data lebih dari 10 MB</description>
+   <name>TC-PAN-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b239950-1393-46a3-83c5-c239a203d994</testCaseGuid>
+</TestCaseEntity>

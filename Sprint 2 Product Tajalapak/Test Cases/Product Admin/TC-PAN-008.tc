@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan input harga diskon lebih dari harga produk</description>
+   <name>TC-PAN-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a15c4f96-cf9a-4723-9a26-53bf31171c82</testCaseGuid>
+</TestCaseEntity>

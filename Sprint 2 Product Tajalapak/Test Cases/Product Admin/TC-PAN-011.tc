@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan update dengan ganti nama product menjadi spasi</description>
+   <name>TC-PAN-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ccda0d4-975f-4cf7-9cf3-ff64d1b4102c</testCaseGuid>
+</TestCaseEntity>

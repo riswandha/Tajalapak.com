@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin menghapus Kupon produk</description>
+   <name>TC-PE-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d385f54d-65c9-4fbd-b1a3-22af7f9de330</testCaseGuid>
+</TestCaseEntity>

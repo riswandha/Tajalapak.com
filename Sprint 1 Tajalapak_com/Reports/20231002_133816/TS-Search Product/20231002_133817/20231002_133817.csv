@@ -1,0 +1,213 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Search Product,Edge Chromium 117,,,2023-10-02 13:38:26,2023-10-02 13:45:13,6m - 46.256s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SP-001,Edge Chromium 117,User memasukkan nama product di Kolom pencarian produk dengan input valid.,,2023-10-02 13:38:27,2023-10-02 13:39:09,42.887s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:38:27,2023-10-02 13:39:06,38.553s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:39:06,2023-10-02 13:39:06,0.261s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:39:06,2023-10-02 13:39:07,0.862s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:39:07,2023-10-02 13:39:08,0.880s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:39:08,2023-10-02 13:39:09,1.188s,PASSED
+"merk_product = getText(findTestObject(""Object Repository/Search Product/Laptop Merk Dell""))",Edge Chromium 117,,,2023-10-02 13:39:09,2023-10-02 13:39:09,0.682s,PASSED
+merkLowercase = merk_product.toLowerCase(),Edge Chromium 117,,,2023-10-02 13:39:09,2023-10-02 13:39:09,0.002s,PASSED
+assert merkLowercase.contains(merk.toLowerCase()),Edge Chromium 117,,,2023-10-02 13:39:09,2023-10-02 13:39:09,0.004s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-002,Edge Chromium 117,user memasukkan nama product di pencarian produk dengan input valid dengan hanya 1 huruf.,,2023-10-02 13:39:09,2023-10-02 13:39:20,10.681s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:39:10,2023-10-02 13:39:16,6.407s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:39:16,2023-10-02 13:39:17,0.146s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:39:17,2023-10-02 13:39:17,0.787s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:39:17,2023-10-02 13:39:18,0.763s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:39:18,2023-10-02 13:39:19,1.253s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Semua nama Produk""), 10)",Edge Chromium 117,,,2023-10-02 13:39:19,2023-10-02 13:39:20,0.598s,PASSED
+arrProdukName = [],Edge Chromium 117,,,2023-10-02 13:39:20,2023-10-02 13:39:20,0.002s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:39:20,2023-10-02 13:39:20,0.193s,PASSED
+print(arrProdukName),Edge Chromium 117,,,2023-10-02 13:39:20,2023-10-02 13:39:20,0.004s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:39:20,2023-10-02 13:39:20,0.010s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-003,Edge Chromium 117,user memasukkan harga maksimal dan minimal produk saat mencari product,,2023-10-02 13:39:20,2023-10-02 13:39:35,15.231s,FAILED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:39:21,2023-10-02 13:39:30,9.771s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), Min)",Edge Chromium 117,,,2023-10-02 13:39:30,2023-10-02 13:39:32,1.355s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), Max)",Edge Chromium 117,,,2023-10-02 13:39:32,2023-10-02 13:39:33,1.110s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:39:33,2023-10-02 13:39:35,1.567s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Harga Semua Product""), 10)",Edge Chromium 117,,,2023-10-02 13:39:35,2023-10-02 13:39:35,0.682s,PASSED
+arrProdukHarga = [],Edge Chromium 117,,,2023-10-02 13:39:35,2023-10-02 13:39:35,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:39:35,2023-10-02 13:39:35,0.186s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:39:35,2023-10-02 13:39:35,0.021s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SP-004,Edge Chromium 117,user memasukkan harga maksimal dan minimal produk saat mencari product dan kemudian merubahnya,,2023-10-02 13:39:35,2023-10-02 13:39:55,19.267s,PASSED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:39:36,2023-10-02 13:39:47,10.628s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), ""5000"")",Edge Chromium 117,,,2023-10-02 13:39:47,2023-10-02 13:39:48,1.016s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), ""10000"")",Edge Chromium 117,,,2023-10-02 13:39:48,2023-10-02 13:39:49,1.196s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:39:49,2023-10-02 13:39:50,1.416s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), Min)",Edge Chromium 117,,,2023-10-02 13:39:50,2023-10-02 13:39:52,1.594s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), Max)",Edge Chromium 117,,,2023-10-02 13:39:52,2023-10-02 13:39:53,1.044s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:39:53,2023-10-02 13:39:54,1.067s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Harga Semua Product""), 10)",Edge Chromium 117,,,2023-10-02 13:39:54,2023-10-02 13:39:55,0.665s,PASSED
+arrProdukHarga = [],Edge Chromium 117,,,2023-10-02 13:39:55,2023-10-02 13:39:55,0.001s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:39:55,2023-10-02 13:39:55,0.093s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:39:55,2023-10-02 13:39:55,0.005s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-005,Edge Chromium 117,user ingin menampilkan harga termurah dari product yang telah dicari,,2023-10-02 13:39:55,2023-10-02 13:40:09,14.544s,FAILED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:39:55,2023-10-02 13:40:06,11.293s,PASSED
+"selectOptionByValue(findTestObject(""Search Product/Pilih Urutan""), ""asc"", false)",Edge Chromium 117,,,2023-10-02 13:40:06,2023-10-02 13:40:07,0.894s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:40:07,2023-10-02 13:40:08,1.267s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Harga Semua Product""), 10)",Edge Chromium 117,,,2023-10-02 13:40:08,2023-10-02 13:40:09,0.646s,PASSED
+arrProdukHargaOri = [],Edge Chromium 117,,,2023-10-02 13:40:09,2023-10-02 13:40:09,0.000s,PASSED
+arrProdukHargaSort = [],Edge Chromium 117,,,2023-10-02 13:40:09,2023-10-02 13:40:09,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:40:09,2023-10-02 13:40:09,0.131s,PASSED
+Arrays.sort(arrProdukHargaSort),Edge Chromium 117,,,2023-10-02 13:40:09,2023-10-02 13:40:09,0.012s,PASSED
+assert arrProdukHargaOri == arrProdukHargaSort,Edge Chromium 117,,,2023-10-02 13:40:09,2023-10-02 13:40:09,0.001s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SP-006,Edge Chromium 117,user ingin menampilkan harga termahal dari product yang telah dicari,,2023-10-02 13:40:09,2023-10-02 13:40:23,13.916s,FAILED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:40:10,2023-10-02 13:40:20,10.426s,PASSED
+"selectOptionByValue(findTestObject(""Search Product/Pilih Urutan""), ""desc"", false)",Edge Chromium 117,,,2023-10-02 13:40:20,2023-10-02 13:40:21,1.269s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:40:21,2023-10-02 13:40:22,1.161s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Harga Semua Product""), 10)",Edge Chromium 117,,,2023-10-02 13:40:22,2023-10-02 13:40:23,0.655s,PASSED
+arrProdukHargaOri = [],Edge Chromium 117,,,2023-10-02 13:40:23,2023-10-02 13:40:23,0.000s,PASSED
+arrProdukHargaSort = [],Edge Chromium 117,,,2023-10-02 13:40:23,2023-10-02 13:40:23,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:40:23,2023-10-02 13:40:23,0.129s,PASSED
+"Arrays.sort(arrProdukHargaSort, Collections.reverseOrder())",Edge Chromium 117,,,2023-10-02 13:40:23,2023-10-02 13:40:23,0.006s,PASSED
+assert arrProdukHargaOri == arrProdukHargaSort,Edge Chromium 117,,,2023-10-02 13:40:23,2023-10-02 13:40:23,0.001s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SP-007,Edge Chromium 117,user ingin menampilkan katagori yang memiliki huruf a dan hanya ingin menampilkan elektronik saja,,2023-10-02 13:40:23,2023-10-02 13:40:36,12.582s,PASSED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:40:23,2023-10-02 13:40:34,10.304s,PASSED
+"click(findTestObject(""Search Product/Katagoti Elektronik""))",Edge Chromium 117,,,2023-10-02 13:40:34,2023-10-02 13:40:35,1.139s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Nama Product Elektronik""), 10)",Edge Chromium 117,,,2023-10-02 13:40:35,2023-10-02 13:40:35,0.557s,PASSED
+"jumlah = getText(findTestObject(""Object Repository/Search Product/Jumlah Elektronik""))",Edge Chromium 117,,,2023-10-02 13:40:35,2023-10-02 13:40:36,0.321s,PASSED
+"angka1 = jumlah.replace(""("", """")",Edge Chromium 117,,,2023-10-02 13:40:36,2023-10-02 13:40:36,0.001s,PASSED
+"angkaStr = angka1.replace("")"", """")",Edge Chromium 117,,,2023-10-02 13:40:36,2023-10-02 13:40:36,0.000s,PASSED
+println(angkaStr),Edge Chromium 117,,,2023-10-02 13:40:36,2023-10-02 13:40:36,0.001s,PASSED
+println(dataList.size()),Edge Chromium 117,,,2023-10-02 13:40:36,2023-10-02 13:40:36,0.001s,PASSED
+assert Integer.parseInt(angkaStr) == dataList.size(),Edge Chromium 117,,,2023-10-02 13:40:36,2023-10-02 13:40:36,0.001s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-008,Edge Chromium 117,Ketika user Masukkan kata kunci produk yang tidak ditemukan dalam kotak pencarian.,,2023-10-02 13:40:36,2023-10-02 13:40:46,9.901s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:40:36,2023-10-02 13:40:43,6.665s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:40:43,2023-10-02 13:40:43,0.158s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), ""Kamera Vintage"")",Edge Chromium 117,,,2023-10-02 13:40:43,2023-10-02 13:40:44,1.138s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:40:44,2023-10-02 13:40:45,1.064s,PASSED
+"verifyElementText(findTestObject(""Search Product/produk gak ditemukan""), ""Oops, produk gak ditemukan"")",Edge Chromium 117,,,2023-10-02 13:40:45,2023-10-02 13:40:46,0.668s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-009,Edge Chromium 117,ketika user memilih katagori produk tanpa mengisi kolom pencarian,,2023-10-02 13:40:46,2023-10-02 13:40:55,9.635s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:40:46,2023-10-02 13:40:52,6.220s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:40:52,2023-10-02 13:40:52,0.148s,PASSED
+"mouseOver(findTestObject(""Search Product/Kategori Produk""))",Edge Chromium 117,,,2023-10-02 13:40:52,2023-10-02 13:40:53,0.918s,PASSED
+"mouseOver(findTestObject(""Search Product/Katagori Fashion Busana Pria""))",Edge Chromium 117,,,2023-10-02 13:40:53,2023-10-02 13:40:54,0.500s,PASSED
+"click(findTestObject(""Search Product/Katagori Fashion Busana Pria Accessoris""))",Edge Chromium 117,,,2023-10-02 13:40:54,2023-10-02 13:40:55,0.955s,PASSED
+"verifyElementText(findTestObject(""Search Product/Nama Product/Men Singelete - Baju Dalam Menarik""), ""Men Singelete - Baju Dalam Menarik"")",Edge Chromium 117,,,2023-10-02 13:40:55,2023-10-02 13:40:55,0.689s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-010,Edge Chromium 117,User Memasukkan Input dengan Besar Kecilya huruf yang berbeda,,2023-10-02 13:40:55,2023-10-02 13:41:06,10.209s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:40:56,2023-10-02 13:41:02,6.629s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:41:02,2023-10-02 13:41:02,0.150s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:41:02,2023-10-02 13:41:03,0.706s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:41:03,2023-10-02 13:41:04,0.706s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:41:04,2023-10-02 13:41:05,1.115s,PASSED
+"merk_product = getText(findTestObject(""Object Repository/Search Product/Laptop Merk Dell""))",Edge Chromium 117,,,2023-10-02 13:41:05,2023-10-02 13:41:06,0.680s,PASSED
+merkLowercase = merk_product.toLowerCase(),Edge Chromium 117,,,2023-10-02 13:41:06,2023-10-02 13:41:06,0.000s,PASSED
+assert merkLowercase.contains(merk.toLowerCase()),Edge Chromium 117,,,2023-10-02 13:41:06,2023-10-02 13:41:06,0.001s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SP-011,Edge Chromium 117,User memasukkan harga maksimal sebesar 2 miliar dan minimal 1 miliar pada produk saat mencari product,,2023-10-02 13:41:06,2023-10-02 13:41:30,24.652s,PASSED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:41:06,2023-10-02 13:41:15,9.381s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), Min)",Edge Chromium 117,,,2023-10-02 13:41:15,2023-10-02 13:41:17,1.339s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), Max)",Edge Chromium 117,,,2023-10-02 13:41:17,2023-10-02 13:41:18,1.179s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:41:18,2023-10-02 13:41:19,1.361s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Harga Semua Product""), 10)",Edge Chromium 117,,,2023-10-02 13:41:19,2023-10-02 13:41:30,11.049s,PASSED
+arrProdukHarga = [],Edge Chromium 117,,,2023-10-02 13:41:30,2023-10-02 13:41:30,0.011s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:41:30,2023-10-02 13:41:30,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:41:30,2023-10-02 13:41:30,0.000s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-001,Edge Chromium 117,"user memasukkan harga maksimal dan minimal produk saat mencari product dan kemudian merubahnya minimal menjadi Kosong("""")",,2023-10-02 13:41:30,2023-10-02 13:41:50,19.714s,PASSED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:41:30,2023-10-02 13:41:41,10.320s,PASSED
+"terkecil = getAttribute(findTestObject(""Object Repository/Search Product/input_Filter Produk_dari""), ""value"")",Edge Chromium 117,,,2023-10-02 13:41:41,2023-10-02 13:41:41,0.335s,PASSED
+"terbesar = getAttribute(findTestObject(""Object Repository/Search Product/input_Filter Produk_sampai""), ""value"")",Edge Chromium 117,,,2023-10-02 13:41:41,2023-10-02 13:41:42,0.624s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), ""5000"")",Edge Chromium 117,,,2023-10-02 13:41:42,2023-10-02 13:41:43,0.798s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), ""10000"")",Edge Chromium 117,,,2023-10-02 13:41:43,2023-10-02 13:41:44,1.140s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:41:44,2023-10-02 13:41:45,1.485s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), """")",Edge Chromium 117,,,2023-10-02 13:41:45,2023-10-02 13:41:47,1.600s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), """")",Edge Chromium 117,,,2023-10-02 13:41:47,2023-10-02 13:41:48,1.045s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:41:48,2023-10-02 13:41:49,1.177s,PASSED
+println(terkecil),Edge Chromium 117,,,2023-10-02 13:41:49,2023-10-02 13:41:49,0.001s,PASSED
+println(terbesar),Edge Chromium 117,,,2023-10-02 13:41:49,2023-10-02 13:41:49,0.001s,PASSED
+"terkecil1 = getAttribute(findTestObject(""Object Repository/Search Product/input_Filter Produk_dari""), ""value"")",Edge Chromium 117,,,2023-10-02 13:41:49,2023-10-02 13:41:50,0.560s,PASSED
+"terbesar1 = getAttribute(findTestObject(""Object Repository/Search Product/input_Filter Produk_sampai""), ""value"")",Edge Chromium 117,,,2023-10-02 13:41:50,2023-10-02 13:41:50,0.341s,PASSED
+assert terkecil == terkecil1,Edge Chromium 117,,,2023-10-02 13:41:50,2023-10-02 13:41:50,0.001s,PASSED
+assert terbesar == terbesar1,Edge Chromium 117,,,2023-10-02 13:41:50,2023-10-02 13:41:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-002,Edge Chromium 117,user memasukkan harga maksimal di kolom minimal produk dan harga minimal di kolom maksimal produk,,2023-10-02 13:41:50,2023-10-02 13:42:06,15.626s,FAILED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:41:50,2023-10-02 13:42:01,10.914s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), ""9000"")",Edge Chromium 117,,,2023-10-02 13:42:01,2023-10-02 13:42:02,1.328s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), ""4000"")",Edge Chromium 117,,,2023-10-02 13:42:02,2023-10-02 13:42:04,1.149s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:42:04,2023-10-02 13:42:05,1.408s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:42:05,2023-10-02 13:42:05,0.001s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""dari""]""))",Edge Chromium 117,,,2023-10-02 13:42:05,2023-10-02 13:42:06,0.502s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_username)",Edge Chromium 117,,,2023-10-02 13:42:06,2023-10-02 13:42:06,0.021s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-02 13:42:06,2023-10-02 13:42:06,0.000s,PASSED
+"assert error_message == ""Check Your Price""",Edge Chromium 117,,,2023-10-02 13:42:06,2023-10-02 13:42:06,0.001s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-003,Edge Chromium 117,Ketika user tidak memasukkan nama product di search product,,2023-10-02 13:42:06,2023-10-02 13:42:14,8.202s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:42:06,2023-10-02 13:42:13,6.691s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:42:13,2023-10-02 13:42:13,0.138s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:42:13,2023-10-02 13:42:13,0.794s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:42:13,2023-10-02 13:42:13,0.000s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""s""]""))",Edge Chromium 117,,,2023-10-02 13:42:13,2023-10-02 13:42:14,0.281s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_username)",Edge Chromium 117,,,2023-10-02 13:42:14,2023-10-02 13:42:14,0.023s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-02 13:42:14,2023-10-02 13:42:14,0.000s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-02 13:42:14,2023-10-02 13:42:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-004,Edge Chromium 117,Ketika user Masukkan kata kunci produk pada kolom product,,2023-10-02 13:42:14,2023-10-02 13:42:23,9.185s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:42:14,2023-10-02 13:42:21,6.560s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:42:21,2023-10-02 13:42:21,0.138s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), ""Dell"")",Edge Chromium 117,,,2023-10-02 13:42:21,2023-10-02 13:42:22,1.208s,PASSED
+"verifyTextPresent(""Dell"", false)",Edge Chromium 117,,,2023-10-02 13:42:22,2023-10-02 13:42:23,0.993s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-005,Edge Chromium 117,Masukkan kata kunci yang sama berkali-kali dalam kotak pencarian.,,2023-10-02 13:42:23,2023-10-02 13:42:33,10.267s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:42:23,2023-10-02 13:42:30,6.754s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:42:30,2023-10-02 13:42:30,0.138s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), ""Dell Dell Dell"")",Edge Chromium 117,,,2023-10-02 13:42:30,2023-10-02 13:42:31,1.145s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:42:31,2023-10-02 13:42:32,1.143s,PASSED
+"verifyTextPresent(""DELL"", false)",Edge Chromium 117,,,2023-10-02 13:42:32,2023-10-02 13:42:33,0.821s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-006,Edge Chromium 117,user memasukkan harga minimal produk saat mencari product,,2023-10-02 13:42:33,2023-10-02 13:43:17,44.150s,FAILED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:42:33,2023-10-02 13:42:44,10.304s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_dari""), min)",Edge Chromium 117,,,2023-10-02 13:42:44,2023-10-02 13:42:45,1.066s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:42:45,2023-10-02 13:42:46,1.434s,PASSED
+"verifyElementNotPresent(findTestObject(""Search Product/Produk Tidak Ditemukan""), 0)",Edge Chromium 117,,,2023-10-02 13:42:46,2023-10-02 13:43:17,31.085s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-007,Edge Chromium 117,user memasukkan harga maksimal produk saat mencari product,,2023-10-02 13:43:17,2023-10-02 13:43:33,15.390s,FAILED
+"callTestCase(findTestCase(""Search Product/TC-SP-002""), [""merk"":""a""], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-02 13:43:18,2023-10-02 13:43:29,11.192s,PASSED
+"setText(findTestObject(""Search Product/input_Filter Produk_sampai""), max)",Edge Chromium 117,,,2023-10-02 13:43:29,2023-10-02 13:43:30,1.302s,PASSED
+"click(findTestObject(""Search Product/button_Tampilkan product dari sampai""))",Edge Chromium 117,,,2023-10-02 13:43:30,2023-10-02 13:43:32,1.750s,PASSED
+"dataList = findWebElements(findTestObject(""Object Repository/Search Product/Harga Semua Product""), 10)",Edge Chromium 117,,,2023-10-02 13:43:32,2023-10-02 13:43:33,0.666s,PASSED
+arrProdukHarga = [],Edge Chromium 117,,,2023-10-02 13:43:33,2023-10-02 13:43:33,0.000s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:43:33,2023-10-02 13:43:33,0.137s,PASSED
+"for ([i = 0, i < dataList.size(), (i++)])",Edge Chromium 117,,,2023-10-02 13:43:33,2023-10-02 13:43:33,0.004s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-008,Edge Chromium 117,User Memasukkan spasi pada kolom pencarian,,2023-10-02 13:43:33,2023-10-02 13:44:13,40.619s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:43:33,2023-10-02 13:43:39,6.142s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:43:39,2023-10-02 13:43:39,0.147s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:43:39,2023-10-02 13:43:40,0.762s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:43:40,2023-10-02 13:43:41,0.740s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:43:41,2023-10-02 13:43:42,1.240s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Produk Tidak Ditemukan""), 0)",Edge Chromium 117,,,2023-10-02 13:43:42,2023-10-02 13:44:13,31.305s,FAILED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-009,Edge Chromium 117,User Memasukkan karakter spesial pada kolom pencarian,,2023-10-02 13:44:13,2023-10-02 13:44:23,9.702s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:44:14,2023-10-02 13:44:20,6.276s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:44:20,2023-10-02 13:44:20,0.144s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:44:20,2023-10-02 13:44:21,0.686s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:44:21,2023-10-02 13:44:21,0.731s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:44:21,2023-10-02 13:44:22,0.976s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Produk Tidak Ditemukan""), 0)",Edge Chromium 117,,,2023-10-02 13:44:22,2023-10-02 13:44:23,0.656s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-010,Edge Chromium 117,User Memasukkan angka saja pada kolom pencarian,,2023-10-02 13:44:23,2023-10-02 13:44:32,9.200s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:44:23,2023-10-02 13:44:29,5.703s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:44:29,2023-10-02 13:44:29,0.141s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:44:29,2023-10-02 13:44:30,0.727s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:44:30,2023-10-02 13:44:31,0.699s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:44:31,2023-10-02 13:44:31,0.827s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Produk Tidak Ditemukan""), 0)",Edge Chromium 117,,,2023-10-02 13:44:31,2023-10-02 13:44:32,0.896s,PASSED
+,,,,,,,
+Test Cases/Search Product/TC-SPN-011,Edge Chromium 117,User Memasukkan Input nama product dengan lebih dari 70 karakter,,2023-10-02 13:44:32,2023-10-02 13:45:13,40.217s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:44:33,2023-10-02 13:44:38,5.659s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:44:38,2023-10-02 13:44:38,0.145s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:44:38,2023-10-02 13:44:39,0.712s,PASSED
+"setText(findTestObject(""Search Product/Input Product""), merk)",Edge Chromium 117,,,2023-10-02 13:44:39,2023-10-02 13:44:40,0.853s,PASSED
+"click(findTestObject(""Search Product/button_Cari Product""))",Edge Chromium 117,,,2023-10-02 13:44:40,2023-10-02 13:44:41,1.178s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Produk Tidak Ditemukan""), 0)",Edge Chromium 117,,,2023-10-02 13:44:41,2023-10-02 13:45:13,31.421s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan input data berat menjadi 0</description>
+   <name>TC-PAN-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cadb4672-1f3f-4dc6-a1f9-8bc0a009632e</testCaseGuid>
+</TestCaseEntity>

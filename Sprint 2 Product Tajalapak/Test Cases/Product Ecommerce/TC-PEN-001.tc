@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin memperbarui gambar product dengan format gambar selain jpg</description>
+   <name>TC-PEN-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a22eaf1-3236-45e7-bd56-ced9219a4775</testCaseGuid>
+</TestCaseEntity>

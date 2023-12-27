@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user memasukkan harga maksimal di kolom minimal produk dan harga minimal di kolom maksimal produk</description>
+   <name>TC-SPN-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0efc7768-b41f-4817-bafa-a3df80fd8ad3</testCaseGuid>
+</TestCaseEntity>

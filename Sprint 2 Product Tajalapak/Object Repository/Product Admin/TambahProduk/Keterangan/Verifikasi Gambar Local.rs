@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verifikasi Gambar Local</name>
+   <tag></tag>
+   <elementGuidId>62c6f37b-5e6d-45ce-a2ee-26a89a4880ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/images/panci5.jpg')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body.skin-black-light.sidebar-mini.pace-done > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d7380e8d-a601-4441-a441-41f68c7cb67b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/asset/images/panci5.jpg</value>
+      <webElementGuid>e0720c83-2163-42f4-bbba-9f776ea72b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini    pace-done&quot;]/img[1]</value>
+      <webElementGuid>35857908-28e4-43e2-8075-8f17bc0545c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/images/panci5.jpg')]</value>
+      <webElementGuid>a6a948b8-9d95-418e-8827-85adaffb6cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/img</value>
+      <webElementGuid>c55504ed-c956-4393-821f-14cea4f0b48b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://10.9.2.63/ecommerce/asset/images/panci5.jpg']</value>
+      <webElementGuid>ebae20ed-d2e0-4288-88e0-cf45178ec244</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

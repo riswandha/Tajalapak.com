@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin mengupdate Kupon produk dengan data valid</description>
+   <name>TC-PE-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa2c1cce-6c74-4459-975f-7db1da7dc78b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>370e29f6-19ee-4993-925f-417988a72a5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Product31'</defaultValue>
+      <description></description>
+      <id>370e29f6-19ee-4993-925f-417988a72a5b</id>
+      <masked>false</masked>
+      <name>kodeKupon</name>
+   </variable>
+</TestCaseEntity>

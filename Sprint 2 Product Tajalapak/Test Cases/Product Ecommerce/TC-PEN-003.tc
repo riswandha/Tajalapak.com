@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin menambahkan produk namun langsung Klik tambahkan</description>
+   <name>TC-PEN-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cecac04e-320a-4bd2-928c-cc13b201cd9c</testCaseGuid>
+</TestCaseEntity>

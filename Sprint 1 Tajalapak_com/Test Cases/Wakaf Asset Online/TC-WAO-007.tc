@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika User memasukkan 2 digit terakhir nomor telepon yang berbeda</description>
+   <name>TC-WAO-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7e1cd82-0be8-47aa-a49e-21e82cd9482f</testCaseGuid>
+</TestCaseEntity>

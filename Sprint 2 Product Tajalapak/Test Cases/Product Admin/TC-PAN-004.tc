@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Update data gambar product selain format JPG</description>
+   <name>TC-PAN-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1b2e3d5-1c57-4d99-851f-494e6aa7f3b4</testCaseGuid>
+</TestCaseEntity>

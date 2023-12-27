@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan Input nomor dengan karakter spesial</description>
+   <name>TC-WAO-015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48903790-d5ee-4d09-8d5f-7d29320910e9</testCaseGuid>
+</TestCaseEntity>

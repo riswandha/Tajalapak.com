@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Bold Keterangan (1)</name>
+   <tag></tag>
+   <elementGuidId>f0e2241f-1b71-4651-b701-d9a998e1a447</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.note-icon-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/button[1]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c92b9755-ce2c-4eea-b59f-2ddd38777021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>note-icon-bold</value>
+      <webElementGuid>a67adb27-bfd4-4d9f-adb9-143296c1dc5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;note-editor note-frame panel panel-default&quot;]/div[@class=&quot;note-toolbar panel-heading&quot;]/div[@class=&quot;note-btn-group btn-group note-font&quot;]/button[@class=&quot;note-btn btn btn-default btn-sm note-btn-bold&quot;]/i[@class=&quot;note-icon-bold&quot;]</value>
+      <webElementGuid>9f37938f-4748-4aed-a0a6-423a4b885380</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/i</value>
+      <webElementGuid>c39866d3-a84e-4ecc-ae89-fd4e4545528b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

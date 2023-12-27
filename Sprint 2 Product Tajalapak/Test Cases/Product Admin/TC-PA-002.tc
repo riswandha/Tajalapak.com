@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin menampilkan product sebanyak 10/25/50/100</description>
+   <name>TC-PA-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a2323e5-ae9d-4bcd-85b0-5d30361f1588</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>107b83e3-8638-470a-8bba-346eae0c0aee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'25'</defaultValue>
+      <description></description>
+      <id>107b83e3-8638-470a-8bba-346eae0c0aee</id>
+      <masked>false</masked>
+      <name>show</name>
+   </variable>
+</TestCaseEntity>

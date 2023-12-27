@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih Urutan</name>
+   <tag></tag>
+   <elementGuidId>2a860a00-260f-4894-a3b7-919f43b1c9a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[9]/div/div/div[1]/aside[1]/form/select[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;urut&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>ca7396e8-ea70-455d-b881-59685c280ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>3fec4e18-02a6-4ddd-ac3e-0657ad9f4502</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>urut</value>
+      <webElementGuid>e65cc7e0-af64-41fb-a97e-572ba1a95c23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              UrutanTermurahTermahal            </value>
+      <webElementGuid>92f79aa1-a6b9-4a21-a0c0-f3fd5bd7cb59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shop-sidebar&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ps-layout--shop&quot;]/div[@class=&quot;ps-layout__left&quot;]/aside[@class=&quot;widget widget_shop&quot;]/form[@class=&quot;ps-form--widget-search&quot;]/select[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>11e2f292-4b91-4263-8795-f69e79dbd043</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='urut']</value>
+      <webElementGuid>2ba82554-f4a9-4b49-a6eb-d65a908aebc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shop-sidebar']/div/div/div/aside/form/select[5]</value>
+      <webElementGuid>799df2f9-4df7-4b04-81a3-ed12e981e5ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Produk'])[1]/following::select[5]</value>
+      <webElementGuid>53c7460b-0e27-4e69-b52c-f6122cd5c0e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencarian Produk'])[2]/following::select[5]</value>
+      <webElementGuid>fa9c1165-0af7-447b-a1b5-b33686965e75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampilkan'])[1]/preceding::select[1]</value>
+      <webElementGuid>8d80fdc5-efff-4287-8c23-b848a233882b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[2]/preceding::select[1]</value>
+      <webElementGuid>25cb1e8d-2a3e-4ff3-bdd6-7aed5cea3c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[5]</value>
+      <webElementGuid>fb33710a-30eb-45e8-a386-737f23f2dcb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'urut' and (text() = '
+              UrutanTermurahTermahal            ' or . = '
+              UrutanTermurahTermahal            ')]</value>
+      <webElementGuid>9a3d495c-2ece-45dd-876d-dd66ee50f530</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

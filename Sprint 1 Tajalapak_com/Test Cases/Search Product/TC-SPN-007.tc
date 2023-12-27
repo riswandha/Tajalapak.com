@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user memasukkan harga maksimal produk saat mencari product</description>
+   <name>TC-SPN-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48abd628-e5f2-49ab-a409-e94eb6ce970f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddb47e8f-1f0f-472e-97e1-1e470807fde0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>ddb47e8f-1f0f-472e-97e1-1e470807fde0</id>
+      <masked>false</masked>
+      <name>max</name>
+   </variable>
+</TestCaseEntity>

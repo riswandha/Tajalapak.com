@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user input data Valid namun cancel</description>
+   <name>TC-PE-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbb993f9-6f0d-48d3-aa37-a4d55f3eccf3</testCaseGuid>
+</TestCaseEntity>

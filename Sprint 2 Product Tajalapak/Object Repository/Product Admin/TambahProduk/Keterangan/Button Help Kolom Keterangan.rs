@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Help Kolom Keterangan</name>
+   <tag></tag>
+   <elementGuidId>9eedfaed-e44f-4188-8cfb-a36514238daa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.note-icon-question</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[8]/button[3]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>92cd0348-bd5d-490a-a90e-b1bf90edd47a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>note-icon-question</value>
+      <webElementGuid>58a6c452-f5df-4e39-a285-5c2a1b88861c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;note-editor note-frame panel panel-default&quot;]/div[@class=&quot;note-toolbar panel-heading&quot;]/div[@class=&quot;note-btn-group btn-group note-view&quot;]/button[@class=&quot;note-btn btn btn-default btn-sm&quot;]/i[@class=&quot;note-icon-question&quot;]</value>
+      <webElementGuid>c5386ca6-4109-4642-b625-435c277e4080</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/button[3]/i</value>
+      <webElementGuid>921b6d44-c5de-4623-97a7-95fa112f25b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

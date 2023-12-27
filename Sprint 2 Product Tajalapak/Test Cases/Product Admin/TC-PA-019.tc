@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan product yang aktif dari yang aktif ke yang tidak aktif</description>
+   <name>TC-PA-019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51592158-7413-4094-bb67-2b2721dc7f6c</testCaseGuid>
+</TestCaseEntity>

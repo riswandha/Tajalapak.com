@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verifikasi Full Screen Keterangan</name>
+   <tag></tag>
+   <elementGuidId>b1c4753c-aeb6-4ecd-8787-3959c9fffe6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.note-toolbar.panel-heading</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[1]/section[2]/div/div/div[2]/form/div[3]/table/tbody/tr[1]/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d66cdbc2-d88f-4e7c-9f01-f18f98805e61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>note-toolbar panel-heading</value>
+      <webElementGuid>9fb26add-4bb3-450d-86ea-08028da1178c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>toolbar</value>
+      <webElementGuid>a5c75bf5-fdde-40c9-a3ff-d9febe711678</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> NormalQuoteCodeHeader 1Header 2Header 3Header 4Header 5Header 6Source Sans Pro  Arial Arial Black Comic Sans MS Courier New Helvetica Impact Tahoma Times New Roman Verdana Source Sans Pro   Background Color      Transparent              Select              Foreground Color      Reset to default              Select                  1 x 1</value>
+      <webElementGuid>003d9049-e465-4b2e-9a59-ad9c0c0103b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;note-editor note-frame panel panel-default&quot;]/div[@class=&quot;note-toolbar panel-heading&quot;]</value>
+      <webElementGuid>285535c4-2fff-4d67-a23a-377676408a63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keterangan'])[1]/following::div[4]</value>
+      <webElementGuid>41d9a213-05db-45fa-a4f2-b926ea19f3b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div[2]</value>
+      <webElementGuid>5fc122a2-986d-4130-ac5b-f68b5e22f528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' NormalQuoteCodeHeader 1Header 2Header 3Header 4Header 5Header 6Source Sans Pro  Arial Arial Black Comic Sans MS Courier New Helvetica Impact Tahoma Times New Roman Verdana Source Sans Pro   Background Color      Transparent              Select              Foreground Color      Reset to default              Select                  1 x 1' or . = ' NormalQuoteCodeHeader 1Header 2Header 3Header 4Header 5Header 6Source Sans Pro  Arial Arial Black Comic Sans MS Courier New Helvetica Impact Tahoma Times New Roman Verdana Source Sans Pro   Background Color      Transparent              Select              Foreground Color      Reset to default              Select                  1 x 1')]</value>
+      <webElementGuid>71d766ad-7067-43c1-8bc2-e21ce40b816e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

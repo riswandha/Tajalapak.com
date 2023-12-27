@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user memasukkan harga minimal produk saat mencari product</description>
+   <name>TC-SPN-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd2287c7-5b85-4a24-82ea-29810eedd356</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b241613a-282e-4c7f-8300-4a438198b6b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>b241613a-282e-4c7f-8300-4a438198b6b8</id>
+      <masked>false</masked>
+      <name>min</name>
+   </variable>
+</TestCaseEntity>

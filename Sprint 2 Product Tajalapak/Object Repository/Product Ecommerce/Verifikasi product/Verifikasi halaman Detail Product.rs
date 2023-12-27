@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verifikasi halaman Detail Product</name>
+   <tag></tag>
+   <elementGuidId>ed68676c-12c9-4681-92df-df7b8ee75ce9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h5[@id='myModalLabel']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#myModalLabel</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>f6513ccb-9683-4c81-a698-03497a7a963f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-title h4</value>
+      <webElementGuid>2264ebfe-de8e-4e88-a4ef-edd4ff0fb6f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>myModalLabel</value>
+      <webElementGuid>674a5a1f-a0bf-43c6-b3ec-6e5a26e967c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Informasi Detail</value>
+      <webElementGuid>c4c8a737-2887-4fa1-897b-b350cf1ed649</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myModalLabel&quot;)</value>
+      <webElementGuid>36e817a6-d19a-4eee-8f65-ba40a1d73499</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h5[@id='myModalLabel']</value>
+      <webElementGuid>08f8b006-4600-42e5-8121-b8b1cd2a5afc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='myModalDetail']/div/div/div/h5</value>
+      <webElementGuid>3c059cd7-c897-4a70-bbaf-7a49209588d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk Berhasil Disimpan!'])[1]/following::h5[1]</value>
+      <webElementGuid>c19b4033-a88f-4603-adc9-0f12ff471ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::h5[1]</value>
+      <webElementGuid>c69f2f80-f08f-4e71-acdf-f8a2a88df49b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::h5[1]</value>
+      <webElementGuid>7eb05464-b2a5-4ebf-8289-adf9eeb071a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baju Koko Kids 0 - 9 tahun'])[6]/preceding::h5[1]</value>
+      <webElementGuid>654a1eb3-e387-46a1-a78a-c6a7a24ef6f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Informasi Detail']/parent::*</value>
+      <webElementGuid>ab55e0c4-76fc-4f2d-b7b4-31ca39d5ccc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/div/div/h5</value>
+      <webElementGuid>9331a0c1-2f48-4603-84fb-f986c6fc07ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[@id = 'myModalLabel' and (text() = 'Informasi Detail' or . = 'Informasi Detail')]</value>
+      <webElementGuid>343999d5-d413-4d2d-b628-f1c26ead0f69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

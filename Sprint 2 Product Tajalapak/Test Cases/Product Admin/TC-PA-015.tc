@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan Satuan product dari Nama awalan Z sampai A</description>
+   <name>TC-PA-015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc1a53e7-814c-4899-a3ea-42ea4ac8ca1c</testCaseGuid>
+</TestCaseEntity>

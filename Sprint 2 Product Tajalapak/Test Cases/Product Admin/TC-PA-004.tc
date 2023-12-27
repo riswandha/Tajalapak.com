@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan No product dari yang terkecil ke yang terbesar</description>
+   <name>TC-PA-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3b3867e-8f32-4574-9394-29501a39a2ac</testCaseGuid>
+</TestCaseEntity>

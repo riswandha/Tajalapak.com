@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin menghapus data produk</description>
+   <name>TC-PA-025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>465ae754-1aa0-4972-9b5b-ed28b77399ec</testCaseGuid>
+</TestCaseEntity>

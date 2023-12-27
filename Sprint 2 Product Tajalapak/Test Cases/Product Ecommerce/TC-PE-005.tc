@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin menghapus Produk</description>
+   <name>TC-PE-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98d57977-0b86-4b7e-89e4-da2f8df50525</testCaseGuid>
+</TestCaseEntity>

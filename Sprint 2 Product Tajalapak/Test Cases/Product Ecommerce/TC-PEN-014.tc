@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user input nama voucher dengan  spasi</description>
+   <name>TC-PEN-014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac23c55f-17bb-40f7-ad56-3d1ab212a9f1</testCaseGuid>
+</TestCaseEntity>

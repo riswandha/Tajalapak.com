@@ -1,0 +1,345 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Wakaf Asset Online,Edge Chromium 117,,,2023-10-02 13:22:16,2023-10-02 13:28:27,6m - 11.914s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-001,Edge Chromium 117,user memasukkan Data di Wakaf Asset Online dengan input valid.,,2023-10-02 13:22:16,2023-10-02 13:22:56,39.989s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:22:16,2023-10-02 13:22:42,25.674s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:22:42,2023-10-02 13:22:42,0.176s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:22:42,2023-10-02 13:22:43,0.791s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:22:43,2023-10-02 13:22:43,0.435s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:22:43,2023-10-02 13:22:44,0.975s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:22:44,2023-10-02 13:22:45,0.789s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:22:45,2023-10-02 13:22:46,0.690s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:22:46,2023-10-02 13:22:47,0.953s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:22:47,2023-10-02 13:22:47,0.734s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), ""Masjid"")",Edge Chromium 117,,,2023-10-02 13:22:47,2023-10-02 13:22:48,0.721s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:22:48,2023-10-02 13:22:49,0.803s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:22:49,2023-10-02 13:22:50,1.447s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:22:50,2023-10-02 13:22:51,0.740s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:22:51,2023-10-02 13:22:52,0.413s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:22:52,2023-10-02 13:22:52,0.732s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:22:52,2023-10-02 13:22:55,2.821s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), 0)",Edge Chromium 117,,,2023-10-02 13:22:55,2023-10-02 13:22:56,0.698s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-002,Edge Chromium 117,ketika user memasukkan Data tanpa keterangan di Wakaf Asset Online dengan input valid.,,2023-10-02 13:22:56,2023-10-02 13:23:14,18.640s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:22:56,2023-10-02 13:23:03,6.337s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:23:03,2023-10-02 13:23:03,0.157s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:23:03,2023-10-02 13:23:03,0.780s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:03,2023-10-02 13:23:04,0.441s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:04,2023-10-02 13:23:05,1.028s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:23:05,2023-10-02 13:23:06,0.692s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:23:06,2023-10-02 13:23:06,0.700s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:23:06,2023-10-02 13:23:07,1.117s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:23:07,2023-10-02 13:23:08,0.759s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:23:08,2023-10-02 13:23:09,0.687s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:23:09,2023-10-02 13:23:10,0.699s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:23:10,2023-10-02 13:23:11,1.266s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:23:11,2023-10-02 13:23:12,0.681s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:23:12,2023-10-02 13:23:12,0.360s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:23:12,2023-10-02 13:23:13,0.677s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:23:13,2023-10-02 13:23:14,1.152s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), 0)",Edge Chromium 117,,,2023-10-02 13:23:14,2023-10-02 13:23:14,0.760s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-003,Edge Chromium 117,ketika User mengosongkan salah satu atau lebih  kolom input yang berbeda,,2023-10-02 13:23:14,2023-10-02 13:23:32,17.114s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:23:15,2023-10-02 13:23:21,6.469s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:23:21,2023-10-02 13:23:21,0.140s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:23:21,2023-10-02 13:23:22,0.790s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:22,2023-10-02 13:23:23,0.393s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:23,2023-10-02 13:23:24,0.951s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:23:24,2023-10-02 13:23:24,0.770s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:23:24,2023-10-02 13:23:25,0.677s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""1000000"")",Edge Chromium 117,,,2023-10-02 13:23:25,2023-10-02 13:23:26,0.955s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), """")",Edge Chromium 117,,,2023-10-02 13:23:26,2023-10-02 13:23:27,0.725s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), ""Masjid"")",Edge Chromium 117,,,2023-10-02 13:23:27,2023-10-02 13:23:27,0.678s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:23:27,2023-10-02 13:23:28,0.689s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:23:28,2023-10-02 13:23:29,1.038s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:23:29,2023-10-02 13:23:30,0.682s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:23:30,2023-10-02 13:23:30,0.359s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:23:30,2023-10-02 13:23:31,0.673s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:23:31,2023-10-02 13:23:31,0.384s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:23:31,2023-10-02 13:23:31,0.012s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""alamat""]""))",Edge Chromium 117,,,2023-10-02 13:23:31,2023-10-02 13:23:32,0.315s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-02 13:23:32,2023-10-02 13:23:32,0.024s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-02 13:23:32,2023-10-02 13:23:32,0.004s,PASSED
+"assert accept_button_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-02 13:23:32,2023-10-02 13:23:32,0.002s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-004,Edge Chromium 117,ketika User tidak memasukkan Email dengan tidak sesuai domain,,2023-10-02 13:23:32,2023-10-02 13:23:49,17.159s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:23:32,2023-10-02 13:23:39,6.844s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:23:39,2023-10-02 13:23:39,0.146s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:23:39,2023-10-02 13:23:40,0.685s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:40,2023-10-02 13:23:40,0.403s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:40,2023-10-02 13:23:41,0.880s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:23:41,2023-10-02 13:23:42,0.645s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:23:42,2023-10-02 13:23:42,0.638s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:23:42,2023-10-02 13:23:43,0.971s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:23:43,2023-10-02 13:23:44,0.700s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), ""Masjid"")",Edge Chromium 117,,,2023-10-02 13:23:44,2023-10-02 13:23:45,0.677s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:23:45,2023-10-02 13:23:45,0.681s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:23:45,2023-10-02 13:23:46,1.147s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""jokogmail.com"")",Edge Chromium 117,,,2023-10-02 13:23:46,2023-10-02 13:23:47,0.695s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:23:47,2023-10-02 13:23:47,0.345s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:23:47,2023-10-02 13:23:48,0.664s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:23:48,2023-10-02 13:23:48,0.366s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:23:48,2023-10-02 13:23:48,0.001s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""alamat_email""]""))",Edge Chromium 117,,,2023-10-02 13:23:48,2023-10-02 13:23:49,0.309s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-02 13:23:49,2023-10-02 13:23:49,0.025s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-02 13:23:49,2023-10-02 13:23:49,0.000s,PASSED
+"assert accept_button_message == ""Please include an '@' in the email address. 'jokogmail.com' is missing an '@'.""",Edge Chromium 117,,,2023-10-02 13:23:49,2023-10-02 13:23:49,0.000s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-005,Edge Chromium 117,ketika User memasukkan Nomor telepon kurang dari 11 nomor,,2023-10-02 13:23:49,2023-10-02 13:24:08,18.996s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:23:49,2023-10-02 13:23:56,7.350s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:23:56,2023-10-02 13:23:57,0.154s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:23:57,2023-10-02 13:23:57,0.697s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:57,2023-10-02 13:23:58,0.393s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:23:58,2023-10-02 13:23:59,0.853s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:23:59,2023-10-02 13:23:59,0.645s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:23:59,2023-10-02 13:24:00,0.652s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:24:00,2023-10-02 13:24:01,0.999s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:24:01,2023-10-02 13:24:02,0.702s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), ""Masjid"")",Edge Chromium 117,,,2023-10-02 13:24:02,2023-10-02 13:24:02,0.665s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:24:02,2023-10-02 13:24:03,0.687s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456"")",Edge Chromium 117,,,2023-10-02 13:24:03,2023-10-02 13:24:04,1.145s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:24:04,2023-10-02 13:24:05,0.684s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:24:05,2023-10-02 13:24:05,0.358s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""56"")",Edge Chromium 117,,,2023-10-02 13:24:05,2023-10-02 13:24:06,0.678s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:24:06,2023-10-02 13:24:07,1.079s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), ""Error kurang dari 11 angka"")",Edge Chromium 117,,,2023-10-02 13:24:07,2023-10-02 13:24:08,0.976s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-006,Edge Chromium 117,ketika User memasukkan Nomor telepon lebih dari 13 nomor,,2023-10-02 13:24:08,2023-10-02 13:24:25,17.695s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:24:08,2023-10-02 13:24:14,6.285s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:24:14,2023-10-02 13:24:14,0.139s,PASSED
+"verifyElementPresent(findTestObject(""Login/Button Login""), 0)",Edge Chromium 117,,,2023-10-02 13:24:14,2023-10-02 13:24:15,0.730s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:24:15,2023-10-02 13:24:16,0.408s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:24:16,2023-10-02 13:24:16,0.866s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:24:16,2023-10-02 13:24:17,0.771s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:24:17,2023-10-02 13:24:18,0.676s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:24:18,2023-10-02 13:24:19,0.916s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:24:19,2023-10-02 13:24:20,0.722s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), ""Masjid"")",Edge Chromium 117,,,2023-10-02 13:24:20,2023-10-02 13:24:20,0.675s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:24:20,2023-10-02 13:24:21,0.694s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789011"")",Edge Chromium 117,,,2023-10-02 13:24:21,2023-10-02 13:24:22,1.003s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:24:22,2023-10-02 13:24:23,0.663s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:24:23,2023-10-02 13:24:23,0.331s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""11"")",Edge Chromium 117,,,2023-10-02 13:24:23,2023-10-02 13:24:24,0.662s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:24:24,2023-10-02 13:24:25,1.036s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), ""Nomor Telepon lebih dari 13 angka"")",Edge Chromium 117,,,2023-10-02 13:24:25,2023-10-02 13:24:25,0.882s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-007,Edge Chromium 117,Ketika User memasukkan 2 digit terakhir nomor telepon yang berbeda,,2023-10-02 13:24:25,2023-10-02 13:24:44,18.822s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:24:26,2023-10-02 13:24:33,7.089s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:24:33,2023-10-02 13:24:33,0.143s,PASSED
+"verifyElementPresent(findTestObject(""Login/Button Login""), 0)",Edge Chromium 117,,,2023-10-02 13:24:33,2023-10-02 13:24:34,0.717s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:24:34,2023-10-02 13:24:34,0.408s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:24:34,2023-10-02 13:24:35,1.051s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:24:35,2023-10-02 13:24:36,0.858s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:24:36,2023-10-02 13:24:37,0.657s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:24:37,2023-10-02 13:24:38,1.004s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:24:38,2023-10-02 13:24:38,0.714s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), ""Masjid"")",Edge Chromium 117,,,2023-10-02 13:24:38,2023-10-02 13:24:39,0.666s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:24:39,2023-10-02 13:24:40,0.698s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:24:40,2023-10-02 13:24:41,1.222s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:24:41,2023-10-02 13:24:42,0.662s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:24:42,2023-10-02 13:24:42,0.344s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""88"")",Edge Chromium 117,,,2023-10-02 13:24:42,2023-10-02 13:24:43,0.660s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:24:43,2023-10-02 13:24:44,1.054s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/Verify_GAGAL Diproses, 2 Digit Terakhir No Handphone""), 0)",Edge Chromium 117,,,2023-10-02 13:24:44,2023-10-02 13:24:44,0.656s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-008,Edge Chromium 117,Ketika User memilih type wakaf lainnya tidak menyertakan deskripsi akan error,,2023-10-02 13:24:44,2023-10-02 13:25:02,17.861s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:24:45,2023-10-02 13:24:51,6.321s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:24:51,2023-10-02 13:24:51,0.141s,PASSED
+"verifyElementPresent(findTestObject(""Login/Button Login""), 0)",Edge Chromium 117,,,2023-10-02 13:24:51,2023-10-02 13:24:52,0.719s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:24:52,2023-10-02 13:24:52,0.411s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:24:52,2023-10-02 13:24:53,0.860s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:24:53,2023-10-02 13:24:54,0.772s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Lainnya"", false)",Edge Chromium 117,,,2023-10-02 13:24:54,2023-10-02 13:24:54,0.685s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:24:54,2023-10-02 13:24:55,0.892s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:24:55,2023-10-02 13:24:56,0.676s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:24:56,2023-10-02 13:24:57,0.659s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:24:57,2023-10-02 13:24:57,0.694s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:24:57,2023-10-02 13:24:59,1.138s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:24:59,2023-10-02 13:24:59,0.658s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:24:59,2023-10-02 13:25:00,0.375s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:25:00,2023-10-02 13:25:00,0.658s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:25:00,2023-10-02 13:25:01,1.096s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), ""deskripsi wajip diisi"")",Edge Chromium 117,,,2023-10-02 13:25:01,2023-10-02 13:25:02,0.878s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-009,Edge Chromium 117,Ketika User meng-Upload file lebih dari 10 mb,,2023-10-02 13:25:02,2023-10-02 13:25:30,27.982s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:25:02,2023-10-02 13:25:08,5.660s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:25:08,2023-10-02 13:25:08,0.139s,PASSED
+"verifyElementPresent(findTestObject(""Login/Button Login""), 0)",Edge Chromium 117,,,2023-10-02 13:25:08,2023-10-02 13:25:09,0.697s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:25:09,2023-10-02 13:25:09,0.379s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:25:09,2023-10-02 13:25:10,0.852s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:25:10,2023-10-02 13:25:11,0.642s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Lainnya"", false)",Edge Chromium 117,,,2023-10-02 13:25:11,2023-10-02 13:25:12,0.676s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:25:12,2023-10-02 13:25:13,0.994s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:25:13,2023-10-02 13:25:13,0.708s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:25:13,2023-10-02 13:25:14,0.680s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""joko susanto"")",Edge Chromium 117,,,2023-10-02 13:25:14,2023-10-02 13:25:15,0.692s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:25:15,2023-10-02 13:25:16,1.125s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:25:16,2023-10-02 13:25:16,0.670s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\Pelatihan\Xsis Academy\DJI_0621.DNG"")",Edge Chromium 117,,,2023-10-02 13:25:16,2023-10-02 13:25:18,1.936s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:25:18,2023-10-02 13:25:19,0.710s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:25:19,2023-10-02 13:25:29,10.278s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), ""File Tidak Boleh lebih dari 10 MB"")",Edge Chromium 117,,,2023-10-02 13:25:29,2023-10-02 13:25:30,0.874s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-010,Edge Chromium 117,Ketika User melakukan Input dengan nama yang mengandung spesial karakter semua,,2023-10-02 13:25:30,2023-10-02 13:26:19,48.534s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:25:30,2023-10-02 13:25:37,6.289s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:25:37,2023-10-02 13:25:37,0.148s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:25:37,2023-10-02 13:25:38,0.694s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:25:38,2023-10-02 13:25:38,0.392s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:25:38,2023-10-02 13:25:39,0.952s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:25:39,2023-10-02 13:25:40,0.765s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:25:40,2023-10-02 13:25:40,0.654s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:25:40,2023-10-02 13:25:41,0.948s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:25:41,2023-10-02 13:25:42,0.781s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:25:42,2023-10-02 13:25:43,0.683s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""~!@#$%^&*()"")",Edge Chromium 117,,,2023-10-02 13:25:43,2023-10-02 13:25:43,0.704s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:25:43,2023-10-02 13:25:45,1.461s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:25:45,2023-10-02 13:25:46,0.678s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:25:46,2023-10-02 13:25:46,0.355s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:25:46,2023-10-02 13:25:47,0.650s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:25:47,2023-10-02 13:25:48,1.167s,PASSED
+"verifyElementNotPresent(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), 0)",Edge Chromium 117,,,2023-10-02 13:25:48,2023-10-02 13:26:19,30.983s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-011,Edge Chromium 117,Ketika User melakukan Input dengan Nomor Telepon Selain Angka,,2023-10-02 13:26:19,2023-10-02 13:26:36,17.197s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:26:19,2023-10-02 13:26:26,6.822s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:26:26,2023-10-02 13:26:26,0.137s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:26:26,2023-10-02 13:26:27,0.721s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:26:27,2023-10-02 13:26:27,0.382s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:26:27,2023-10-02 13:26:28,0.994s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:26:28,2023-10-02 13:26:29,0.655s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:26:29,2023-10-02 13:26:29,0.665s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:26:29,2023-10-02 13:26:30,0.934s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:26:30,2023-10-02 13:26:31,0.707s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:26:31,2023-10-02 13:26:32,0.649s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""juni"")",Edge Chromium 117,,,2023-10-02 13:26:32,2023-10-02 13:26:32,0.669s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""nomor"")",Edge Chromium 117,,,2023-10-02 13:26:32,2023-10-02 13:26:34,1.232s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:26:34,2023-10-02 13:26:34,0.665s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:26:34,2023-10-02 13:26:35,0.358s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:26:35,2023-10-02 13:26:35,0.675s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:26:35,2023-10-02 13:26:36,0.360s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:26:36,2023-10-02 13:26:36,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""no_handphone""]""))",Edge Chromium 117,,,2023-10-02 13:26:36,2023-10-02 13:26:36,0.266s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-02 13:26:36,2023-10-02 13:26:36,0.011s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-02 13:26:36,2023-10-02 13:26:36,0.001s,PASSED
+"assert accept_button_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-02 13:26:36,2023-10-02 13:26:36,0.000s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-012,Edge Chromium 117,Ketika User melakukan Input pada lebih dari 2 angka pada kolom 2 digit terakhir,,2023-10-02 13:26:36,2023-10-02 13:26:53,17.388s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:26:36,2023-10-02 13:26:42,5.995s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:26:42,2023-10-02 13:26:42,0.145s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:26:42,2023-10-02 13:26:43,0.721s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:26:43,2023-10-02 13:26:43,0.387s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:26:43,2023-10-02 13:26:44,0.839s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:26:44,2023-10-02 13:26:45,0.659s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:26:45,2023-10-02 13:26:46,0.654s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:26:46,2023-10-02 13:26:47,0.969s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:26:47,2023-10-02 13:26:47,0.747s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:26:47,2023-10-02 13:26:48,0.712s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""juni"")",Edge Chromium 117,,,2023-10-02 13:26:48,2023-10-02 13:26:49,0.701s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:26:49,2023-10-02 13:26:50,1.029s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:26:50,2023-10-02 13:26:50,0.694s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:26:50,2023-10-02 13:26:51,0.336s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""8999"")",Edge Chromium 117,,,2023-10-02 13:26:51,2023-10-02 13:26:51,0.673s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:26:51,2023-10-02 13:26:53,1.152s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify_GAGAL Diproses, 2 Digit Terakhir No Handphone""), ""GAGAL Diproses, 2 Digit Terakhir No Handphone yang anda input salah!"")",Edge Chromium 117,,,2023-10-02 13:26:53,2023-10-02 13:26:53,0.716s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-013,Edge Chromium 117,Ketika User melakukan Input pada kurang dari 2 angka pada kolom 2 digit terakhir,,2023-10-02 13:26:53,2023-10-02 13:27:14,20.389s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:26:54,2023-10-02 13:27:01,7.081s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:27:01,2023-10-02 13:27:01,0.201s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:27:01,2023-10-02 13:27:02,0.784s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:02,2023-10-02 13:27:02,0.461s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:02,2023-10-02 13:27:03,1.048s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:27:03,2023-10-02 13:27:04,0.713s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:27:04,2023-10-02 13:27:05,0.743s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:27:05,2023-10-02 13:27:06,1.158s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:27:06,2023-10-02 13:27:07,0.862s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:27:07,2023-10-02 13:27:07,0.785s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""juni"")",Edge Chromium 117,,,2023-10-02 13:27:07,2023-10-02 13:27:09,1.219s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:27:09,2023-10-02 13:27:10,1.109s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmail.com"")",Edge Chromium 117,,,2023-10-02 13:27:10,2023-10-02 13:27:11,0.775s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:27:11,2023-10-02 13:27:11,0.413s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""9"")",Edge Chromium 117,,,2023-10-02 13:27:11,2023-10-02 13:27:12,0.768s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:27:12,2023-10-02 13:27:13,1.261s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify_GAGAL Diproses, 2 Digit Terakhir No Handphone""), ""GAGAL Diproses, 2 Digit Terakhir No Handphone yang anda input salah!"")",Edge Chromium 117,,,2023-10-02 13:27:13,2023-10-02 13:27:14,0.693s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-014,Edge Chromium 117,User melakukan Input email tanpa dot.com,,2023-10-02 13:27:14,2023-10-02 13:27:32,18.423s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:27:14,2023-10-02 13:27:21,6.875s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:27:21,2023-10-02 13:27:21,0.138s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:27:21,2023-10-02 13:27:22,0.686s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:22,2023-10-02 13:27:22,0.385s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:22,2023-10-02 13:27:23,0.856s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:27:23,2023-10-02 13:27:24,0.651s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:27:24,2023-10-02 13:27:24,0.674s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:27:24,2023-10-02 13:27:25,0.991s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:27:25,2023-10-02 13:27:26,0.728s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:27:26,2023-10-02 13:27:27,0.667s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""juni"")",Edge Chromium 117,,,2023-10-02 13:27:27,2023-10-02 13:27:28,0.685s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:27:28,2023-10-02 13:27:29,1.138s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmailcom"")",Edge Chromium 117,,,2023-10-02 13:27:29,2023-10-02 13:27:29,0.658s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:27:29,2023-10-02 13:27:30,0.366s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:27:30,2023-10-02 13:27:30,0.667s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:27:30,2023-10-02 13:27:31,1.102s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:27:31,2023-10-02 13:27:31,0.001s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""alamat_email""]""))",Edge Chromium 117,,,2023-10-02 13:27:31,2023-10-02 13:27:32,0.713s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-02 13:27:32,2023-10-02 13:27:32,0.009s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-02 13:27:32,2023-10-02 13:27:32,0.000s,PASSED
+"assert accept_button_message == ""Please include an '@' in the email address. 'jokogmail.com' is missing an '@'.""",Edge Chromium 117,,,2023-10-02 13:27:32,2023-10-02 13:27:32,0.003s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-015,Edge Chromium 117,User melakukan Input nomor dengan karakter spesial,,2023-10-02 13:27:32,2023-10-02 13:27:50,17.831s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:27:32,2023-10-02 13:27:39,7.030s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:27:39,2023-10-02 13:27:40,0.139s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:27:40,2023-10-02 13:27:40,0.715s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:40,2023-10-02 13:27:41,0.382s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:41,2023-10-02 13:27:42,0.983s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:27:42,2023-10-02 13:27:42,0.661s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:27:42,2023-10-02 13:27:43,0.673s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:27:43,2023-10-02 13:27:44,1.009s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:27:44,2023-10-02 13:27:45,0.770s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:27:45,2023-10-02 13:27:45,0.676s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""juni"")",Edge Chromium 117,,,2023-10-02 13:27:45,2023-10-02 13:27:46,0.687s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""~!@#$%^&*()"")",Edge Chromium 117,,,2023-10-02 13:27:46,2023-10-02 13:27:48,1.452s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmailcom"")",Edge Chromium 117,,,2023-10-02 13:27:48,2023-10-02 13:27:48,0.683s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:27:48,2023-10-02 13:27:49,0.341s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:27:49,2023-10-02 13:27:49,0.643s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:27:49,2023-10-02 13:27:50,0.366s,PASSED
+driver = getWebDriver(),Edge Chromium 117,,,2023-10-02 13:27:50,2023-10-02 13:27:50,0.000s,PASSED
+"field_username_element = driver.findElement(By.xpath(""//input[@name=""no_handphone""]""))",Edge Chromium 117,,,2023-10-02 13:27:50,2023-10-02 13:27:50,0.299s,PASSED
+"accept_button_message = driver.executeScript(""return arguments[0].validationMessage"", field_username_element)",Edge Chromium 117,,,2023-10-02 13:27:50,2023-10-02 13:27:50,0.023s,PASSED
+println(accept_button_message),Edge Chromium 117,,,2023-10-02 13:27:50,2023-10-02 13:27:50,0.000s,PASSED
+"assert accept_button_message == ""Please fill out this field.""",Edge Chromium 117,,,2023-10-02 13:27:50,2023-10-02 13:27:50,0.001s,PASSED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-016,Edge Chromium 117,User melakukan Input nama hanya menggunakan 1 karakter,,2023-10-02 13:27:50,2023-10-02 13:28:09,19.150s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:27:50,2023-10-02 13:27:58,7.539s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:27:58,2023-10-02 13:27:58,0.146s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:27:58,2023-10-02 13:27:59,0.717s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:59,2023-10-02 13:27:59,0.459s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:27:59,2023-10-02 13:28:00,0.996s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:28:00,2023-10-02 13:28:01,0.646s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:28:01,2023-10-02 13:28:01,0.642s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:28:01,2023-10-02 13:28:02,0.935s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:28:02,2023-10-02 13:28:03,0.707s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:28:03,2023-10-02 13:28:04,0.666s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""a"")",Edge Chromium 117,,,2023-10-02 13:28:04,2023-10-02 13:28:04,0.686s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:28:04,2023-10-02 13:28:06,1.133s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmailcom"")",Edge Chromium 117,,,2023-10-02 13:28:06,2023-10-02 13:28:06,0.685s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:28:06,2023-10-02 13:28:07,0.344s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:28:07,2023-10-02 13:28:07,0.659s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:28:07,2023-10-02 13:28:08,1.097s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), ""Nama tidak boleh 1 huruf"")",Edge Chromium 117,,,2023-10-02 13:28:08,2023-10-02 13:28:09,0.852s,FAILED
+,,,,,,,
+Test Cases/Wakaf Asset Online/TC-WAO-017,Edge Chromium 117,User melakukan Input nama dengan lebih dari 150 karakter,,2023-10-02 13:28:09,2023-10-02 13:28:27,18.308s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/"")",Edge Chromium 117,,,2023-10-02 13:28:09,2023-10-02 13:28:16,6.297s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-02 13:28:16,2023-10-02 13:28:16,0.149s,PASSED
+"verifyElementPresent(findTestObject(""Search Product/Verify Page Tajalapak""), 0)",Edge Chromium 117,,,2023-10-02 13:28:16,2023-10-02 13:28:17,0.706s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Donasi""))",Edge Chromium 117,,,2023-10-02 13:28:17,2023-10-02 13:28:17,0.384s,PASSED
+"click(findTestObject(""Wakaf Asset Online/Wakaf Asset Donasi""))",Edge Chromium 117,,,2023-10-02 13:28:17,2023-10-02 13:28:18,0.906s,PASSED
+"verifyElementPresent(findTestObject(""Wakaf Asset Online/verify Wakaf Asset Online""), 0)",Edge Chromium 117,,,2023-10-02 13:28:18,2023-10-02 13:28:19,0.751s,PASSED
+"selectOptionByValue(findTestObject(""Wakaf Asset Online/Pilih Type Wakaf""), ""Bangunan"", false)",Edge Chromium 117,,,2023-10-02 13:28:19,2023-10-02 13:28:19,0.633s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Perkiraan Nilai Asset""), ""100000000"")",Edge Chromium 117,,,2023-10-02 13:28:19,2023-10-02 13:28:20,0.978s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Alamat Asset""), ""Jalan Taruma Jawa Timur"")",Edge Chromium 117,,,2023-10-02 13:28:20,2023-10-02 13:28:21,0.693s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Keterangan Asset""), """")",Edge Chromium 117,,,2023-10-02 13:28:21,2023-10-02 13:28:22,0.696s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Nama Lengkap""), ""Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvim John Kenneth Loyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor Willian Xerxes Yancy Zeus Wolfeschlegelsteinhausenbergerdorffvoralternwarengewissenhaftschafers"")",Edge Chromium 117,,,2023-10-02 13:28:22,2023-10-02 13:28:23,1.024s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input No Handphone""), ""085123456789"")",Edge Chromium 117,,,2023-10-02 13:28:23,2023-10-02 13:28:24,1.253s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input Email""), ""joko@gmailcom"")",Edge Chromium 117,,,2023-10-02 13:28:24,2023-10-02 13:28:24,0.660s,PASSED
+"uploadFile(findTestObject(""Wakaf Asset Online/Input File Upload""), ""E:\minions.png"")",Edge Chromium 117,,,2023-10-02 13:28:24,2023-10-02 13:28:25,0.326s,PASSED
+"setText(findTestObject(""Wakaf Asset Online/Input 2 Digit Terakhir""), ""89"")",Edge Chromium 117,,,2023-10-02 13:28:25,2023-10-02 13:28:25,0.680s,PASSED
+"click(findTestObject(""Wakaf Asset Online/button Wakaf Sekarang""))",Edge Chromium 117,,,2023-10-02 13:28:25,2023-10-02 13:28:27,1.089s,PASSED
+"verifyElementText(findTestObject(""Wakaf Asset Online/Verify Wakaf Asset Diproses""), ""Nama tidak boleh lebih dari 150 huruf"")",Edge Chromium 117,,,2023-10-02 13:28:27,2023-10-02 13:28:27,0.877s,FAILED

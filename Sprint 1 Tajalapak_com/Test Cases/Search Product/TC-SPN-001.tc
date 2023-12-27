@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user memasukkan harga maksimal dan minimal produk saat mencari product dan kemudian merubahnya minimal menjadi Kosong(&quot;&quot;)</description>
+   <name>TC-SPN-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be29ce8c-3001-4eb1-9106-7c0091b1ecc6</testCaseGuid>
+</TestCaseEntity>

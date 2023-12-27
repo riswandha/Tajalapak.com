@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin menampilkan katagori yang memiliki huruf a dan hanya ingin menampilkan elektronik saja</description>
+   <name>TC-SP-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a38d520a-6299-4bfd-ba04-30d125cf1242</testCaseGuid>
+</TestCaseEntity>

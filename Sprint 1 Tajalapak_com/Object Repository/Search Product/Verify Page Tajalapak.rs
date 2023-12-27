@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify Page Tajalapak</name>
+   <tag></tag>
+   <elementGuidId>52b93686-9a6e-4caf-bec2-1ca0b259c501</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/logo/tajalapak-black.png')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ps-logo > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>02e9d10f-89af-4bea-8251-7b2e9fde7abf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/asset/logo/tajalapak-black.png</value>
+      <webElementGuid>403c3024-6e1b-4f6e-8bef-6732b06b50f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/div[@class=&quot;header__top&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;header__left&quot;]/a[@class=&quot;ps-logo&quot;]/img[1]</value>
+      <webElementGuid>3a2b32cf-d092-4af8-8aa9-87a9acd83507</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/logo/tajalapak-black.png')]</value>
+      <webElementGuid>3fb2a283-c55e-4d2f-a44e-7a063b61d80c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/img</value>
+      <webElementGuid>f5ccf551-749b-4a60-857f-8f2aa8828ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://10.9.2.63/ecommerce/asset/logo/tajalapak-black.png']</value>
+      <webElementGuid>8a6a138a-7417-489d-a724-869afe752aea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

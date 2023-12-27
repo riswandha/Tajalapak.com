@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Hapus Data</name>
+   <tag></tag>
+   <elementGuidId>d928d328-36d1-4614-85a5-12194c4a79e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ps-btn.margin-btn.red-btn.custom-btn.item_delete</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[12]/div/div/div[2]/div/div/table/tbody/tr[1]/td[7]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e3b6a11a-7667-451b-be9b-23ee18f50b52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+      <webElementGuid>483254a5-ae30-467b-a877-247d12f03fd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-btn margin-btn red-btn custom-btn item_delete</value>
+      <webElementGuid>8948b660-cfc1-408f-8574-8e8c10b989b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id_kupon</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>eebcd94e-a100-474b-b5b1-14f26b29df99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;show_data&quot;)/tr[1]/td[7]/a[@class=&quot;ps-btn margin-btn red-btn custom-btn item_delete&quot;]</value>
+      <webElementGuid>676534e4-1ec9-43f8-ab33-bb90c5a1d319</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='show_data']/tr/td[7]/a[2]</value>
+      <webElementGuid>75c34b51-f9fe-465f-b513-3e9559e4f215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
+      <webElementGuid>14eb0e47-f258-4563-977f-17afc6a68f50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 300'])[1]/following::a[2]</value>
+      <webElementGuid>f08534d8-c833-4e1e-9870-5c888d10341b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus Barang ?'])[1]/preceding::a[2]</value>
+      <webElementGuid>ab6408f0-0c79-478c-a801-b0ecc51d9d4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0);')])[10]</value>
+      <webElementGuid>60ea3ff5-c8dd-4a91-9602-a42f288bb79f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/a[2]</value>
+      <webElementGuid>d5e90c7f-6bb0-4d36-a1ac-de9466d9aea2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0);']</value>
+      <webElementGuid>e1b039b1-aa80-4949-9b11-36aef5c80149</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

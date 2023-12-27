@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin memperbarui jumlah diskon sama dengan -1</description>
+   <name>TC-PEN-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc87517f-5b01-479f-8cc2-80949a7b573a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan Berat product dari yang terbesar ke yang terkecil</description>
+   <name>TC-PA-017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f73a689b-0403-4437-a125-a5a0088e3e78</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin melihat product pada toko</description>
+   <name>TC-PE-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dec7dc69-0b4e-4f21-879d-a224655ffc2d</testCaseGuid>
+</TestCaseEntity>

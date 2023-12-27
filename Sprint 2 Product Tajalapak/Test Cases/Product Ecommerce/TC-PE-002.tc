@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user Menambahkan Produk dengan data valid</description>
+   <name>TC-PE-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10590de9-0ae3-4cb4-b45b-f728f376c844</testCaseGuid>
+</TestCaseEntity>

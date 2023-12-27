@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan update nama dengan lebih dari 70 huruf</description>
+   <name>TC-PAN-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>361b937d-0053-42cb-8d91-9f6143e6dee3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin melakukan update produk</description>
+   <name>TC-PE-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6aec404-6e82-4d15-8e1e-23100bb231ee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10e4edc1-5f87-41ee-b769-42971b29c906</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'13000'</defaultValue>
+      <description></description>
+      <id>10e4edc1-5f87-41ee-b769-42971b29c906</id>
+      <masked>false</masked>
+      <name>hargaBaru</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User mencari product dengan kata kunci Laptop bermerek Dell</description>
+   <name>TC-PA-034</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b49f07bc-89e9-42e7-8f65-06339ca6da99</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>badca191-5f07-4545-b590-358b13f46530</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Laptop Dell'</defaultValue>
+      <description></description>
+      <id>badca191-5f07-4545-b590-358b13f46530</id>
+      <masked>false</masked>
+      <name>cariKata</name>
+   </variable>
+</TestCaseEntity>

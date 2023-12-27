@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ketika User memasukkan Nomor telepon lebih dari 13 nomor</description>
+   <name>TC-WAO-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c61d326e-0da4-42a3-a106-d22723b185e5</testCaseGuid>
+</TestCaseEntity>

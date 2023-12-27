@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Memasukkan angka saja pada kolom pencarian</description>
+   <name>TC-SPN-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6de7dbf-7b2d-4666-bbee-66a88735a464</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a49a577-dedc-4201-8b51-28c0f480f791</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1234567890'</defaultValue>
+      <description></description>
+      <id>6a49a577-dedc-4201-8b51-28c0f480f791</id>
+      <masked>false</masked>
+      <name>merk</name>
+   </variable>
+</TestCaseEntity>

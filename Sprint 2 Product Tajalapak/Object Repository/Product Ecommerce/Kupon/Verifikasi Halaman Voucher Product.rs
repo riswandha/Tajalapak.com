@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verifikasi Halaman Voucher Product</name>
+   <tag></tag>
+   <elementGuidId>197b7792-0618-4977-8f0f-4ae9d40a6d05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-dialog.modal-lg.modal-dialog-centered > div.modal-content > div.modal-header > #exampleModalLabel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//h5[@id='exampleModalLabel'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>7ca989b6-ce46-4752-8632-285344855c30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-title</value>
+      <webElementGuid>42b988f5-2543-49e7-a547-60d08c12deab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>exampleModalLabel</value>
+      <webElementGuid>98a45c16-5987-4bab-88be-b43c8c0c0fbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kode Kupon / Voucher Produk</value>
+      <webElementGuid>7198d38c-9858-42c0-a0ee-b6169947ab94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kuponProduk&quot;)/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/h5[@id=&quot;exampleModalLabel&quot;]</value>
+      <webElementGuid>4ed17c5b-12e5-4ac5-b2af-beaa1ff6ef1d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//h5[@id='exampleModalLabel'])[2]</value>
+      <webElementGuid>5c91bece-8073-4903-8411-956666d0babd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kuponProduk']/div/div/div/h5</value>
+      <webElementGuid>39e393dd-e59f-4e1a-a6fb-9809791763e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History Stok Produk'])[1]/following::h5[1]</value>
+      <webElementGuid>1108c804-734e-4f4c-8427-ac1040435c2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::h5[2]</value>
+      <webElementGuid>c6bcd0e2-efb9-4b1e-ace9-0760593dd4ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::h5[1]</value>
+      <webElementGuid>7fa823f5-cd62-4321-be07-82c934ba07ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Kupon'])[1]/preceding::h5[1]</value>
+      <webElementGuid>aa489edc-0f9b-4c90-ac6c-4194574868a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kode Kupon / Voucher Produk']/parent::*</value>
+      <webElementGuid>11afc491-626c-4035-848e-4d9edb7458e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/h5</value>
+      <webElementGuid>99cf5e6e-4e9f-4ee1-a714-752d0498e330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[@id = 'exampleModalLabel' and (text() = 'Kode Kupon / Voucher Produk' or . = 'Kode Kupon / Voucher Produk')]</value>
+      <webElementGuid>8e5c6272-2e74-495b-ad7e-fe85d56d20c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

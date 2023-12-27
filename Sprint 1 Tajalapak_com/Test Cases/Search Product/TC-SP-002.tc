@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user memasukkan nama product di pencarian produk dengan input valid dengan hanya 1 huruf.</description>
+   <name>TC-SP-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e7d925b-9734-48d4-95b9-d7efb5fa9165</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb1c9ca9-b876-4e2d-b7f3-07b49a655150</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'a'</defaultValue>
+      <description></description>
+      <id>cb1c9ca9-b876-4e2d-b7f3-07b49a655150</id>
+      <masked>false</masked>
+      <name>merk</name>
+   </variable>
+</TestCaseEntity>

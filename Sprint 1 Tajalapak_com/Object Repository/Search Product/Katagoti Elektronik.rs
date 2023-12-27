@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Katagoti Elektronik</name>
+   <tag></tag>
+   <elementGuidId>853c09dc-8fe1-4503-b836-b5d567136b2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[9]/div/div/div[1]/aside[3]/div/ul/li[1]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.widget__content > ul > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f5a920d7-6df8-47e9-8f84-b65704ba4ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/tag/produk/elektronik</value>
+      <webElementGuid>5713e35c-6bfc-4d1d-a85f-b19478a1ebb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Elektronik (5)</value>
+      <webElementGuid>810ad99a-3d79-4fef-8f6e-b21815bc7316</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shop-sidebar&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ps-layout--shop&quot;]/div[@class=&quot;ps-layout__left&quot;]/aside[@class=&quot;widget widget_shop&quot;]/div[@class=&quot;widget__content&quot;]/ul[1]/li[1]/a[1]</value>
+      <webElementGuid>ef64af7b-a999-48e2-b3e1-3667f94258a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shop-sidebar']/div/div/div/aside[3]/div/ul/li/a</value>
+      <webElementGuid>693cd0af-9462-4d79-acfb-76f13a76f3d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Merek'])[1]/following::a[1]</value>
+      <webElementGuid>3f540cb2-0f94-4290-83c5-3eedab33826e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Office Electronics'])[4]/following::a[1]</value>
+      <webElementGuid>d306fa52-6130-4d91-a0af-e0a9e72c331a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Elektronik']/parent::*</value>
+      <webElementGuid>1598aa59-8508-43cd-a876-42b6d10feb16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/tag/produk/elektronik')]</value>
+      <webElementGuid>42843a03-9170-4a0a-94f2-df0bcbe0273c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside[3]/div/ul/li/a</value>
+      <webElementGuid>84d72c0e-cd9b-4812-a725-958d2422ddb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/tag/produk/elektronik' and (text() = 'Elektronik (5)' or . = 'Elektronik (5)')]</value>
+      <webElementGuid>d9d02d10-950b-431f-97bd-b567624ee34c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

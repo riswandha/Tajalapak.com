@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin mengurangi variasi Produk</description>
+   <name>TC-PE-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>140f015f-9694-4ada-ab99-26f7b4952fad</testCaseGuid>
+</TestCaseEntity>

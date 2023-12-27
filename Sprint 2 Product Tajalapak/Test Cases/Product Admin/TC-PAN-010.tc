@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan update dengan ganti nama product menjadi karakter spesial</description>
+   <name>TC-PAN-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aef5351c-d90e-42e5-b7b6-189bccf6b9ec</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Katagori Fashion Busana Pria Accessoris</name>
+   <tag></tag>
+   <elementGuidId>cd555773-9f64-4cc5-bb91-91396c7be35f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Accessories')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ad1d9186-91b9-41d8-b95e-a1f3459b0df4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/subkategori/accessories</value>
+      <webElementGuid>f5061586-d253-4c8d-9dc1-a5fc088b7f5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Accessories</value>
+      <webElementGuid>5947549d-578e-4c72-83b1-ba47a3d54a9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/nav[@class=&quot;navigation&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;navigation__left&quot;]/div[@class=&quot;menu--product-categories&quot;]/div[@class=&quot;menu__content&quot;]/ul[@class=&quot;menu--dropdown&quot;]/li[@class=&quot;current-menu-item menu-item-has-children has-mega-menu&quot;]/div[@class=&quot;mega-menu&quot;]/div[@class=&quot;mega-menu__column&quot;]/ul[@class=&quot;mega-menu__list&quot;]/li[@class=&quot;current-menu-item&quot;]/a[1]</value>
+      <webElementGuid>36109145-79fe-498b-86c5-fe330281851f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Accessories')])[2]</value>
+      <webElementGuid>ecdab09e-9994-49f0-a51d-7a4504dd2169</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Talempong'])[2]/following::a[2]</value>
+      <webElementGuid>d3c6d312-37ca-4a1c-963e-f3ec122da779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Kid', &quot;'&quot;, 's Fashion')])[2]/preceding::a[1]</value>
+      <webElementGuid>dbf02d49-cd85-421c-9724-ad7f81c0d227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shoes'])[2]/preceding::a[2]</value>
+      <webElementGuid>032d5d80-1a0c-4ed4-a305-cefa886acb75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/subkategori/accessories')])[2]</value>
+      <webElementGuid>6afb507b-ffa5-4272-836a-e9057c517c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div/div/div[2]/ul/li[2]/div/div/ul/li/a</value>
+      <webElementGuid>c31cdfba-f799-4c22-8dcb-7c2768fe0e5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/subkategori/accessories' and (text() = ' Accessories' or . = ' Accessories')]</value>
+      <webElementGuid>125c2dc0-a457-40da-8897-0c40ec69714c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

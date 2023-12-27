@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Produk Tidak Ditemukan</name>
+   <tag></tag>
+   <elementGuidId>77f7df53-c55c-48ef-b466-97d20b95d9eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-1']/div/center/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-shopping-product > center > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d9f3e94d-fc09-4cc5-92e2-0f73de6ffcb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/asset/images/no-product.png</value>
+      <webElementGuid>1362c147-9ba3-4922-b8c4-e647026655e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/center[1]/img[1]</value>
+      <webElementGuid>c3e2a778-254e-42f3-98c0-89af80fad30b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/center/img</value>
+      <webElementGuid>187bfa08-e2a3-4051-a32f-00b5824c8c49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://10.9.2.63/ecommerce/asset/images/no-product.png')]</value>
+      <webElementGuid>932f565e-24cd-4fd0-80da-561989fc693e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/center/img</value>
+      <webElementGuid>7ed94c70-7a6d-4694-813f-87a55ac90ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://10.9.2.63/ecommerce/asset/images/no-product.png']</value>
+      <webElementGuid>2e4759aa-ff79-47c8-b265-7c090b06d180</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

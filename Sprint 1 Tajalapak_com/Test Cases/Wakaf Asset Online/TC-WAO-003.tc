@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ketika User mengosongkan salah satu atau lebih  kolom input yang berbeda</description>
+   <name>TC-WAO-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf64446d-328c-4b74-b21f-6a6881cca74a</testCaseGuid>
+</TestCaseEntity>

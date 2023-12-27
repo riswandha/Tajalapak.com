@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin mengurutkan harga Reseller product dari yang Terkecil sampai Terbesar</description>
+   <name>TC-PA-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b987ed4-052e-434f-ab1e-39951c7709c3</testCaseGuid>
+</TestCaseEntity>

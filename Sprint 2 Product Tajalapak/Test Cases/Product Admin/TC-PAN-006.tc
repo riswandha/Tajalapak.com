@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User edit data nama satuan menjadi angka</description>
+   <name>TC-PAN-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faa839c6-2819-439c-a052-48c4a456afc1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih Sub Katagori Produk</name>
+   <tag></tag>
+   <elementGuidId>55096080-68f2-48d1-8801-23a706dd466e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#sub_kategori_produk</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='sub_kategori_produk']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>361c04e4-475f-4ab5-bf24-5f48653c226f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>aa</value>
+      <webElementGuid>a81a8af3-8771-467c-8e07-a9220ae146cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-mini</value>
+      <webElementGuid>bf280613-3195-48f5-a5ed-9d6ed82a58ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>sub_kategori_produk</value>
+      <webElementGuid>69b33191-e3e2-4ef8-a237-008653a3dda8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    - Pilih Sub Kategori Produk -
+                    </value>
+      <webElementGuid>ff9e0ec2-7ae1-475d-a024-126a0df907d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sub_kategori_produk&quot;)</value>
+      <webElementGuid>efb78567-3d7c-4274-a02e-64d74dda04dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='sub_kategori_produk']</value>
+      <webElementGuid>ee828aea-67d1-45a1-a676-5c16ab9d1ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-Kategori'])[1]/following::select[1]</value>
+      <webElementGuid>a70d05e0-ba6b-4d6c-adc5-05b3d902e984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[2]/following::select[2]</value>
+      <webElementGuid>146666f3-37e2-4930-a931-e33e9121ea5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Produk'])[1]/preceding::select[1]</value>
+      <webElementGuid>fce78329-0005-42a3-9425-462f54971353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan'])[1]/preceding::select[1]</value>
+      <webElementGuid>664434ba-99df-423d-8560-62fc38e5bc10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/select</value>
+      <webElementGuid>bc6a734c-51ec-459d-a9dd-f43cf57c6d89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'aa' and @id = 'sub_kategori_produk' and (text() = '
+                    - Pilih Sub Kategori Produk -
+                    ' or . = '
+                    - Pilih Sub Kategori Produk -
+                    ')]</value>
+      <webElementGuid>dfb1ff43-5cb8-43bd-b16a-a24517ebc5c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

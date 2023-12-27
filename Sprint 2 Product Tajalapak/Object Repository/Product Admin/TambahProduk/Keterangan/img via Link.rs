@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img via Link</name>
+   <tag></tag>
+   <elementGuidId>e2d1228b-6efe-4998-9fe4-6abdadb9af80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://png.pngtree.com/png-clipart/20211228/ourlarge/pngtree-panci-ompreng-png-image_4137919.png')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7504f371-93a0-4820-8ae4-66e13dfe0703</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://png.pngtree.com/png-clipart/20211228/ourlarge/pngtree-panci-ompreng-png-image_4137919.png</value>
+      <webElementGuid>f4d41c33-133d-4716-80dc-d97046280209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini      pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;note-editor note-frame panel panel-default&quot;]/div[@class=&quot;note-editing-area&quot;]/div[@class=&quot;note-editable&quot;]/p[1]/img[1]</value>
+      <webElementGuid>c7592443-9c79-4600-8c7c-b586f906583d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://png.pngtree.com/png-clipart/20211228/ourlarge/pngtree-panci-ompreng-png-image_4137919.png')]</value>
+      <webElementGuid>6be8358d-7960-4bf0-b14b-c0eda74d7f1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/img</value>
+      <webElementGuid>db466630-2e3f-4190-a71c-783c7f1ea03c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://png.pngtree.com/png-clipart/20211228/ourlarge/pngtree-panci-ompreng-png-image_4137919.png']</value>
+      <webElementGuid>b7bd565d-b986-4ee7-b4db-211326ecc055</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

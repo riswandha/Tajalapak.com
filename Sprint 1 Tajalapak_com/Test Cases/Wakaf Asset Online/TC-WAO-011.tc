@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ketika User melakukan Input dengan Nomor Telepon Selain Angka</description>
+   <name>TC-WAO-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6edfe6d-05bc-48f6-b0f4-68f531e0cb09</testCaseGuid>
+</TestCaseEntity>

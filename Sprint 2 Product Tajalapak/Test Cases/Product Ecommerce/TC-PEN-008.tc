@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user ingin memperbarui masa berlaku voucher dengan penulisan tidak sesuai</description>
+   <name>TC-PEN-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19a2262a-f05b-484a-b9f9-b958d98aa9e1</testCaseGuid>
+</TestCaseEntity>

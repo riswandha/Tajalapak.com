@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Semua nama Produk</name>
+   <tag></tag>
+   <elementGuidId>8101953b-4f15-48e1-afb5-5ea4e0ac4e5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[9]/div/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div/div[2]/div[1]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-product__content.hover > a.ps-product__title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9e8365fe-6f49-49f4-a342-39d33569f3d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-product__title</value>
+      <webElementGuid>4cb002ae-3bb0-4993-a812-49414baf6ca1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/detail/men-singelete--baju-dalam-menarik</value>
+      <webElementGuid>143578e4-49b3-40dc-86be-37d9a9f2d746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Men Singelete - Baju Dalam Menarik</value>
+      <webElementGuid>a13438ba-0ab1-4c42-8723-41fc3d3eed71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;ps-product&quot;]/div[@class=&quot;ps-product__container&quot;]/div[@class=&quot;ps-product__content hover&quot;]/a[@class=&quot;ps-product__title&quot;]</value>
+      <webElementGuid>79151464-5b1c-4c47-9f5d-267e96a26475</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>4a74161d-2249-440d-a43f-33be1e0cc976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Men Singelete - Baju Dalam Menarik')])[2]</value>
+      <webElementGuid>8d1d2de7-4af2-4098-833a-8a4a3c8e352c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Singelete - Baju Dalam Menarik'])[1]/following::a[1]</value>
+      <webElementGuid>52b2a803-4674-4ee8-81ad-b594b64c24e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Umar Lapakers'])[1]/following::a[2]</value>
+      <webElementGuid>eb1419fd-61f3-4f78-9049-a6389bdf5364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Keranjang'])[1]/preceding::a[1]</value>
+      <webElementGuid>4e65f700-66c3-4886-a1ca-02da81dcf57d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[1]/preceding::a[6]</value>
+      <webElementGuid>5a09208c-684e-4e80-95cc-b4d3d6179735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/detail/men-singelete--baju-dalam-menarik')])[3]</value>
+      <webElementGuid>6e04c1b9-edee-4554-8826-79ca41efa843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>6959a522-b73e-4cd2-93b8-ecf580bfd2fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/detail/men-singelete--baju-dalam-menarik' and (text() = 'Men Singelete - Baju Dalam Menarik' or . = 'Men Singelete - Baju Dalam Menarik')]</value>
+      <webElementGuid>9dc5b57a-2183-4fe1-87fb-996efb99568d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

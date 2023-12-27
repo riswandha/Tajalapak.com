@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user mengupload data lebih dari 10 mb</description>
+   <name>TC-PEN-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c223c34-e946-4bab-a040-7e2ed55984d1</testCaseGuid>
+</TestCaseEntity>
